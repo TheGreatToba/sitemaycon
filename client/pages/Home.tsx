@@ -145,25 +145,22 @@ export default function Home() {
 
           <div>
             <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">
-              Un Chef Passionné
+              Our Philosophy
             </h2>
 
             <p className="text-lg font-body mb-4 text-muted-foreground leading-relaxed">
-              Avec plus de 20 ans d'expérience dans les plus grands restaurants et
-              maisons privées, je suis spécialisé dans la gastronomie méditerranéenne.
+              Maison Gauthier's philosophy is based on creating a warm environment where everyone can feel at ease, while enjoying attentive and authentic service guided by deep-rooted values.
             </p>
 
             <p className="text-lg font-body mb-6 text-muted-foreground leading-relaxed">
-              Chaque création culinaire est pensée pour enchanter vos invités et créer
-              des moments inoubliables. L'excellence, la fraîcheur des ingrédients et
-              l'authenticité sont mes trois piliers.
+              Operating internationally, we bring the French art of living to receptions, private dinners, and long-term stays. From gastronomy to service, every detail is carefully thought out and executed to offer a harmonious and refined experience.
             </p>
 
             <Link
               to="/chef"
               className="inline-flex items-center gap-2 text-accent font-body hover:opacity-80 transition-opacity"
             >
-              Découvrir Mon Histoire
+              Learn More
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
