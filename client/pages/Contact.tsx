@@ -354,6 +354,18 @@ export default function Contact() {
           </div>
         </div>
       </section>
+
+      {/* Final CTA */}
+      <section className="py-20 md:py-32 px-4">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-4xl font-serif font-bold mb-6">
+            Let's Create Something Extraordinary
+          </h2>
+          <p className="text-lg font-body text-muted-foreground mb-8">
+            Contact Maison Gauthier today to begin planning your unforgettable gastronomic experience
+          </p>
+        </div>
+      </section>
     </Layout>
   );
 }
