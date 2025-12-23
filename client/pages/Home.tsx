@@ -241,7 +241,7 @@ export default function Home() {
               to="/portfolio"
               className="inline-flex items-center gap-2 px-8 py-3 border-2 border-foreground text-foreground font-body hover:bg-foreground hover:text-background transition-colors"
             >
-              Voir la Galerie Complète
+              View Full Gallery
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
