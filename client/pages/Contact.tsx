@@ -62,9 +62,9 @@ export default function Contact() {
         </div>
 
         <div className="relative z-10 text-center text-white px-4">
-          <h1 className="text-5xl md:text-6xl font-serif font-bold">Contact</h1>
+          <h1 className="text-5xl md:text-6xl font-serif font-bold">Contact Us</h1>
           <p className="mt-4 text-lg font-body opacity-90">
-            Réservez votre expérience culinaire
+            Reserve Your Gastronomic Experience
           </p>
         </div>
       </section>
