@@ -107,11 +107,8 @@ export default function Portfolio() {
     },
   ];
 
-  const categories = ["All", "Dishes", "Presentation", "Events", "Tables"];
-  const [activeCategory, setActiveCategory] = useState("Tous");
-
   const filteredItems =
-    activeCategory === "Tous"
+    activeCategory === "All"
       ? portfolioItems
       : portfolioItems.filter((item) => item.category === activeCategory);
 
