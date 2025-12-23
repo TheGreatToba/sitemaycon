@@ -23,10 +23,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             {/* Logo */}
             <Link to="/" className="flex-shrink-0">
               <div className="text-2xl font-serif font-bold text-foreground tracking-tight">
-                Chef Privé
+                Maison Gauthier
               </div>
               <div className="text-xs text-muted-foreground font-body">
-                Cuisine Méditerranéenne
+                Art of Private French Cuisine
               </div>
             </Link>
 
