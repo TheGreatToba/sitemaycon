@@ -5,24 +5,24 @@ import { Link } from "react-router-dom";
 export default function Chef() {
   const milestones = [
     {
-      year: "2004",
-      title: "Diplôme CAP Cuisine",
-      description: "Formation auprès des meilleurs chefs français à Lyon",
+      year: "Founded",
+      title: "Maison Gauthier Creation",
+      description: "Born from the ambition to bring French culinary art into homes around the world",
     },
     {
-      year: "2008",
-      title: "Restaurant Étoilé",
-      description: "Chef de partie au Michelin 2 étoiles en Provence",
+      year: "Development",
+      title: "Global Expansion",
+      description: "Operating internationally with services in France and destinations worldwide",
     },
     {
-      year: "2012",
-      title: "Cuisine Privée",
-      description: "Transition vers le service privé pour clientèle haut de gamme",
+      year: "Excellence",
+      title: "VIP Clientele",
+      description: "Serving distinguished clients including private residences, villas, yachts and luxury venues",
     },
     {
-      year: "2018",
-      title: "Chef Indépendant",
-      description: "Création de mon statut de chef cuisinier privé indépendant",
+      year: "Today",
+      title: "Premium Service",
+      description: "Continuing to deliver exceptional private gastronomic experiences with uncompromising excellence",
     },
   ];
 
