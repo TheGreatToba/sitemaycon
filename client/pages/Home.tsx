@@ -203,10 +203,10 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">
-              Portfolio Culinaire
+              Culinary Portfolio
             </h2>
             <p className="text-lg font-body text-muted-foreground max-w-2xl mx-auto">
-              Découvrez une sélection de mes créations et réalisations récentes
+              Discover a selection of our creations and recent achievements in gastronomic excellence.
             </p>
           </div>
 
