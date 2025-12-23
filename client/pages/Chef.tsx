@@ -129,7 +129,7 @@ export default function Chef() {
           {/* Professional Journey */}
           <div>
             <h3 className="text-3xl font-serif font-bold mb-12 text-center">
-              Parcours Professionnel
+              Our Journey
             </h3>
 
             <div className="space-y-8">
