@@ -8,103 +8,103 @@ export default function Portfolio() {
   const portfolioItems = [
     {
       id: 1,
-      title: "Homard Grillé à la Méditerranéenne",
-      category: "Plats",
+      title: "Lobster with Butter & Herbs",
+      category: "Dishes",
       image:
         "https://images.unsplash.com/photo-1625246333195-78d9c38ad576?auto=format&fit=crop&w=600&h=600&q=80",
-      description: "Homard frais grillé, sauce à l'huile d'olive et citron de Menton",
+      description: "Fresh grilled lobster with herb sauce",
     },
     {
       id: 2,
-      title: "Risotto aux Truffes",
-      category: "Plats",
+      title: "Truffle Risotto",
+      category: "Dishes",
       image:
         "https://images.unsplash.com/photo-1612874742237-6526221fcf4f?auto=format&fit=crop&w=600&h=600&q=80",
-      description: "Risotto Carnaroli, truffe noire du Périgord, parmesan Reggiano",
+      description: "Carnaroli risotto with black truffles",
     },
     {
       id: 3,
-      title: "Dressage Sophistiqué",
-      category: "Dressage",
+      title: "Sophisticated Plating",
+      category: "Presentation",
       image:
         "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&h=600&q=80",
-      description: "Art culinaire et présentation raffinée",
+      description: "Culinary art and refined presentation",
     },
     {
       id: 4,
-      title: "Composition Sensorielle",
-      category: "Dressage",
+      title: "Sensory Composition",
+      category: "Presentation",
       image:
         "https://images.unsplash.com/photo-1577431537627-90ff93245f98?auto=format&fit=crop&w=600&h=600&q=80",
-      description: "Jeu de couleurs et de textures pour l'émerveillement",
+      description: "Colors and textures for enchantment",
     },
     {
       id: 5,
-      title: "Gala Privé",
-      category: "Événements",
+      title: "Private Gala",
+      category: "Events",
       image:
         "https://images.unsplash.com/photo-1519671482677-de7ecf00efb7?auto=format&fit=crop&w=600&h=600&q=80",
-      description: "Dîner de gala pour 50 personnes, service exceptionnel",
+      description: "Gala dinner for 50 guests with exceptional service",
     },
     {
       id: 6,
-      title: "Mariage Prestige",
-      category: "Événements",
+      title: "Luxury Wedding",
+      category: "Events",
       image:
         "https://images.unsplash.com/photo-1519671482677-de7ecf00efb7?auto=format&fit=crop&w=600&h=600&q=80",
-      description: "Menu de mariage gastronomique, réception de luxe",
+      description: "Gastronomic wedding menu and reception",
     },
     {
       id: 7,
-      title: "Table d'Exception",
+      title: "Exceptional Tablescape",
       category: "Tables",
       image:
         "https://images.unsplash.com/photo-1504674900968-45cc10deda4c?auto=format&fit=crop&w=600&h=600&q=80",
-      description: "Dressage de table raffiné avec présentation des plats",
+      description: "Refined table setting and dish presentation",
     },
     {
       id: 8,
-      title: "Ambiance Élégante",
+      title: "Elegant Ambiance",
       category: "Tables",
       image:
         "https://images.unsplash.com/photo-1592078615290-033ee584e267?auto=format&fit=crop&w=600&h=600&q=80",
-      description: "Décoration de table et ambiance gastronomique",
+      description: "Table decoration and gastronomic ambiance",
     },
     {
       id: 9,
-      title: "Soupe de Poisson",
-      category: "Plats",
+      title: "Fish Soup",
+      category: "Dishes",
       image:
         "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&w=600&h=600&q=80",
-      description: "Bouillabaisse provençale, rouille et croutons",
+      description: "Traditional bouillabaisse with rouille",
     },
     {
       id: 10,
-      title: "Pâtes Fraîches",
-      category: "Plats",
+      title: "Fresh Pasta",
+      category: "Dishes",
       image:
         "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=600&h=600&q=80",
-      description: "Pappardelle aux truffes et sauce au gibier",
+      description: "Pappardelle with truffle and game sauce",
     },
     {
       id: 11,
-      title: "Présentation Minimale",
-      category: "Dressage",
+      title: "Minimal Presentation",
+      category: "Presentation",
       image:
         "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&h=600&q=80",
-      description: "Beauté dans la simplicité, élégance épurée",
+      description: "Beauty in simplicity, refined elegance",
     },
     {
       id: 12,
-      title: "Réception Villa Côte d'Azur",
-      category: "Événements",
+      title: "Villa Reception",
+      category: "Events",
       image:
         "https://images.unsplash.com/photo-1519671482677-de7ecf00efb7?auto=format&fit=crop&w=600&h=600&q=80",
-      description: "Événement privé pour 100 personnes, service impeccable",
+      description: "Private event for 100 guests with impeccable service",
     },
   ];
 
-  const categories = ["Tous", "Plats", "Dressage", "Événements", "Tables"];
+  const categories = ["All", "Dishes", "Presentation", "Events", "Tables"];
   const [activeCategory, setActiveCategory] = useState("Tous");
 
   const filteredItems =
