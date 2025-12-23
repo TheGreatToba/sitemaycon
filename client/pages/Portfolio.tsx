@@ -6,6 +6,8 @@ export default function Portfolio() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [activeCategory, setActiveCategory] = useState("All");
 
+  const categories = ["All", "Dishes", "Presentation", "Events", "Tables"];
+
   const portfolioItems = [
     {
       id: 1,
