@@ -72,20 +72,20 @@ export default function Home() {
   const testimonials = [
     {
       name: "Madame de Montfort",
-      role: "Cliente Privée",
-      text: "Une excellence gastronomique rare. Le chef comprend chaque détail d'une soirée réussie.",
+      role: "Private Client",
+      text: "Rare culinary excellence. The chef understands every detail of a successful evening.",
       rating: 5,
     },
     {
       name: "Monsieur Laurent",
-      role: "Directeur Événementiel",
-      text: "Professionnel hors-pair. Ses créations culinaires émerveillent chaque fois.",
+      role: "Event Director",
+      text: "Outstanding professional. His culinary creations amaze every single time.",
       rating: 5,
     },
     {
       name: "Sophie Blanc",
-      role: "Propriétaire Villa Côte d'Azur",
-      text: "Service impeccable et cuisine d'exception. Les invités ne tarissent pas d'éloges.",
+      role: "Côte d'Azur Villa Owner",
+      text: "Impeccable service and exceptional cuisine. Our guests cannot praise it enough.",
       rating: 5,
     },
   ];
