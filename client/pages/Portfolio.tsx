@@ -4,6 +4,7 @@ import { X } from "lucide-react";
 
 export default function Portfolio() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const [activeCategory, setActiveCategory] = useState("All");
 
   const portfolioItems = [
     {
