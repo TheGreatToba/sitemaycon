@@ -98,9 +98,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {/* Brand */}
             <div>
-              <h3 className="font-serif text-xl font-bold mb-4">Chef Privé</h3>
+              <h3 className="font-serif text-xl font-bold mb-4">Maison Gauthier</h3>
               <p className="text-sm font-body opacity-90">
-                Excellence culinaire pour une clientèle de luxe.
+                Private French gastronomy for VIP clientele worldwide. Creating unforgettable culinary experiences.
               </p>
             </div>
 
@@ -122,17 +122,17 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <div>
               <h4 className="font-serif font-bold mb-4">Contact</h4>
               <ul className="space-y-2 text-sm font-body opacity-90">
-                <li>+33 (0) 6 XX XX XX XX</li>
-                <li>contact@chefprive.com</li>
-                <li>Paris, France</li>
+                <li>+33 7 49 36 22 54</li>
+                <li>maisongauthier.ghc@gmail.com</li>
+                <li>France</li>
               </ul>
             </div>
 
             {/* Social Media */}
             <div>
-              <h4 className="font-serif font-bold mb-4">Réseaux</h4>
+              <h4 className="font-serif font-bold mb-4">Follow Us</h4>
               <div className="flex gap-4">
-                <a href="#" className="opacity-90 hover:opacity-100 text-sm">
+                <a href="https://instagram.com/maisongauthier__" target="_blank" rel="noopener noreferrer" className="opacity-90 hover:opacity-100 text-sm">
                   Instagram
                 </a>
                 <a href="#" className="opacity-90 hover:opacity-100 text-sm">
@@ -148,13 +148,13 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           {/* Copyright */}
           <div className="border-t border-primary-foreground/20 mt-8 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center text-sm font-body opacity-90">
-              <p>&copy; 2024 Chef Privé. Tous droits réservés.</p>
+              <p>&copy; 2024 Maison Gauthier. All rights reserved.</p>
               <div className="flex gap-6 mt-4 md:mt-0">
                 <a href="#" className="hover:opacity-100">
-                  Mentions légales
+                  Legal Notice
                 </a>
                 <a href="#" className="hover:opacity-100">
-                  Politique de confidentialité
+                  Privacy Policy
                 </a>
               </div>
             </div>
