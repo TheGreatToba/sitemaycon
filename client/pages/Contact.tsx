@@ -176,7 +176,7 @@ export default function Contact() {
               <div className="grid md:grid-cols-2 gap-6">
                 {/* Name */}
                 <div>
-                  <label className="block font-body font-bold mb-2">Nom *</label>
+                  <label className="block font-body font-bold mb-2">Name *</label>
                   <input
                     type="text"
                     name="name"
@@ -184,7 +184,7 @@ export default function Contact() {
                     onChange={handleInputChange}
                     required
                     className="w-full px-4 py-3 border border-border bg-background text-foreground font-body focus:outline-none focus:ring-2 focus:ring-accent"
-                    placeholder="Votre nom complet"
+                    placeholder="Your full name"
                   />
                 </div>
 
@@ -198,27 +198,27 @@ export default function Contact() {
                     onChange={handleInputChange}
                     required
                     className="w-full px-4 py-3 border border-border bg-background text-foreground font-body focus:outline-none focus:ring-2 focus:ring-accent"
-                    placeholder="votre@email.com"
+                    placeholder="your@email.com"
                   />
                 </div>
 
                 {/* Phone */}
                 <div>
-                  <label className="block font-body font-bold mb-2">Téléphone</label>
+                  <label className="block font-body font-bold mb-2">Phone</label>
                   <input
                     type="tel"
                     name="phone"
                     value={formData.phone}
                     onChange={handleInputChange}
                     className="w-full px-4 py-3 border border-border bg-background text-foreground font-body focus:outline-none focus:ring-2 focus:ring-accent"
-                    placeholder="+33 6 XX XX XX XX"
+                    placeholder="+33 7 49 36 22 54"
                   />
                 </div>
 
                 {/* Service Type */}
                 <div>
                   <label className="block font-body font-bold mb-2">
-                    Type de Prestation *
+                    Service Type *
                   </label>
                   <select
                     name="serviceType"
@@ -227,20 +227,20 @@ export default function Contact() {
                     required
                     className="w-full px-4 py-3 border border-border bg-background text-foreground font-body focus:outline-none focus:ring-2 focus:ring-accent"
                   >
-                    <option value="">Sélectionnez...</option>
-                    <option value="chef-a-domicile">Chef à Domicile</option>
-                    <option value="diner-prive">Dîner Privé</option>
-                    <option value="evenement">Événement Haut de Gamme</option>
-                    <option value="menu-sur-mesure">Menu Sur-Mesure</option>
-                    <option value="service-yacht">Service à Bord</option>
-                    <option value="consultance">Consultance Culinaire</option>
+                    <option value="">Select...</option>
+                    <option value="day-service">One-Day Service</option>
+                    <option value="week-stay">Week-Long Stay</option>
+                    <option value="event">Private Event</option>
+                    <option value="custom-menu">Custom Menu</option>
+                    <option value="yacht">On-Board Service</option>
+                    <option value="consultation">Consultation</option>
                   </select>
                 </div>
 
                 {/* Date */}
                 <div>
                   <label className="block font-body font-bold mb-2">
-                    Date Souhaitée *
+                    Preferred Date *
                   </label>
                   <input
                     type="date"
@@ -255,7 +255,7 @@ export default function Contact() {
                 {/* Number of Guests */}
                 <div>
                   <label className="block font-body font-bold mb-2">
-                    Nombre d'Invités
+                    Number of Guests
                   </label>
                   <input
                     type="number"
@@ -272,14 +272,14 @@ export default function Contact() {
               {/* Dietary Restrictions */}
               <div>
                 <label className="block font-body font-bold mb-2">
-                  Restrictions Alimentaires
+                  Dietary Requirements
                 </label>
                 <textarea
                   name="dietaryRestrictions"
                   value={formData.dietaryRestrictions}
                   onChange={handleInputChange}
                   className="w-full px-4 py-3 border border-border bg-background text-foreground font-body focus:outline-none focus:ring-2 focus:ring-accent resize-none"
-                  placeholder="Allergies, régimes spéciaux, préférences..."
+                  placeholder="Allergies, dietary restrictions, preferences..."
                   rows={3}
                 />
               </div>
@@ -292,7 +292,7 @@ export default function Contact() {
                   value={formData.message}
                   onChange={handleInputChange}
                   className="w-full px-4 py-3 border border-border bg-background text-foreground font-body focus:outline-none focus:ring-2 focus:ring-accent resize-none"
-                  placeholder="Décrivez votre événement, vos attentes, vos souhaits..."
+                  placeholder="Describe your event, expectations, and special requests..."
                   rows={5}
                 />
               </div>
@@ -302,7 +302,7 @@ export default function Contact() {
                 type="submit"
                 className="w-full md:w-auto flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-body hover:opacity-90 transition-opacity"
               >
-                Envoyer la Demande
+                Send Request
                 <Send className="w-4 h-4" />
               </button>
             </form>
