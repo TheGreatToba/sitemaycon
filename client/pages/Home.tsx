@@ -5,40 +5,40 @@ import Layout from "@/components/Layout";
 export default function Home() {
   const specialties = [
     {
-      title: "Cuisine Française",
+      title: "Personal Chef at Home",
       description:
-        "Tradition culinaire française revisitée avec des techniques contemporaines.",
-      icon: "🇫🇷",
+        "Dedicated culinary service for your residence with tailor-made menus and elegant service.",
+      icon: "🏠",
     },
     {
-      title: "Cuisine Italienne",
+      title: "Private Receptions",
       description:
-        "Saveurs authentiques des régions italiennes, produits nobles et frais.",
-      icon: "🇮🇹",
+        "Exquisite dinners for intimate gatherings or grand celebrations with refined cuisine.",
+      icon: "🍽️",
     },
     {
-      title: "Cuisine Espagnole",
+      title: "On-Board Service",
       description:
-        "Paella, tapas, et spécialités régionales de la Péninsule ibérique.",
-      icon: "🇪🇸",
+        "Exceptional culinary experiences aboard yachts and luxury vessels worldwide.",
+      icon: "⛵",
     },
     {
-      title: "Cuisine Grecque",
+      title: "Event Management",
       description:
-        "Méditerranée bleue : olive, feta, herbes fraîches et huile d'exception.",
-      icon: "🇬🇷",
-    },
-    {
-      title: "Cuisine Marocaine",
-      description:
-        "Épices sublimes, tajines raffinés, et l'art du dressage nord-africain.",
-      icon: "🇲🇦",
-    },
-    {
-      title: "Cuisine Fusion",
-      description:
-        "Créations personnalisées qui fusionnent les saveurs méditerranéennes.",
+        "Complete gastronomic coordination for weddings, galas, and exclusive events.",
       icon: "✨",
+    },
+    {
+      title: "Long-Term Stays",
+      description:
+        "Comprehensive culinary comfort for extended villa and residence stays.",
+      icon: "🗓️",
+    },
+    {
+      title: "Local Producers",
+      description:
+        "Working exclusively with local producers to guarantee quality and authenticity.",
+      icon: "🌾",
     },
   ];
 
