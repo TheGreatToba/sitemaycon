@@ -3,116 +3,6 @@ import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export default function Cuisine() {
-  const cuisines = [
-    {
-      name: "Cuisine Française",
-      description:
-        "L'essence de la gastronomie française : technique rigoureuse, ingrédients nobles et respect des traditions. Sauces délicates, préparations minutieuses et présentation impeccable.",
-      specialities:
-        "Coq au vin, Bouillabaisse, Cassoulet, Sole Meunière, Éscargots de Bourgogne",
-      regions: "Lyon, Provence, Bordeaux, Bretagne",
-      image:
-        "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&h=600&q=80",
-    },
-    {
-      name: "Cuisine Italienne",
-      description:
-        "Simplicité élégante et ingrédients authentiques. La cuisine italienne célèbre la qualité de chaque produit : pâtes artisanales, tomates San Marzano, mozzarella di bufala, huile d'olive prestigieuse.",
-      specialities:
-        "Risotto, Pâtes fraîches, Osso Buco, Tiramisu, Panna Cotta",
-      regions: "Toscane, Ligurie, Sicile, Piémont",
-      image:
-        "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=800&h=600&q=80",
-    },
-    {
-      name: "Cuisine Espagnole",
-      description:
-        "Saveurs généruses et conviviales. La paella est un art, le jamón un trésor, et les tapas une invitation à la découverte. Ajo blanco, gazpacho et produits ibériques de prestige.",
-      specialities:
-        "Paella Valenciana, Jamón Ibérique, Gazpacho, Croquetas, Pulpo a la Gallega",
-      regions: "Valence, Castille, Andalousie, Catalogne",
-      image:
-        "https://images.unsplash.com/photo-1612874742237-6526221fcf4f?auto=format&fit=crop&w=800&h=600&q=80",
-    },
-    {
-      name: "Cuisine Grecque",
-      description:
-        "Méditerranée pure : olive, feta, huile d'olive vierge extra, herbes fraîches et produits de la mer. Philosophie de santé et de bien-être conjuguée à l'excellence gastronomique.",
-      specialities:
-        "Moussaka, Souvlaki, Horta, Salade Grecque, Baklava",
-      regions: "Crète, Péloponnèse, Îles Ioniennes",
-      image:
-        "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&h=600&q=80",
-    },
-    {
-      name: "Cuisine Marocaine",
-      description:
-        "Épices sublimes et saveurs complexes. Le tajine est une tradition culinaire respectée, les herbes fraîches omniprésentes, et chaque plat raconte une histoire. Safran, cumin, cannelle et rose.",
-      specialities:
-        "Tajine d'Agneau, Couscous Royal, Pastilla, Salade Zaalouk, Mint Tea",
-      regions: "Marrakech, Fès, Casablanca, Anti-Atlas",
-      image:
-        "https://images.unsplash.com/photo-1600626213181-c00d3df24236?auto=format&fit=crop&w=800&h=600&q=80",
-    },
-  ];
-
-  const ingredients = [
-    {
-      category: "Huiles & Vinaigres",
-      items: [
-        "Huile d'olive extra vierge Toscane",
-        "Vinaigre balsamique traditionnel",
-        "Huile de noisette",
-        "Vinaigre de Xérès",
-      ],
-    },
-    {
-      category: "Produits Laitiers",
-      items: [
-        "Mozzarella di bufala",
-        "Feta grecque",
-        "Parmesan Reggiano",
-        "Féta Sainte-Maure",
-      ],
-    },
-    {
-      category: "Charcuteries & Protéines",
-      items: [
-        "Jamón Ibérique",
-        "Prosciutto Parme",
-        "Poisson frais méditerranéen",
-        "Homard breton",
-      ],
-    },
-    {
-      category: "Épices & Herbes",
-      items: [
-        "Safran de Perse",
-        "Coriandre frais",
-        "Ail frais provençal",
-        "Thym sauvage",
-      ],
-    },
-    {
-      category: "Produits Nobles",
-      items: [
-        "Truffes noires",
-        "Caviar",
-        "Foie gras",
-        "Cèpes sauvages",
-      ],
-    },
-    {
-      category: "Fruits & Légumes",
-      items: [
-        "Tomates San Marzano",
-        "Aubergine violette",
-        "Citron de Menton",
-        "Amande de Marcona",
-      ],
-    },
-  ];
-
   return (
     <Layout>
       {/* Hero Section */}
@@ -129,10 +19,10 @@ export default function Cuisine() {
 
         <div className="relative z-10 text-center text-white px-4">
           <h1 className="text-5xl md:text-6xl font-serif font-bold">
-            Cuisine & Spécialités
+            French Cuisine
           </h1>
           <p className="mt-4 text-lg font-body opacity-90">
-            L'Excellence Gastronomique Méditerranéenne
+            The Art of Gastronomy
           </p>
         </div>
       </section>
@@ -141,147 +31,55 @@ export default function Cuisine() {
       <section className="py-16 md:py-24 px-4 bg-secondary/30">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-center mb-6">
-            Les Saveurs Méditerranéennes
+            French Culinary Excellence
           </h2>
           <p className="text-lg font-body text-muted-foreground text-center leading-relaxed">
-            La Méditerranée est un carrefour de cultures culinaires exceptionnelles.
-            De la France à la Grèce, en passant par l'Italie, l'Espagne et le Maroc,
-            chaque région offre une richesse gastronomique unique. Ma spécialité est
-            de fusionner ces traditions pour créer une cuisine moderne, authentique et
-            exquise.
+            Maison Gauthier specializes exclusively in French cuisine, bringing together the rich traditions of regional cooking with contemporary techniques. Our cuisine is based on an evolving menu, regularly updated according to seasonal creations and the inspiration of the moment.
           </p>
-        </div>
-      </section>
-
-      {/* Cuisines */}
-      <section className="py-20 md:py-32 px-4">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-serif font-bold text-center mb-16">
-            Les Traditions Culinaires
-          </h2>
-
-          <div className="space-y-16">
-            {cuisines.map((cuisine, index) => (
-              <div
-                key={cuisine.name}
-                className={`grid md:grid-cols-2 gap-12 items-center ${
-                  index % 2 === 1 ? "md:[&>*]:order-2" : ""
-                }`}
-              >
-                <div className="overflow-hidden bg-secondary h-80">
-                  <img
-                    src={cuisine.image}
-                    alt={cuisine.name}
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-                  />
-                </div>
-
-                <div>
-                  <h3 className="text-3xl font-serif font-bold mb-4">
-                    {cuisine.name}
-                  </h3>
-
-                  <p className="text-lg font-body text-muted-foreground mb-6 leading-relaxed">
-                    {cuisine.description}
-                  </p>
-
-                  <div className="space-y-4 mb-6">
-                    <div>
-                      <h4 className="font-serif font-bold mb-2">Spécialités</h4>
-                      <p className="font-body text-muted-foreground">
-                        {cuisine.specialities}
-                      </p>
-                    </div>
-                    <div>
-                      <h4 className="font-serif font-bold mb-2">Régions d'Origine</h4>
-                      <p className="font-body text-muted-foreground">
-                        {cuisine.regions}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Premium Ingredients */}
-      <section className="py-20 md:py-32 px-4 bg-secondary/30">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-serif font-bold text-center mb-6">
-            Ingrédients Nobles
-          </h2>
-          <p className="text-lg font-body text-muted-foreground text-center mb-16 max-w-3xl mx-auto">
-            La qualité d'un plat repose avant tout sur la sélection rigoureuse de ses
-            ingrédients. Je travaille uniquement avec les meilleurs producteurs et
-            fournisseurs, garantissant fraîcheur, authenticité et excellence.
-          </p>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {ingredients.map((category) => (
-              <div
-                key={category.category}
-                className="p-8 bg-background border border-border"
-              >
-                <h3 className="text-xl font-serif font-bold mb-4">
-                  {category.category}
-                </h3>
-                <ul className="space-y-2">
-                  {category.items.map((item) => (
-                    <li key={item} className="font-body text-muted-foreground flex items-start gap-3">
-                      <span className="text-accent mt-1">•</span>
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 
       {/* Philosophy */}
       <section className="py-20 md:py-32 px-4">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-serif font-bold text-center mb-12">
-            Approche Gastronomique
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-4xl font-serif font-bold text-center mb-16">
+            Our Culinary Philosophy
           </h2>
 
-          <div className="space-y-8">
+          <div className="space-y-12">
             {[
               {
-                title: "Produits de Saison",
+                title: "Local Producers & Seasonal Ingredients",
                 description:
-                  "Je privilégie les produits de saison pour assurer la fraîcheur maximale et respecter les cycles naturels de la terre.",
+                  "Maison Gauthier works exclusively with local producers whose expertise and high standards guarantee the quality and authenticity of each selected product. We prioritize seasonal, fresh ingredients to ensure maximum flavor and nutritional value.",
               },
               {
-                title: "Terroir & Traçabilité",
+                title: "Traditional French Techniques",
                 description:
-                  "Chaque ingrédient a une histoire. Je connais mes producteurs et garantis la provenance de chaque élément.",
+                  "Rooted in classical French culinary traditions, our dishes showcase refined techniques: from delicate sauces to precise plating. We honor the foundations of French gastronomy while embracing modern innovation.",
               },
               {
-                title: "Technique Contemporaine",
+                title: "Regional Inspiration",
                 description:
-                  "Respectant les traditions, j'intègre les techniques modernes pour créer une cuisine à la fois authentique et innovante.",
+                  "French cuisine varies beautifully across regions – from Provence to Normandy, Burgundy to Brittany. We draw inspiration from these diverse traditions, creating menus that celebrate France's gastronomic heritage.",
               },
               {
-                title: "Sensoriel & Émotionnel",
+                title: "Artisanal Quality",
                 description:
-                  "Chaque plat doit émouvoir, surprendre et enchanter. C'est l'objectif ultime de ma création culinaire.",
+                  "Every element of our cuisine reflects artisanal quality: handmade pasta, fresh herbs, carefully selected proteins, and time-honored preparation methods. We refuse shortcuts in the pursuit of excellence.",
               },
             ].map((item) => (
               <div key={item.title} className="flex gap-6">
                 <div className="flex-shrink-0">
-                  <div className="w-12 h-12 rounded-full bg-accent text-accent-foreground flex items-center justify-center font-serif font-bold">
+                  <div className="w-12 h-12 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-serif font-bold">
                     ✓
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-xl font-serif font-bold mb-2">
+                  <h3 className="text-2xl font-serif font-bold mb-3">
                     {item.title}
                   </h3>
-                  <p className="font-body text-muted-foreground">
+                  <p className="font-body text-muted-foreground text-lg leading-relaxed">
                     {item.description}
                   </p>
                 </div>
@@ -291,21 +89,116 @@ export default function Cuisine() {
         </div>
       </section>
 
-      {/* CTA */}
+      {/* Cuisine Highlights */}
       <section className="py-20 md:py-32 px-4 bg-secondary/30">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl font-serif font-bold text-center mb-16">
+            Culinary Highlights
+          </h2>
+
+          <div className="grid md:grid-cols-2 gap-12">
+            {[
+              {
+                title: "Classic French Preparations",
+                items: [
+                  "Coq au Vin - slow-braised chicken in burgundy",
+                  "Bouillabaisse - traditional Provençal fish stew",
+                  "Cassoulet - hearty bean and meat dish",
+                  "Sole Meunière - delicate sole with brown butter",
+                  "Beef Wellington - classic beef in pastry",
+                  "Duck Breast with Sauce - premium preparation",
+                ],
+              },
+              {
+                title: "Refined Ingredients & Techniques",
+                items: [
+                  "Duck Foie Gras - semi-cooked with cognac",
+                  "Fresh Langoustine - handmade ravioli",
+                  "Scallops Rossini Style - with foie gras and truffle",
+                  "Lamb Rack - herb-crusted with seasonal vegetables",
+                  "Fresh Fish - daily selections from premium suppliers",
+                  "Artisanal Sauces - made fresh to order",
+                ],
+              },
+            ].map((section) => (
+              <div key={section.title}>
+                <h3 className="text-2xl font-serif font-bold mb-8">
+                  {section.title}
+                </h3>
+                <ul className="space-y-4">
+                  {section.items.map((item) => (
+                    <li key={item} className="flex items-start gap-3">
+                      <span className="text-primary font-bold mt-1">•</span>
+                      <span className="font-body text-muted-foreground">
+                        {item}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Dietary Adaptations */}
+      <section className="py-20 md:py-32 px-4">
+        <div className="max-w-4xl mx-auto">
+          <div className="p-12 border-l-4 border-primary bg-secondary/30">
+            <h3 className="text-3xl font-serif font-bold mb-6">
+              Customization & Dietary Adaptations
+            </h3>
+
+            <p className="text-lg font-body text-muted-foreground mb-4 leading-relaxed">
+              Every guest deserves an exceptional culinary experience. Should you have specific dietary requirements, allergies, or preferences, we adapt our menus to accommodate your needs without compromising quality or refinement.
+            </p>
+
+            <p className="text-lg font-body font-bold text-primary mb-4">
+              No additional charges apply – the price remains unchanged with all adaptations included.
+            </p>
+
+            <p className="text-lg font-body text-muted-foreground">
+              Please inform us of any allergies, intolerances, or special dietary requirements when booking so we can safely and deliciously adapt our dishes.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Specific Requests */}
+      <section className="py-20 md:py-32 px-4 bg-secondary/30">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-4xl font-serif font-bold mb-6">
+            Custom Requests & Different Cuisines
+          </h2>
+
+          <p className="text-lg font-body text-muted-foreground mb-8 leading-relaxed">
+            While Maison Gauthier specializes in French cuisine, we recognize that guests may have specific culinary interests or requests. If you would like a different cuisine or have particular preferences, please let us know when you first contact us so we can consider your request.
+          </p>
+
+          <Link
+            to="/contact"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-body hover:opacity-90 transition-opacity"
+          >
+            Contact Us for Special Requests
+            <ArrowRight className="w-4 h-4" />
+          </Link>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="py-20 md:py-32 px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-4xl font-serif font-bold mb-6">
-            Goûtez l'Excellence Méditerranéenne
+            Experience French Gastronomy
           </h2>
           <p className="text-lg font-body text-muted-foreground mb-8">
-            Découvrez ces saveurs exceptionnelles lors d'une prestation culinaire
-            personnalisée
+            Discover the refined taste of French cuisine through Maison Gauthier's private services
           </p>
           <Link
             to="/contact"
             className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-body hover:opacity-90 transition-opacity"
           >
-            Réserver une Expérience
+            Reserve Your Experience
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
