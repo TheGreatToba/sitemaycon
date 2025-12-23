@@ -314,34 +314,34 @@ export default function Contact() {
       <section className="py-20 md:py-32 px-4 bg-secondary/30">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl font-serif font-bold text-center mb-12">
-            Questions Fréquentes
+            Frequently Asked Questions
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8">
             {[
               {
-                q: "Quel est le budget minimum pour une prestation ?",
-                a: "Le budget dépend du type de prestation et du nombre de convives. Une prestation minimum commence généralement autour de 800€ pour un dîner à 4 personnes.",
+                q: "What is the minimum budget for a service?",
+                a: "Budget varies by service type and number of guests. Prices begin at €150 per hour for additional services, with full packages available from €800 for intimate dinners.",
               },
               {
-                q: "Pouvez-vous adapter les menus aux allergies ?",
-                a: "Absolument. Je gère scrupuleusement toutes les allergies et contraintes alimentaires. Cela doit être signalé lors de la réservation.",
+                q: "Can you adapt menus for allergies?",
+                a: "Absolutely. We carefully manage all allergies and dietary restrictions without compromising quality. Please inform us when booking.",
               },
               {
-                q: "Intervenez-vous en dehors de Paris ?",
-                a: "Oui, j'interviens sur toute la France et à l'étranger. Les frais de déplacement sont calculés selon la destination.",
+                q: "Do you operate outside France?",
+                a: "Yes, Maison Gauthier provides services internationally. Travel expenses are covered, with rates based on destination.",
               },
               {
-                q: "Quel délai pour réserver une prestation ?",
-                a: "Idéalement 3-4 semaines. Pour un événement important, 3 mois est recommandé. Les urgences peuvent être étudiées.",
+                q: "What booking timeline is recommended?",
+                a: "Ideally 2-4 weeks for day services. For week-long stays or events, 1-3 months is recommended. We can sometimes accommodate urgent requests.",
               },
               {
-                q: "Proposez-vous des dégustations avant l'événement ?",
-                a: "Oui, pour les événements importants. Une dégustation peut être organisée quelques jours avant.",
+                q: "Do you offer tastings before events?",
+                a: "Yes, for larger events. A tasting can be arranged a few days prior by special request.",
               },
               {
-                q: "Fournissez-vous les boissons ?",
-                a: "Je peux vous conseiller sur les vins et spiritueux. Vous pouvez fournir ou je peux m'en charger sur demande.",
+                q: "Do you provide beverages and wine pairings?",
+                a: "We can advise on wine selections and pairings. Beverages can be provided by you or arranged through us upon request.",
               },
             ].map((item, index) => (
               <div key={index} className="p-6 bg-background border border-border">
