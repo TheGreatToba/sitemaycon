@@ -167,16 +167,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Mediterranean Specialties */}
+      {/* Services & Specialties */}
       <section className="py-20 md:py-32 px-4 bg-secondary/30">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">
-              Spécialités Méditerranéennes
+              Our Services
             </h2>
             <p className="text-lg font-body text-muted-foreground max-w-2xl mx-auto">
-              Explorez les saveurs authentiques des cuisines les plus prestigieuses
-              du bassin méditerranéen
+              Maison Gauthier accompanies you with a range of services tailored to your needs. Every service is designed as a unique creation.
             </p>
           </div>
 
