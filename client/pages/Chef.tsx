@@ -166,16 +166,16 @@ export default function Chef() {
       <section className="py-20 md:py-32 px-4 bg-secondary/30">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-4xl font-serif font-bold mb-6">
-            Découvrez Mes Prestations
+            Explore Our Services
           </h2>
           <p className="text-lg font-body text-muted-foreground mb-8">
-            Dîners privés, événements exclusifs, menus sur-mesure...
+            Private dinners, exclusive events, on-board services, and bespoke culinary experiences...
           </p>
           <Link
             to="/prestations"
             className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-body hover:opacity-90 transition-opacity"
           >
-            Voir Mes Prestations
+            View All Services
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
