@@ -110,7 +110,7 @@ export default function Chef() {
           {/* Values */}
           <div className="mb-20">
             <h3 className="text-3xl font-serif font-bold mb-12 text-center">
-              Mes Valeurs Fondamentales
+              Our Core Values
             </h3>
             <div className="grid md:grid-cols-2 gap-8">
               {values.map((value) => (
