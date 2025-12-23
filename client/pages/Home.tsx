@@ -108,25 +108,25 @@ export default function Home() {
         {/* Hero Content */}
         <div className="relative z-10 text-center text-white px-4 max-w-3xl">
           <div className="mb-6 inline-block">
-            <div className="flex items-center gap-2 text-accent font-body text-sm tracking-widest">
+            <div className="flex items-center gap-2 text-white font-body text-sm tracking-widest">
               <Leaf className="w-4 h-4" />
-              EXPERTISE CULINAIRE DE LUXE
+              PRIVATE FRENCH GASTRONOMY
             </div>
           </div>
 
           <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6 leading-tight">
-            Cuisine Méditerranéenne d'Exception
+            Welcome to<br />Maison Gauthier
           </h1>
 
           <p className="text-lg md:text-xl font-body mb-8 opacity-95 max-w-2xl mx-auto">
-            Chef privé spécialisé en gastronomie méditerranéenne pour une clientèle de luxe. Dîners privés, événements exclusifs, yachts et villas de prestige.
+            Maison Gauthier was born from the ambition of a French chef to bring the art of French cuisine into homes around the world. Creating private gastronomic experiences for VIP clients.
           </p>
 
           <Link
             to="/contact"
             className="inline-flex items-center gap-2 px-8 py-4 bg-accent text-accent-foreground font-body text-sm hover:opacity-90 transition-opacity"
           >
-            Réserver une Expérience Culinaire
+            Reserve Your Experience
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
