@@ -116,16 +116,18 @@ export default function Contact() {
 
           {/* Social Media */}
           <div>
-            <h3 className="text-xl font-serif font-bold mb-6">Réseaux Sociaux</h3>
+            <h3 className="text-xl font-serif font-bold mb-6">Follow Us</h3>
             <div className="space-y-4">
               {[
-                { name: "Instagram", url: "#" },
+                { name: "Instagram", url: "https://instagram.com/maisongauthier__" },
                 { name: "LinkedIn", url: "#" },
                 { name: "Facebook", url: "#" },
               ].map((social) => (
                 <a
                   key={social.name}
                   href={social.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-3 px-4 py-2 border border-border text-foreground font-body hover:bg-secondary transition-colors"
                 >
                   {social.name}
@@ -136,22 +138,19 @@ export default function Contact() {
 
           {/* Quick Info */}
           <div className="p-8 bg-secondary/30 border border-border">
-            <h3 className="text-xl font-serif font-bold mb-4">Délais</h3>
+            <h3 className="text-xl font-serif font-bold mb-4">Booking Timeline</h3>
             <ul className="space-y-3 font-body text-muted-foreground">
               <li>
-                <span className="font-bold">Prestation 5 personnes:</span> 2
-                semaines
+                <span className="font-bold">Single day service:</span> 2 weeks
               </li>
               <li>
-                <span className="font-bold">Prestation 10+ personnes:</span> 1
-                mois
+                <span className="font-bold">Week-long stays:</span> 1 month
               </li>
               <li>
-                <span className="font-bold">Événements:</span> 3 mois
+                <span className="font-bold">Events:</span> 3 months
               </li>
               <li>
-                <span className="font-bold">Menus spéciaux:</span> Sur
-                consultation
+                <span className="font-bold">Custom requests:</span> Upon consultation
               </li>
             </ul>
           </div>
