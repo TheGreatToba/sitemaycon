@@ -77,13 +77,13 @@ export default function Contact() {
             <div>
               <div className="flex items-center gap-4 mb-4">
                 <Phone className="w-6 h-6 text-accent" />
-                <h3 className="text-xl font-serif font-bold">Téléphone</h3>
+                <h3 className="text-xl font-serif font-bold">Phone</h3>
               </div>
               <p className="font-body text-muted-foreground">
-                +33 (0) 6 XX XX XX XX
+                +33 7 49 36 22 54
               </p>
               <p className="font-body text-sm text-muted-foreground">
-                Lundi - Dimanche, 10h - 20h
+                Response within 24 hours
               </p>
             </div>
 
@@ -93,23 +93,23 @@ export default function Contact() {
                 <h3 className="text-xl font-serif font-bold">Email</h3>
               </div>
               <p className="font-body text-muted-foreground">
-                contact@chefprive.com
+                maisongauthier.ghc@gmail.com
               </p>
               <p className="font-body text-sm text-muted-foreground">
-                Réponse dans les 24h
+                We'll respond promptly
               </p>
             </div>
 
             <div>
               <div className="flex items-center gap-4 mb-4">
                 <MapPin className="w-6 h-6 text-accent" />
-                <h3 className="text-xl font-serif font-bold">Localisation</h3>
+                <h3 className="text-xl font-serif font-bold">Location</h3>
               </div>
               <p className="font-body text-muted-foreground">
-                Paris, France
+                France
               </p>
               <p className="font-body text-sm text-muted-foreground">
-                Interventions sur toute la France et à l'étranger
+                Services available worldwide
               </p>
             </div>
           </div>
