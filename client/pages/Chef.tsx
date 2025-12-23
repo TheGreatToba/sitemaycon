@@ -60,9 +60,9 @@ export default function Chef() {
         </div>
 
         <div className="relative z-10 text-center text-white px-4">
-          <h1 className="text-5xl md:text-6xl font-serif font-bold">Le Chef</h1>
+          <h1 className="text-5xl md:text-6xl font-serif font-bold">About Maison Gauthier</h1>
           <p className="mt-4 text-lg font-body opacity-90">
-            Parcours, Philosophie et Expertise Culinaire
+            Story, Philosophy and Culinary Excellence
           </p>
         </div>
       </section>
