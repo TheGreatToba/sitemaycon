@@ -290,19 +290,18 @@ export default function Home() {
       <section className="py-20 md:py-32 px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">
-            Prêt pour une Expérience Culinaire Exceptionnelle ?
+            Ready for an Exceptional Culinary Experience?
           </h2>
 
           <p className="text-lg font-body text-muted-foreground mb-8">
-            Contactez-moi pour discuter de votre événement ou de votre prestation
-            culinaire. Ensemble, nous créerons des moments inoubliables.
+            Contact us to discuss your event or culinary needs. Together, we will create unforgettable moments of gastronomy and refinement.
           </p>
 
           <Link
             to="/contact"
             className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-body hover:opacity-90 transition-opacity"
           >
-            Réserver Maintenant
+            Get in Touch
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
