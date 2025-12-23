@@ -129,7 +129,7 @@ export default function Portfolio() {
         <div className="relative z-10 text-center text-white px-4">
           <h1 className="text-5xl md:text-6xl font-serif font-bold">Portfolio</h1>
           <p className="mt-4 text-lg font-body opacity-90">
-            Galerie de mes créations culinaires
+            Gallery of Culinary Creations
           </p>
         </div>
       </section>
