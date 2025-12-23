@@ -82,19 +82,13 @@ export default function Chef() {
 
             <div>
               <h2 className="text-4xl font-serif font-bold mb-6">
-                Un Héritage Culinaire
+                Our Story
               </h2>
               <p className="text-lg font-body text-muted-foreground mb-4 leading-relaxed">
-                Issu d'une famille de restaurateurs lyonnais, ma passion pour la
-                cuisine naît dès l'enfance. J'ai grandi dans les cuisines de
-                restaurants prestigieux, observant chaque technique, chaque
-                geste, chaque secret culinaire.
+                Maison Gauthier was born from the ambition of a French chef and restaurateur to bring the art of French cuisine into homes around the world. With a passion for gastronomy and a commitment to excellence, we create private gastronomic experiences for VIP clients worldwide.
               </p>
               <p className="text-lg font-body text-muted-foreground leading-relaxed">
-                Après plus de 20 ans à perfectionner mon art auprès des plus
-                grands maîtres français et méditerranéens, j'ai choisi de dédier
-                ma carrière à offrir une expérience culinaire d'exception aux
-                clients les plus exigeants.
+                Every experience is meticulously crafted with attention to every detail. We believe that exceptional cuisine should be accessible in the privacy and comfort of your own home, whether in a villa, yacht, or residence.
               </p>
             </div>
           </div>
