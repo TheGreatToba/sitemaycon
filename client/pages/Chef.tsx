@@ -28,20 +28,20 @@ export default function Chef() {
 
   const values = [
     {
-      title: "Excellence",
-      description: "Chaque plat est une œuvre d'art culinaire sans compromis",
+      title: "French Culinary Art",
+      description: "Bringing the art of French cuisine into homes around the world with unwavering dedication to gastronomy.",
     },
     {
-      title: "Fraîcheur",
-      description: "Ingrédients nobles sélectionnés quotidiennement auprès des meilleurs fournisseurs",
+      title: "Local Producers",
+      description: "Exclusive partnerships with local producers guaranteeing quality, authenticity, and seasonal freshness.",
     },
     {
-      title: "Authenticité",
-      description: "Respect des traditions culinaires méditerranéennes avec créativité",
+      title: "Warm Hospitality",
+      description: "Creating an environment where guests feel at ease with attentive and authentic service.",
     },
     {
-      title: "Service",
-      description: "Discrétion, professionnalisme et attention aux moindres détails",
+      title: "Bespoke Experience",
+      description: "Personalized menus and service tailored to individual preferences and special requirements.",
     },
   ];
 
