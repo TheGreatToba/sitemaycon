@@ -51,24 +51,20 @@ export default function Cuisine() {
           <div className="space-y-12">
             {[
               {
-                title: "Local Producers & Seasonal Ingredients",
-                description:
-                  "Maison Gauthier works exclusively with local producers whose expertise and high standards guarantee the quality and authenticity of each selected product. We prioritize seasonal, fresh ingredients to ensure maximum flavor and nutritional value.",
+                title: t("cuisine.philosophy.seasonal.title"),
+                description: t("cuisine.philosophy.seasonal.description"),
               },
               {
-                title: "Traditional French Techniques",
-                description:
-                  "Rooted in classical French culinary traditions, our dishes showcase refined techniques: from delicate sauces to precise plating. We honor the foundations of French gastronomy while embracing modern innovation.",
+                title: t("cuisine.philosophy.traditional.title"),
+                description: t("cuisine.philosophy.traditional.description"),
               },
               {
-                title: "Regional Inspiration",
-                description:
-                  "French cuisine varies beautifully across regions – from Provence to Normandy, Burgundy to Brittany. We draw inspiration from these diverse traditions, creating menus that celebrate France's gastronomic heritage.",
+                title: t("cuisine.philosophy.regional.title"),
+                description: t("cuisine.philosophy.regional.description"),
               },
               {
-                title: "Artisanal Quality",
-                description:
-                  "Every element of our cuisine reflects artisanal quality: handmade pasta, fresh herbs, carefully selected proteins, and time-honored preparation methods. We refuse shortcuts in the pursuit of excellence.",
+                title: t("cuisine.philosophy.artisanal.title"),
+                description: t("cuisine.philosophy.artisanal.description"),
               },
             ].map((item) => (
               <div key={item.title} className="flex gap-6">
