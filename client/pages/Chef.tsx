@@ -62,9 +62,9 @@ export default function Chef() {
         </div>
 
         <div className="relative z-10 text-center text-white px-4">
-          <h1 className="text-5xl md:text-6xl font-serif font-bold">About Maison Gauthier</h1>
+          <h1 className="text-5xl md:text-6xl font-serif font-bold">{t("chef.hero.title")}</h1>
           <p className="mt-4 text-lg font-body opacity-90">
-            Story, Philosophy and Culinary Excellence
+            {t("chef.hero.subtitle")}
           </p>
         </div>
       </section>
@@ -84,13 +84,13 @@ export default function Chef() {
 
             <div>
               <h2 className="text-4xl font-serif font-bold mb-6">
-                Our Story
+                {t("chef.story.title")}
               </h2>
               <p className="text-lg font-body text-muted-foreground mb-4 leading-relaxed">
-                Maison Gauthier was born from the ambition of a French chef and restaurateur to bring the art of French cuisine into homes around the world. With a passion for gastronomy and a commitment to excellence, we create private gastronomic experiences for VIP clients worldwide.
+                {t("chef.story.paragraph1")}
               </p>
               <p className="text-lg font-body text-muted-foreground leading-relaxed">
-                Every experience is meticulously crafted with attention to every detail. We believe that exceptional cuisine should be accessible in the privacy and comfort of your own home, whether in a villa, yacht, or residence.
+                {t("chef.story.paragraph2")}
               </p>
             </div>
           </div>
