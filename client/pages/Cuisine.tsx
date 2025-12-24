@@ -130,19 +130,19 @@ export default function Cuisine() {
         <div className="max-w-4xl mx-auto">
           <div className="p-12 border-l-4 border-primary bg-secondary/30">
             <h3 className="text-3xl font-serif font-bold mb-6">
-              Customization & Dietary Adaptations
+              {t("cuisine.customization.title")}
             </h3>
 
             <p className="text-lg font-body text-muted-foreground mb-4 leading-relaxed">
-              Every guest deserves an exceptional culinary experience. Should you have specific dietary requirements, allergies, or preferences, we adapt our menus to accommodate your needs without compromising quality or refinement.
+              {t("cuisine.customization.paragraph1")}
             </p>
 
             <p className="text-lg font-body font-bold text-primary mb-4">
-              No additional charges apply – the price remains unchanged with all adaptations included.
+              {t("cuisine.customization.paragraph2")}
             </p>
 
             <p className="text-lg font-body text-muted-foreground">
-              Please inform us of any allergies, intolerances, or special dietary requirements when booking so we can safely and deliciously adapt our dishes.
+              {t("cuisine.customization.paragraph3")}
             </p>
           </div>
         </div>
@@ -152,18 +152,18 @@ export default function Cuisine() {
       <section className="py-20 md:py-32 px-4 bg-secondary/30">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-serif font-bold mb-6">
-            Custom Requests & Different Cuisines
+            {t("cuisine.customRequests.title")}
           </h2>
 
           <p className="text-lg font-body text-muted-foreground mb-8 leading-relaxed">
-            While Maison Gauthier specializes in French cuisine, we recognize that guests may have specific culinary interests or requests. If you would like a different cuisine or have particular preferences, please let us know when you first contact us so we can consider your request.
+            {t("cuisine.customRequests.description")}
           </p>
 
           <Link
             to="/contact"
             className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-body hover:opacity-90 transition-opacity"
           >
-            Contact Us for Special Requests
+            {t("cuisine.customRequests.button")}
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
@@ -173,16 +173,16 @@ export default function Cuisine() {
       <section className="py-20 md:py-32 px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-4xl font-serif font-bold mb-6">
-            Experience French Gastronomy
+            {t("cuisine.cta.title")}
           </h2>
           <p className="text-lg font-body text-muted-foreground mb-8">
-            Discover the refined taste of French cuisine through Maison Gauthier's private services
+            {t("cuisine.cta.description")}
           </p>
           <Link
             to="/contact"
             className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-body hover:opacity-90 transition-opacity"
           >
-            Reserve Your Experience
+            {t("cuisine.cta.button")}
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
