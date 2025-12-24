@@ -7,39 +7,33 @@ export default function Home() {
   const { t } = useTranslation();
   const specialties = [
     {
-      title: "Personal Chef at Home",
-      description:
-        "Dedicated culinary service for your residence with tailor-made menus and elegant service.",
+      title: t("home.services.personalChef.title"),
+      description: t("home.services.personalChef.description"),
       icon: "🏠",
     },
     {
-      title: "Private Receptions",
-      description:
-        "Exquisite dinners for intimate gatherings or grand celebrations with refined cuisine.",
+      title: t("home.services.privateReceptions.title"),
+      description: t("home.services.privateReceptions.description"),
       icon: "🍽️",
     },
     {
-      title: "On-Board Service",
-      description:
-        "Exceptional culinary experiences aboard yachts and luxury vessels worldwide.",
+      title: t("home.services.onBoardService.title"),
+      description: t("home.services.onBoardService.description"),
       icon: "⛵",
     },
     {
-      title: "Event Management",
-      description:
-        "Complete gastronomic coordination for weddings, galas, and exclusive events.",
+      title: t("home.services.eventManagement.title"),
+      description: t("home.services.eventManagement.description"),
       icon: "✨",
     },
     {
-      title: "Long-Term Stays",
-      description:
-        "Comprehensive culinary comfort for extended villa and residence stays.",
+      title: t("home.services.longTermStays.title"),
+      description: t("home.services.longTermStays.description"),
       icon: "🗓️",
     },
     {
-      title: "Local Producers",
-      description:
-        "Working exclusively with local producers to guarantee quality and authenticity.",
+      title: t("home.services.localProducers.title"),
+      description: t("home.services.localProducers.description"),
       icon: "🌾",
     },
   ];
