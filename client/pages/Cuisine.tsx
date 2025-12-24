@@ -91,32 +91,18 @@ export default function Cuisine() {
       <section className="py-20 md:py-32 px-4 bg-secondary/30">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-serif font-bold text-center mb-16">
-            Culinary Highlights
+            {t("cuisine.highlights.title")}
           </h2>
 
           <div className="grid md:grid-cols-2 gap-12">
             {[
               {
-                title: "Classic French Preparations",
-                items: [
-                  "Coq au Vin - slow-braised chicken in burgundy",
-                  "Bouillabaisse - traditional Provençal fish stew",
-                  "Cassoulet - hearty bean and meat dish",
-                  "Sole Meunière - delicate sole with brown butter",
-                  "Beef Wellington - classic beef in pastry",
-                  "Duck Breast with Sauce - premium preparation",
-                ],
+                title: t("cuisine.highlights.classic.title"),
+                items: t("cuisine.highlights.classic.items"),
               },
               {
-                title: "Refined Ingredients & Techniques",
-                items: [
-                  "Duck Foie Gras - semi-cooked with cognac",
-                  "Fresh Langoustine - handmade ravioli",
-                  "Scallops Rossini Style - with foie gras and truffle",
-                  "Lamb Rack - herb-crusted with seasonal vegetables",
-                  "Fresh Fish - daily selections from premium suppliers",
-                  "Artisanal Sauces - made fresh to order",
-                ],
+                title: t("cuisine.highlights.refined.title"),
+                items: t("cuisine.highlights.refined.items"),
               },
             ].map((section) => (
               <div key={section.title}>
