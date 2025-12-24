@@ -7,67 +7,51 @@ export default function Prestations() {
   const { t } = useTranslation();
   const chapters = [
     {
-      title: "Chapter 1: A Day in France",
-      subtitle: "One-Day Gastronomic Experience",
-      description:
-        "Choose the option that best suits your event. You can also opt for the full service over a whole day.",
-      services: [
-        "Selection of seasonal à la carte products of your choice",
-        "Plating, table service for food and drinks, clearing tables",
-        "Cleaning and tidying the kitchen after service",
-        "Soft drinks, food and wine pairings (optional)",
-        "Adaptation to all diets and preferences",
-        "Maximum 12 guests",
-      ],
+      title: t("prestations.chapter1.title"),
+      subtitle: t("prestations.chapter1.subtitle"),
+      description: t("prestations.chapter1.description"),
+      services: t("prestations.chapter1.services"),
       options: [
         {
-          title: "Breakfast or Brunch",
-          description: "Start your day with a French breakfast served at sunrise on your terrace. Warm pastries, fresh bread, artisanal jams, freshly squeezed juices, and hot drinks prepared to order.",
+          title: t("prestations.chapter1.breakfast.title"),
+          description: t("prestations.chapter1.breakfast.description"),
         },
         {
-          title: "Lunch",
-          description: "A comforting lunch prepared with seasonal ingredients. Three-course menu: starter, main course, and dessert. Generous, elegant cuisine.",
+          title: t("prestations.chapter1.lunch.title"),
+          description: t("prestations.chapter1.lunch.description"),
         },
         {
-          title: "Afternoon Tea",
-          description: "Afternoon tea enjoyed around 4:00 p.m. Light, refined, and carefully selected offerings designed to provide a gourmet break.",
+          title: t("prestations.chapter1.tea.title"),
+          description: t("prestations.chapter1.tea.description"),
         },
         {
-          title: "Dinner",
-          description: "The highlight of the day: a gastronomic experience designed to enhance your evening with a refined multi-course menu combining balance, precision, and creativity.",
+          title: t("prestations.chapter1.dinner.title"),
+          description: t("prestations.chapter1.dinner.description"),
         },
       ],
       image: "https://images.unsplash.com/photo-1504674900968-45cc10deda4c?auto=format&fit=crop&w=800&h=600&q=80",
     },
     {
-      title: "Chapter 2: A Week in France",
-      subtitle: "Extended Culinary Comfort",
-      description:
-        "Designed for stays in villas or on board, Maison Gauthier embodies the art of everyday hospitality. The chef becomes the guarantor of your culinary comfort.",
-      services: [
-        "Chef on site for 7 consecutive days",
-        "Daily creation of tailor-made menus according to guests",
-        "Complete management of shopping and pantry",
-        "Table service, plating and presentation of dishes",
-        "Cleaning and maintenance of the kitchen area",
-        "Adaptation to all diets and preferences",
-      ],
+      title: t("prestations.chapter2.title"),
+      subtitle: t("prestations.chapter2.subtitle"),
+      description: t("prestations.chapter2.description"),
+      services: t("prestations.chapter2.services"),
       options: [
         {
-          title: "Dinner Only Package",
-          description: "Focused culinary experience for evening meals throughout your stay.",
+          title: t("prestations.chapter2.dinnerOnly.title"),
+          description: t("prestations.chapter2.dinnerOnly.description"),
         },
         {
-          title: "Half-Day Package",
-          description: "Lunch and dinner services for complete daily gastronomic experience.",
+          title: t("prestations.chapter2.halfDay.title"),
+          description: t("prestations.chapter2.halfDay.description"),
         },
         {
-          title: "Full Package",
-          description: "Breakfast, lunch, afternoon snack, and dinner for comprehensive culinary comfort.",
+          title: t("prestations.chapter2.fullPackage.title"),
+          description: t("prestations.chapter2.fullPackage.description"),
         },
         {
-          title: "Resident Chef Option",
-          description: "Full-time chef residence for villa or yacht with all meal services.",
+          title: t("prestations.chapter2.residentChef.title"),
+          description: t("prestations.chapter2.residentChef.description"),
         },
       ],
       image: "https://images.unsplash.com/photo-1519671482677-de7ecf00efb7?auto=format&fit=crop&w=800&h=600&q=80",
