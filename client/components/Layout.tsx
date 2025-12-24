@@ -26,10 +26,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             {/* Logo */}
             <Link to="/" className="flex-shrink-0">
               <div className="text-2xl font-serif font-bold text-foreground tracking-tight">
-                Maison Gauthier
+                {t("header.brand")}
               </div>
               <div className="text-xs text-muted-foreground font-body">
-                Art of Private French Cuisine
+                {t("header.tagline")}
               </div>
             </Link>
 
