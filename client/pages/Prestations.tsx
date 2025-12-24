@@ -204,7 +204,7 @@ export default function Prestations() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">
-              Seasonal Menu
+              {t("prestations.menu.title")}
             </h2>
             <p className="text-lg font-body text-muted-foreground max-w-2xl mx-auto">
               All dishes are homemade using seasonal and local ingredients. Maison Gauthier works exclusively with local producers whose expertise and high standards guarantee the quality and authenticity of each selected product.
@@ -214,7 +214,7 @@ export default function Prestations() {
           {/* Starters */}
           <div className="mb-16">
             <h3 className="text-3xl font-serif font-bold mb-8 text-center">
-              Starters
+              {t("prestations.menu.starters")}
             </h3>
             <div className="space-y-6">
               {starters.map((dish) => (
