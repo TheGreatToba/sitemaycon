@@ -1,0 +1,446 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "chef": "Le Chef",
+    "prestations": "Prestations",
+    "cuisine": "Cuisine",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "book": "Réserver"
+  },
+  "header": {
+    "brand": "Maison Gauthier",
+    "tagline": "Art de la Cuisine Française Privée"
+  },
+  "footer": {
+    "description": "Gastronomie française privée pour une clientèle VIP mondiale. Créer des expériences culinaires inoubliables.",
+    "navigation": "Navigation",
+    "contactInfo": "Contact",
+    "phone": "+33 7 49 36 22 54",
+    "email": "maisongauthier.ghc@gmail.com",
+    "location": "France",
+    "followUs": "Nous Suivre",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "copyright": "© 2024 Maison Gauthier. Tous droits réservés.",
+    "legalNotice": "Mentions Légales",
+    "privacyPolicy": "Politique de Confidentialité"
+  },
+  "home": {
+    "badge": "GASTRONOMIE FRANÇAISE PRIVÉE",
+    "hero": {
+      "title": "Bienvenue à Maison Gauthier",
+      "description": "Maison Gauthier est née de l'ambition d'un chef français d'apporter l'art de la cuisine française dans les maisons du monde entier. Créer des expériences gastronomiques privées pour des clients VIP.",
+      "cta": "Réservez Votre Expérience"
+    },
+    "philosophy": {
+      "title": "Notre Philosophie",
+      "description1": "La philosophie de Maison Gauthier repose sur la création d'un environnement chaleureux où chacun peut se sentir à l'aise, tout en jouissant d'un service attentif et authentique guidé par des valeurs profondément ancrées.",
+      "description2": "Opérant à l'international, nous apportons l'art de vivre français aux réceptions, dîners privés et séjours prolongés. De la gastronomie au service, chaque détail est soigneusement réfléchi et exécuté pour offrir une expérience harmonieuse et raffinée.",
+      "learnMore": "En Savoir Plus"
+    },
+    "services": {
+      "title": "Nos Services",
+      "description": "Maison Gauthier vous accompagne avec une gamme de services adaptés à vos besoins. Chaque service est conçu comme une création unique.",
+      "personalChef": {
+        "title": "Chef Personnel à Domicile",
+        "description": "Service culinaire dédié à votre résidence avec des menus sur mesure et un service élégant."
+      },
+      "privateReceptions": {
+        "title": "Réceptions Privées",
+        "description": "Des dîners exquis pour les réunions intimes ou les grandes célébrations avec une cuisine raffinée."
+      },
+      "onBoardService": {
+        "title": "Service À Bord",
+        "description": "Des expériences culinaires exceptionnelles à bord de yachts et de navires de luxe dans le monde entier."
+      },
+      "eventManagement": {
+        "title": "Gestion d'Événements",
+        "description": "Coordination gastronomique complète pour les mariages, galas et événements exclusifs."
+      },
+      "longTermStays": {
+        "title": "Séjours Prolongés",
+        "description": "Confort culinaire complet pour les séjours prolongés en villa et résidence."
+      },
+      "localProducers": {
+        "title": "Producteurs Locaux",
+        "description": "Travailler exclusivement avec les producteurs locaux pour garantir la qualité et l'authenticité."
+      }
+    },
+    "portfolio": {
+      "title": "Portfolio Culinaire",
+      "description": "Découvrez une sélection de nos créations et réalisations récentes en excellence gastronomique.",
+      "viewAll": "Voir la Galerie Complète"
+    },
+    "testimonials": {
+      "title": "Témoignages de Clients"
+    },
+    "cta": {
+      "title": "Prêt pour une Expérience Culinaire Exceptionnelle?",
+      "description": "Contactez-nous pour discuter de votre événement ou de vos besoins culinaires. Ensemble, nous créerons des moments inoubliables de gastronomie et de raffinement.",
+      "button": "Nous Contacter"
+    }
+  },
+  "chef": {
+    "hero": {
+      "title": "À Propos de Maison Gauthier",
+      "subtitle": "Histoire, Philosophie et Excellence Culinaire"
+    },
+    "story": {
+      "title": "Notre Histoire",
+      "paragraph1": "Maison Gauthier est née de l'ambition d'un chef français et restaurateur d'apporter l'art de la cuisine française dans les maisons du monde entier. Avec une passion pour la gastronomie et un engagement envers l'excellence, nous créons des expériences gastronomiques privées pour des clients VIP mondiaux.",
+      "paragraph2": "Chaque expérience est méticuleusement élaborée avec attention à chaque détail. Nous croyons que la cuisine exceptionnelle devrait être accessible dans l'intimité et le confort de votre propre maison, que ce soit dans une villa, un yacht ou une résidence."
+    },
+    "philosophy": {
+      "title": "Notre Philosophie",
+      "paragraph1": "La philosophie de Maison Gauthier repose sur la création d'un environnement chaleureux où chacun peut se sentir à l'aise, tout en jouissant d'un service attentif et authentique guidé par des valeurs profondément ancrées. Nous croyons que l'hospitalité véritable vient de la compréhension et de l'anticipation des besoins de nos hôtes.",
+      "paragraph2": "Nous travaillons exclusivement avec des producteurs locaux dont l'expertise et les normes élevées garantissent la qualité et l'authenticité de chaque produit sélectionné. Notre cuisine s'enracine dans la tradition française, évoluant avec les inspirations saisonnières et la créativité de notre chef talentueux.",
+      "paragraph3": "Chaque menu est sur mesure, chaque service est unique. Nous n'exécutons pas simplement des recettes – nous créons des expériences gastronomiques parfaitement adaptées à vos attentes, préférences et exigences particulières."
+    },
+    "values": {
+      "title": "Nos Valeurs Fondamentales",
+      "culinaryArt": {
+        "title": "Art Culinaire Français",
+        "description": "Apporter l'art de la cuisine française dans les maisons du monde entier avec un dévouement sans faille à la gastronomie."
+      },
+      "localProducers": {
+        "title": "Producteurs Locaux",
+        "description": "Des partenariats exclusifs avec les producteurs locaux garantissant la qualité, l'authenticité et la fraîcheur saisonnière."
+      },
+      "warmHospitality": {
+        "title": "Hospitalité Chaleureuse",
+        "description": "Créer un environnement où les hôtes se sentent à l'aise avec un service attentif et authentique."
+      },
+      "bespokeExperience": {
+        "title": "Expérience Sur Mesure",
+        "description": "Des menus personnalisés et un service adapté aux préférences individuelles et aux exigences particulières."
+      }
+    },
+    "journey": {
+      "title": "Notre Parcours",
+      "founded": "Fondation",
+      "foundedTitle": "Création de Maison Gauthier",
+      "foundedDescription": "Née de l'ambition d'apporter l'art culinaire français dans les maisons du monde entier",
+      "development": "Développement",
+      "developmentTitle": "Expansion Mondiale",
+      "developmentDescription": "Opérant à l'international avec des services en France et dans les destinations du monde entier",
+      "excellence": "Excellence",
+      "excellenceTitle": "Clientèle VIP",
+      "excellenceDescription": "Servir des clients distingués, y compris les résidences privées, villas, yachts et lieux de luxe",
+      "today": "Aujourd'hui",
+      "todayTitle": "Service Premium",
+      "todayDescription": "Continuer à offrir des expériences gastronomiques privées exceptionnelles avec une excellence sans compromis"
+    },
+    "cta": {
+      "title": "Explorez Nos Services",
+      "description": "Dîners privés, événements exclusifs, services à bord et expériences culinaires sur mesure...",
+      "button": "Voir Tous les Services"
+    }
+  },
+  "cuisine": {
+    "hero": {
+      "title": "Cuisine Française",
+      "subtitle": "L'Art de la Gastronomie"
+    },
+    "introduction": {
+      "title": "Excellence Culinaire Française",
+      "description": "Maison Gauthier se spécialise exclusivement dans la cuisine française, réunissant les riches traditions de la cuisine régionale avec des techniques contemporaines. Notre cuisine repose sur un menu évolutif, régulièrement mis à jour selon les créations saisonnières et l'inspiration du moment."
+    },
+    "philosophy": {
+      "title": "Notre Philosophie Culinaire",
+      "seasonal": {
+        "title": "Producteurs Locaux et Ingrédients Saisonniers",
+        "description": "Maison Gauthier travaille exclusivement avec des producteurs locaux dont l'expertise et les normes élevées garantissent la qualité et l'authenticité de chaque produit sélectionné. Nous privilégions les ingrédients frais et saisonniers pour assurer une saveur et une valeur nutritionnelle maximales."
+      },
+      "traditional": {
+        "title": "Techniques Françaises Traditionnelles",
+        "description": "Enracinée dans les traditions culinaires françaises classiques, nos plats mettent en avant des techniques raffinées: des sauces délicates à la présentation précise. Nous honorons les fondations de la gastronomie française tout en adoptant l'innovation moderne."
+      },
+      "regional": {
+        "title": "Inspiration Régionale",
+        "description": "La cuisine française varie magnifiquement selon les régions – de la Provence à la Normandie, la Bourgogne à la Bretagne. Nous tirons inspiration de ces traditions diverses, créant des menus qui célèbrent le patrimoine gastronomique français."
+      },
+      "artisanal": {
+        "title": "Qualité Artisanale",
+        "description": "Chaque élément de notre cuisine reflète la qualité artisanale: pâtes faites à la main, herbes fraîches, protéines soigneusement sélectionnées et méthodes de préparation séculaires. Nous refusons les raccourcis dans la poursuite de l'excellence."
+      }
+    },
+    "highlights": {
+      "title": "Points Forts Culinaires",
+      "classic": {
+        "title": "Préparations Françaises Classiques",
+        "items": [
+          "Coq au Vin - poulet braisé lentement en bourgogne",
+          "Bouillabaisse - ragoût de poisson provençal traditionnel",
+          "Cassoulet - plat riche aux haricots et viande",
+          "Sole Meunière - sole délicate au beurre noisette",
+          "Beef Wellington - boeuf classique en croûte",
+          "Magret de Canard en Sauce - préparation premium"
+        ]
+      },
+      "refined": {
+        "title": "Ingrédients Raffinés et Techniques",
+        "items": [
+          "Foie Gras de Canard - semi-cuit au cognac",
+          "Langoustine Fraîche - ravioli faits à la main",
+          "Coquilles Saint-Jacques Rossini - avec foie gras et truffe",
+          "Carré d'Agneau - croûte d'herbes fraîches avec légumes saisonniers",
+          "Poisson Frais - sélections quotidiennes de fournisseurs premium",
+          "Sauces Artisanales - faites frais à la commande"
+        ]
+      }
+    },
+    "customization": {
+      "title": "Personnalisation et Adaptations Diététiques",
+      "paragraph1": "Chaque invité mérite une expérience culinaire exceptionnelle. Si vous avez des besoins alimentaires spécifiques, des allergies ou des préférences, nous adaptons nos menus pour répondre à vos besoins sans compromettre la qualité et la raffinement.",
+      "paragraph2": "Aucun frais supplémentaire ne s'applique – le prix reste inchangé avec toutes les adaptations incluses.",
+      "paragraph3": "Veuillez nous informer de toute allergie, intolérance ou exigence diététique particulière lors de la réservation afin que nous puissions adapter nos plats de manière sûre et délicieuse."
+    },
+    "customRequests": {
+      "title": "Demandes Personnalisées et Cuisines Différentes",
+      "description": "Bien que Maison Gauthier se spécialise dans la cuisine française, nous reconnaissons que les invités peuvent avoir des intérêts culinaires spécifiques ou des demandes particulières. Si vous souhaitez une cuisine différente ou avez des préférences particulières, veuillez nous le faire savoir lors de votre premier contact afin que nous puissions envisager votre demande.",
+      "button": "Nous Contacter pour Demandes Spéciales"
+    },
+    "cta": {
+      "title": "Expérience la Gastronomie Française",
+      "description": "Découvrez le goût raffiné de la cuisine française à travers les services privés de Maison Gauthier",
+      "button": "Réservez Votre Expérience"
+    }
+  },
+  "prestations": {
+    "hero": {
+      "title": "Prestations",
+      "subtitle": "Services Gastronomiques Privés Adaptés à Vos Besoins"
+    },
+    "chapter1": {
+      "title": "Chapitre 1: Un Jour en France",
+      "subtitle": "Expérience Gastronomique d'une Journée",
+      "description": "Choisissez l'option qui convient le mieux à votre événement. Vous pouvez également opter pour le service complet sur toute une journée.",
+      "services": [
+        "Sélection de produits à la carte saisonniers de votre choix",
+        "Service à table des plats et boissons, dessertes",
+        "Nettoyage et rangement de la cuisine après le service",
+        "Boissons sans alcool, accords mets et vins (en option)",
+        "Adaptation à tous les régimes et préférences",
+        "Maximum 12 invités"
+      ],
+      "breakfast": {
+        "title": "Petit-Déjeuner ou Brunch",
+        "description": "Commencez votre journée avec un petit-déjeuner français servi au lever du soleil sur votre terrasse. Pâtisseries chaudes, pain frais, confitures artisanales, jus frais pressés et boissons chaudes préparées à la commande."
+      },
+      "lunch": {
+        "title": "Déjeuner",
+        "description": "Un déjeuner réconfortant préparé avec des ingrédients saisonniers. Menu trois plats: entrée, plat principal et dessert. Cuisine généreuse et élégante."
+      },
+      "tea": {
+        "title": "Thé de l'Après-Midi",
+        "description": "Thé de l'après-midi apprécié vers 16h. Offres légères, raffinées et soigneusement sélectionnées conçues pour offrir une pause gourmande."
+      },
+      "dinner": {
+        "title": "Dîner",
+        "description": "L'apothéose de la journée: une expérience gastronomique conçue pour embellir votre soirée avec un menu multi-plats raffiné combinant équilibre, précision et créativité."
+      }
+    },
+    "chapter2": {
+      "title": "Chapitre 2: Une Semaine en France",
+      "subtitle": "Confort Culinaire Prolongé",
+      "description": "Conçu pour les séjours en villa ou à bord, Maison Gauthier incarne l'art de l'hospitalité quotidienne. Le chef devient le garant de votre confort culinaire.",
+      "services": [
+        "Chef sur place pendant 7 jours consécutifs",
+        "Création quotidienne de menus sur mesure selon les invités",
+        "Gestion complète des courses et du garde-manger",
+        "Service à table, dressage et présentation des plats",
+        "Nettoyage et entretien de l'espace cuisine",
+        "Adaptation à tous les régimes et préférences"
+      ],
+      "dinnerOnly": {
+        "title": "Forfait Dîner Uniquement",
+        "description": "Expérience culinaire centrée sur les repas du soir tout au long de votre séjour."
+      },
+      "halfDay": {
+        "title": "Forfait Demi-Journée",
+        "description": "Services déjeuner et dîner pour une expérience gastronomique quotidienne complète."
+      },
+      "fullPackage": {
+        "title": "Forfait Complet",
+        "description": "Petit-déjeuner, déjeuner, collation de l'après-midi et dîner pour un confort culinaire complet."
+      },
+      "residentChef": {
+        "title": "Option Chef Résident",
+        "description": "Résidence de chef à temps plein en villa ou yacht avec tous les services de repas."
+      }
+    },
+    "menu": {
+      "title": "Menu Saisonnier",
+      "starters": "Entrées",
+      "mains": "Plats Principaux",
+      "duckFoieGras": {
+        "title": "Foie Gras de Canard Semi-Cuit au Cognac",
+        "description": "Terrine de foie gras servie en tranches fines, chutney de figues et fleur de sel, brioche dorée chaude."
+      },
+      "mimosaEggs": {
+        "title": "Oeufs Mimosa Parisiens",
+        "description": "Oeufs de ferme cuits, légère mayonnaise, moutarde à grains entiers et citron. Farce aux herbes fraîches."
+      },
+      "croqueMonsieur": {
+        "title": "Croque-Monsieur à la Truffe Noire",
+        "description": "Pain de brioche doré au beurre clarifié, sauce béchamel à la truffe, jambon aux herbes, fromage Comté affiné et copeaux de truffe fraîche."
+      },
+      "vegetableTian": {
+        "title": "Tian de Légumes Provençal",
+        "description": "Légumes finement tranchés: tomate, courgette, aubergine et oignon doux avec huile d'olive vierge et thym frais."
+      },
+      "salmonBallotine": {
+        "title": "Saumon Baltique, Ballottine de Concombre",
+        "description": "Saumon fumé roulé en fin bâton sur base de fromage frais et yaourt grec avec aneth, ciboulette et concombre."
+      },
+      "langoustineRavioli": {
+        "title": "Ravioli de Langoustine, Émulsion de Bouillon de Crustacés",
+        "description": "Pâte fraîche faite à la main farcie de chair de langoustine et légumes finement dés avec émulsion de bouillon de crustacés mousseux."
+      },
+      "lambRack": {
+        "title": "Carré d'Agneau Croûte d'Herbes",
+        "description": "Carré d'agneau rôti tendre enrobé d'une croûte d'herbes fraîches et chapelure fine. Servi avec purée de céleri maison."
+      },
+      "beefWellington": {
+        "title": "Beef Wellington",
+        "description": "Filet de boeuf rôti en pâte feuilletée avec duxelles de champignons et jambon fumé. Servi avec réduction de vin rouge."
+      },
+      "duckBreast": {
+        "title": "Magret de Canard Sauce Aigre-Douce",
+        "description": "Magret de canard rôti avec sauce aigre-douce maison aux fruits d'agrumes et épices."
+      },
+      "soleMenuere": {
+        "title": "Sole Meunière",
+        "description": "Sole Meunière servie avec garniture de légumes frais et petites pommes de terre avec sauce crème légère et citron confit."
+      },
+      "pepperSteak": {
+        "title": "Steak Poivre Style Bistrot",
+        "description": "Filet de boeuf poêlé avec sauce poivre crémeuse et parfumée. Servi avec légumes saisonniers ou garnitures raffinées."
+      },
+      "duckParmentier": {
+        "title": "Tourte Parmentière de Canard",
+        "description": "Canard braisé lentement effiloché enrobé de pâte feuilletée et surmonté de pommes de terre écrasées."
+      }
+    },
+    "dietaryAdaptations": {
+      "title": "Adaptations Diététiques",
+      "description": "Tous les invités peuvent profiter de menus adaptés pour les allergies et les préférences alimentaires sans frais supplémentaires. Nous garantissons la sécurité et la déliciosité à chaque adaptation."
+    },
+    "importantInfo": {
+      "title": "Informations Importantes",
+      "groceries": "Les courses sont facturées séparément selon les coûts réels",
+      "deposit": "Acompte de 30% requis pour confirmer votre réservation",
+      "crypto": "Paiements en cryptomonnaies acceptés",
+      "cancellation": "Politique d'annulation disponible sur demande"
+    }
+  },
+  "portfolio": {
+    "hero": {
+      "title": "Portfolio",
+      "subtitle": "Galerie de Nos Créations Culinaires"
+    },
+    "categories": {
+      "all": "Tous",
+      "dishes": "Plats",
+      "presentation": "Dressage",
+      "events": "Événements",
+      "tables": "Tables"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Nous Contacter",
+      "subtitle": "Réservez Votre Expérience Gastronomique"
+    },
+    "phone": {
+      "label": "Téléphone",
+      "number": "+33 7 49 36 22 54",
+      "response": "Réponse sous 24 heures"
+    },
+    "email": {
+      "label": "Email",
+      "address": "maisongauthier.ghc@gmail.com",
+      "response": "Nous répondrons rapidement"
+    },
+    "location": {
+      "label": "Localisation",
+      "city": "France",
+      "availability": "Services disponibles mondialement"
+    },
+    "social": {
+      "title": "Nous Suivre",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook"
+    },
+    "bookingTimeline": {
+      "title": "Délai de Réservation",
+      "singleDay": "Service d'une journée: 2 semaines",
+      "weekStay": "Séjours d'une semaine: 1 mois",
+      "events": "Événements: 3 mois",
+      "custom": "Demandes personnalisées: Sur consultation"
+    },
+    "form": {
+      "title": "Formulaire de Demande de Réservation",
+      "subtitle": "Complétez ce formulaire pour recevoir un devis personnalisé de Maison Gauthier",
+      "successMessage": "Merci! Votre demande a été envoyée avec succès. Nous vous contacterons sous 24 heures.",
+      "name": "Nom",
+      "email": "Email",
+      "phone": "Téléphone",
+      "serviceType": "Type de Service",
+      "selectService": "Sélectionner...",
+      "oneDay": "Service d'une Journée",
+      "weekStay": "Séjour d'une Semaine",
+      "event": "Événement Privé",
+      "customMenu": "Menu Personnalisé",
+      "yachtService": "Service à Bord",
+      "consultation": "Consultation",
+      "preferredDate": "Date Préférée",
+      "numberOfGuests": "Nombre d'Invités",
+      "dietaryRequirements": "Exigences Diététiques",
+      "message": "Message",
+      "placeholder": {
+        "name": "Votre nom complet",
+        "email": "votre@email.com",
+        "phone": "+33 7 49 36 22 54",
+        "guests": "10",
+        "dietary": "Allergies, restrictions alimentaires, préférences...",
+        "message": "Décrivez votre événement, attentes et demandes spéciales..."
+      },
+      "submit": "Envoyer la Demande"
+    },
+    "faq": {
+      "title": "Questions Fréquemment Posées",
+      "budget": {
+        "q": "Quel est le budget minimum pour un service?",
+        "a": "Le budget varie selon le type de service et le nombre d'invités. Les prix commencent à 150 € par heure pour les services supplémentaires, avec des forfaits complets disponibles à partir de 800 € pour les dîners intimes."
+      },
+      "allergies": {
+        "q": "Pouvez-vous adapter les menus aux allergies?",
+        "a": "Absolument. Nous gérons attentivement toutes les allergies et restrictions alimentaires sans compromettre la qualité. Veuillez nous informer lors de la réservation."
+      },
+      "international": {
+        "q": "Opérez-vous en dehors de la France?",
+        "a": "Oui, Maison Gauthier propose des services à l'international. Les frais de voyage sont couverts, avec des tarifs basés sur la destination."
+      },
+      "timeline": {
+        "q": "Quel délai de réservation est recommandé?",
+        "a": "Idéalement 2-4 semaines pour les services d'une journée. Pour les séjours d'une semaine ou les événements, 1-3 mois sont recommandés. Nous pouvons parfois accommoder les demandes urgentes."
+      },
+      "tastings": {
+        "q": "Proposez-vous des dégustations avant les événements?",
+        "a": "Oui, pour les grands événements. Une dégustation peut être arrangée quelques jours avant sur demande spéciale."
+      },
+      "beverages": {
+        "q": "Fournissez-vous les boissons et les accords mets-vins?",
+        "a": "Nous pouvons vous conseiller sur la sélection et les accords de vin. Les boissons peuvent être fournies par vous ou arrangées par nos soins sur demande."
+      }
+    },
+    "finalCta": {
+      "title": "Créons Quelque Chose d'Extraordinaire",
+      "description": "Contactez Maison Gauthier aujourd'hui pour commencer à planifier votre expérience gastronomique inoubliable"
+    }
+  }
+}
