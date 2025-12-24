@@ -1,0 +1,446 @@
+{
+  "nav": {
+    "home": "Home",
+    "chef": "The Chef",
+    "prestations": "Services",
+    "cuisine": "Cuisine",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "book": "Book"
+  },
+  "header": {
+    "brand": "Maison Gauthier",
+    "tagline": "Art of Private French Cuisine"
+  },
+  "footer": {
+    "description": "Private French gastronomy for VIP clientele worldwide. Creating unforgettable culinary experiences.",
+    "navigation": "Navigation",
+    "contactInfo": "Contact",
+    "phone": "+33 7 49 36 22 54",
+    "email": "maisongauthier.ghc@gmail.com",
+    "location": "France",
+    "followUs": "Follow Us",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "copyright": "© 2024 Maison Gauthier. All rights reserved.",
+    "legalNotice": "Legal Notice",
+    "privacyPolicy": "Privacy Policy"
+  },
+  "home": {
+    "badge": "PRIVATE FRENCH GASTRONOMY",
+    "hero": {
+      "title": "Welcome to Maison Gauthier",
+      "description": "Maison Gauthier was born from the ambition of a French chef to bring the art of French cuisine into homes around the world. Creating private gastronomic experiences for VIP clients.",
+      "cta": "Reserve Your Experience"
+    },
+    "philosophy": {
+      "title": "Our Philosophy",
+      "description1": "Maison Gauthier's philosophy is based on creating a warm environment where everyone can feel at ease, while enjoying attentive and authentic service guided by deep-rooted values.",
+      "description2": "Operating internationally, we bring the French art of living to receptions, private dinners, and long-term stays. From gastronomy to service, every detail is carefully thought out and executed to offer a harmonious and refined experience.",
+      "learnMore": "Learn More"
+    },
+    "services": {
+      "title": "Our Services",
+      "description": "Maison Gauthier accompanies you with a range of services tailored to your needs. Every service is designed as a unique creation.",
+      "personalChef": {
+        "title": "Personal Chef at Home",
+        "description": "Dedicated culinary service for your residence with tailor-made menus and elegant service."
+      },
+      "privateReceptions": {
+        "title": "Private Receptions",
+        "description": "Exquisite dinners for intimate gatherings or grand celebrations with refined cuisine."
+      },
+      "onBoardService": {
+        "title": "On-Board Service",
+        "description": "Exceptional culinary experiences aboard yachts and luxury vessels worldwide."
+      },
+      "eventManagement": {
+        "title": "Event Management",
+        "description": "Complete gastronomic coordination for weddings, galas, and exclusive events."
+      },
+      "longTermStays": {
+        "title": "Long-Term Stays",
+        "description": "Comprehensive culinary comfort for extended villa and residence stays."
+      },
+      "localProducers": {
+        "title": "Local Producers",
+        "description": "Working exclusively with local producers to guarantee quality and authenticity."
+      }
+    },
+    "portfolio": {
+      "title": "Culinary Portfolio",
+      "description": "Discover a selection of our creations and recent achievements in gastronomic excellence.",
+      "viewAll": "View Full Gallery"
+    },
+    "testimonials": {
+      "title": "Client Testimonials"
+    },
+    "cta": {
+      "title": "Ready for an Exceptional Culinary Experience?",
+      "description": "Contact us to discuss your event or culinary needs. Together, we will create unforgettable moments of gastronomy and refinement.",
+      "button": "Get in Touch"
+    }
+  },
+  "chef": {
+    "hero": {
+      "title": "About Maison Gauthier",
+      "subtitle": "Story, Philosophy and Culinary Excellence"
+    },
+    "story": {
+      "title": "Our Story",
+      "paragraph1": "Maison Gauthier was born from the ambition of a French chef and restaurateur to bring the art of French cuisine into homes around the world. With a passion for gastronomy and a commitment to excellence, we create private gastronomic experiences for VIP clients worldwide.",
+      "paragraph2": "Every experience is meticulously crafted with attention to every detail. We believe that exceptional cuisine should be accessible in the privacy and comfort of your own home, whether in a villa, yacht, or residence."
+    },
+    "philosophy": {
+      "title": "Our Philosophy",
+      "paragraph1": "Maison Gauthier's philosophy is based on creating a warm environment where everyone can feel at ease, while enjoying attentive and authentic service guided by deep-rooted values. We believe that true hospitality comes from understanding and anticipating the needs of our guests.",
+      "paragraph2": "We work exclusively with local producers whose expertise and high standards guarantee the quality and authenticity of each selected product. Our cuisine is rooted in French tradition, evolving with seasonal inspirations and the creativity of our talented chef.",
+      "paragraph3": "Every menu is bespoke, every service is unique. We do not simply execute recipes – we craft gastronomic experiences perfectly tailored to your expectations, preferences, and special requirements."
+    },
+    "values": {
+      "title": "Our Core Values",
+      "culinaryArt": {
+        "title": "French Culinary Art",
+        "description": "Bringing the art of French cuisine into homes around the world with unwavering dedication to gastronomy."
+      },
+      "localProducers": {
+        "title": "Local Producers",
+        "description": "Exclusive partnerships with local producers guaranteeing quality, authenticity, and seasonal freshness."
+      },
+      "warmHospitality": {
+        "title": "Warm Hospitality",
+        "description": "Creating an environment where guests feel at ease with attentive and authentic service."
+      },
+      "bespokeExperience": {
+        "title": "Bespoke Experience",
+        "description": "Personalized menus and service tailored to individual preferences and special requirements."
+      }
+    },
+    "journey": {
+      "title": "Our Journey",
+      "founded": "Founded",
+      "foundedTitle": "Maison Gauthier Creation",
+      "foundedDescription": "Born from the ambition to bring French culinary art into homes around the world",
+      "development": "Development",
+      "developmentTitle": "Global Expansion",
+      "developmentDescription": "Operating internationally with services in France and destinations worldwide",
+      "excellence": "Excellence",
+      "excellenceTitle": "VIP Clientele",
+      "excellenceDescription": "Serving distinguished clients including private residences, villas, yachts and luxury venues",
+      "today": "Today",
+      "todayTitle": "Premium Service",
+      "todayDescription": "Continuing to deliver exceptional private gastronomic experiences with uncompromising excellence"
+    },
+    "cta": {
+      "title": "Explore Our Services",
+      "description": "Private dinners, exclusive events, on-board services, and bespoke culinary experiences...",
+      "button": "View All Services"
+    }
+  },
+  "cuisine": {
+    "hero": {
+      "title": "French Cuisine",
+      "subtitle": "The Art of Gastronomy"
+    },
+    "introduction": {
+      "title": "French Culinary Excellence",
+      "description": "Maison Gauthier specializes exclusively in French cuisine, bringing together the rich traditions of regional cooking with contemporary techniques. Our cuisine is based on an evolving menu, regularly updated according to seasonal creations and the inspiration of the moment."
+    },
+    "philosophy": {
+      "title": "Our Culinary Philosophy",
+      "seasonal": {
+        "title": "Local Producers & Seasonal Ingredients",
+        "description": "Maison Gauthier works exclusively with local producers whose expertise and high standards guarantee the quality and authenticity of each selected product. We prioritize seasonal, fresh ingredients to ensure maximum flavor and nutritional value."
+      },
+      "traditional": {
+        "title": "Traditional French Techniques",
+        "description": "Rooted in classical French culinary traditions, our dishes showcase refined techniques: from delicate sauces to precise plating. We honor the foundations of French gastronomy while embracing modern innovation."
+      },
+      "regional": {
+        "title": "Regional Inspiration",
+        "description": "French cuisine varies beautifully across regions – from Provence to Normandy, Burgundy to Brittany. We draw inspiration from these diverse traditions, creating menus that celebrate France's gastronomic heritage."
+      },
+      "artisanal": {
+        "title": "Artisanal Quality",
+        "description": "Every element of our cuisine reflects artisanal quality: handmade pasta, fresh herbs, carefully selected proteins, and time-honored preparation methods. We refuse shortcuts in the pursuit of excellence."
+      }
+    },
+    "highlights": {
+      "title": "Culinary Highlights",
+      "classic": {
+        "title": "Classic French Preparations",
+        "items": [
+          "Coq au Vin - slow-braised chicken in burgundy",
+          "Bouillabaisse - traditional Provençal fish stew",
+          "Cassoulet - hearty bean and meat dish",
+          "Sole Meunière - delicate sole with brown butter",
+          "Beef Wellington - classic beef in pastry",
+          "Duck Breast with Sauce - premium preparation"
+        ]
+      },
+      "refined": {
+        "title": "Refined Ingredients & Techniques",
+        "items": [
+          "Duck Foie Gras - semi-cooked with cognac",
+          "Fresh Langoustine - handmade ravioli",
+          "Scallops Rossini Style - with foie gras and truffle",
+          "Lamb Rack - herb-crusted with seasonal vegetables",
+          "Fresh Fish - daily selections from premium suppliers",
+          "Artisanal Sauces - made fresh to order"
+        ]
+      }
+    },
+    "customization": {
+      "title": "Customization & Dietary Adaptations",
+      "paragraph1": "Every guest deserves an exceptional culinary experience. Should you have specific dietary requirements, allergies, or preferences, we adapt our menus to accommodate your needs without compromising quality or refinement.",
+      "paragraph2": "No additional charges apply – the price remains unchanged with all adaptations included.",
+      "paragraph3": "Please inform us of any allergies, intolerances, or special dietary requirements when booking so we can safely and deliciously adapt our dishes."
+    },
+    "customRequests": {
+      "title": "Custom Requests & Different Cuisines",
+      "description": "While Maison Gauthier specializes in French cuisine, we recognize that guests may have specific culinary interests or requests. If you would like a different cuisine or have particular preferences, please let us know when you first contact us so we can consider your request.",
+      "button": "Contact Us for Special Requests"
+    },
+    "cta": {
+      "title": "Experience French Gastronomy",
+      "description": "Discover the refined taste of French cuisine through Maison Gauthier's private services",
+      "button": "Reserve Your Experience"
+    }
+  },
+  "prestations": {
+    "hero": {
+      "title": "Services",
+      "subtitle": "Private Gastronomic Services Tailored to Your Needs"
+    },
+    "chapter1": {
+      "title": "Chapter 1: A Day in France",
+      "subtitle": "One-Day Gastronomic Experience",
+      "description": "Choose the option that best suits your event. You can also opt for the full service over a whole day.",
+      "services": [
+        "Selection of seasonal à la carte products of your choice",
+        "Plating, table service for food and drinks, clearing tables",
+        "Cleaning and tidying the kitchen after service",
+        "Soft drinks, food and wine pairings (optional)",
+        "Adaptation to all diets and preferences",
+        "Maximum 12 guests"
+      ],
+      "breakfast": {
+        "title": "Breakfast or Brunch",
+        "description": "Start your day with a French breakfast served at sunrise on your terrace. Warm pastries, fresh bread, artisanal jams, freshly squeezed juices, and hot drinks prepared to order."
+      },
+      "lunch": {
+        "title": "Lunch",
+        "description": "A comforting lunch prepared with seasonal ingredients. Three-course menu: starter, main course, and dessert. Generous, elegant cuisine."
+      },
+      "tea": {
+        "title": "Afternoon Tea",
+        "description": "Afternoon tea enjoyed around 4:00 p.m. Light, refined, and carefully selected offerings designed to provide a gourmet break."
+      },
+      "dinner": {
+        "title": "Dinner",
+        "description": "The highlight of the day: a gastronomic experience designed to enhance your evening with a refined multi-course menu combining balance, precision, and creativity."
+      }
+    },
+    "chapter2": {
+      "title": "Chapter 2: A Week in France",
+      "subtitle": "Extended Culinary Comfort",
+      "description": "Designed for stays in villas or on board, Maison Gauthier embodies the art of everyday hospitality. The chef becomes the guarantor of your culinary comfort.",
+      "services": [
+        "Chef on site for 7 consecutive days",
+        "Daily creation of tailor-made menus according to guests",
+        "Complete management of shopping and pantry",
+        "Table service, plating and presentation of dishes",
+        "Cleaning and maintenance of the kitchen area",
+        "Adaptation to all diets and preferences"
+      ],
+      "dinnerOnly": {
+        "title": "Dinner Only Package",
+        "description": "Focused culinary experience for evening meals throughout your stay."
+      },
+      "halfDay": {
+        "title": "Half-Day Package",
+        "description": "Lunch and dinner services for complete daily gastronomic experience."
+      },
+      "fullPackage": {
+        "title": "Full Package",
+        "description": "Breakfast, lunch, afternoon snack, and dinner for comprehensive culinary comfort."
+      },
+      "residentChef": {
+        "title": "Resident Chef Option",
+        "description": "Full-time chef residence for villa or yacht with all meal services."
+      }
+    },
+    "menu": {
+      "title": "Seasonal Menu",
+      "starters": "Starters",
+      "mains": "Main Courses",
+      "duckFoieGras": {
+        "title": "Semi-Cooked Duck Foie Gras with Cognac",
+        "description": "Foie gras terrine served in thin slices, fig chutney and fleur de sel, warm golden brioche."
+      },
+      "mimosaEggs": {
+        "title": "Parisian Mimosa Eggs",
+        "description": "Cooked farm eggs, light mayonnaise, whole grain mustard, and lemon. Fresh herb stuffing."
+      },
+      "croqueMonsieur": {
+        "title": "Croque-Monsieur with Black Truffle",
+        "description": "Golden brioche bread with clarified butter, truffle béchamel sauce, herb ham, aged Comté cheese, and fresh truffle shavings."
+      },
+      "vegetableTian": {
+        "title": "Provencal Vegetable Tian",
+        "description": "Thinly sliced vegetables: tomato, zucchini, eggplant, and sweet onion with virgin olive oil and fresh thyme."
+      },
+      "salmonBallotine": {
+        "title": "Balkan Salmon, Cucumber Ballotine",
+        "description": "Smoked salmon rolled into a thin log on fresh cheese and Greek yogurt base with dill, chives, and cucumber."
+      },
+      "langoustineRavioli": {
+        "title": "Langoustine Ravioli, Shellfish Broth Emulsion",
+        "description": "Fresh handmade pasta filled with langoustine meat and finely diced vegetables with foamy shellfish broth emulsion."
+      },
+      "lambRack": {
+        "title": "Lamb Rack with Herb Crust",
+        "description": "Tender roast lamb rack wrapped in a crust of fresh herbs and fine breadcrumbs. Served with homemade celery purée."
+      },
+      "beefWellington": {
+        "title": "Beef Wellington",
+        "description": "Roasted beef tenderloin in puff pastry with mushroom duxelles and cured ham. Served with red wine reduction."
+      },
+      "duckBreast": {
+        "title": "Duck Breast with Sweet and Sour Sauce",
+        "description": "Roasted duck breast with homemade sweet and sour sauce featuring citrus fruits and spices."
+      },
+      "soleMenuere": {
+        "title": "Sole Meunière",
+        "description": "Sole Meunière served with fresh vegetable garnish and baby potatoes with light cream sauce and candied lemon."
+      },
+      "pepperSteak": {
+        "title": "Bistro-Style Pepper Steak",
+        "description": "Pan-seared beef tenderloin with creamy and fragrant pepper sauce. Served with seasonal vegetables or refined side dishes."
+      },
+      "duckParmentier": {
+        "title": "Duck Parmentier Pie",
+        "description": "Slow-cooked shredded duck wrapped in puff pastry and topped with mashed potatoes."
+      }
+    },
+    "dietaryAdaptations": {
+      "title": "Dietary Adaptations",
+      "description": "All guests can enjoy adapted menus for allergies and dietary preferences at no extra cost. We ensure safety and deliciousness in every adaptation."
+    },
+    "importantInfo": {
+      "title": "Important Information",
+      "groceries": "Groceries are billed separately according to actual costs",
+      "deposit": "30% deposit required to confirm your booking",
+      "crypto": "Cryptocurrency payments accepted",
+      "cancellation": "Cancellation policy available upon request"
+    }
+  },
+  "portfolio": {
+    "hero": {
+      "title": "Portfolio",
+      "subtitle": "Gallery of Our Culinary Creations"
+    },
+    "categories": {
+      "all": "All",
+      "dishes": "Dishes",
+      "presentation": "Presentation",
+      "events": "Events",
+      "tables": "Tables"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "Reserve Your Gastronomic Experience"
+    },
+    "phone": {
+      "label": "Phone",
+      "number": "+33 7 49 36 22 54",
+      "response": "Response within 24 hours"
+    },
+    "email": {
+      "label": "Email",
+      "address": "maisongauthier.ghc@gmail.com",
+      "response": "We'll respond promptly"
+    },
+    "location": {
+      "label": "Location",
+      "city": "France",
+      "availability": "Services available worldwide"
+    },
+    "social": {
+      "title": "Follow Us",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook"
+    },
+    "bookingTimeline": {
+      "title": "Booking Timeline",
+      "singleDay": "Single day service: 2 weeks",
+      "weekStay": "Week-long stays: 1 month",
+      "events": "Events: 3 months",
+      "custom": "Custom requests: Upon consultation"
+    },
+    "form": {
+      "title": "Booking Request Form",
+      "subtitle": "Complete this form to receive a personalized quotation from Maison Gauthier",
+      "successMessage": "Thank you! Your request has been sent successfully. We will contact you within 24 hours.",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "serviceType": "Service Type",
+      "selectService": "Select...",
+      "oneDay": "One-Day Service",
+      "weekStay": "Week-Long Stay",
+      "event": "Private Event",
+      "customMenu": "Custom Menu",
+      "yachtService": "On-Board Service",
+      "consultation": "Consultation",
+      "preferredDate": "Preferred Date",
+      "numberOfGuests": "Number of Guests",
+      "dietaryRequirements": "Dietary Requirements",
+      "message": "Message",
+      "placeholder": {
+        "name": "Your full name",
+        "email": "your@email.com",
+        "phone": "+33 7 49 36 22 54",
+        "guests": "10",
+        "dietary": "Allergies, dietary restrictions, preferences...",
+        "message": "Describe your event, expectations, and special requests..."
+      },
+      "submit": "Send Request"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "budget": {
+        "q": "What is the minimum budget for a service?",
+        "a": "Budget varies by service type and number of guests. Prices begin at €150 per hour for additional services, with full packages available from €800 for intimate dinners."
+      },
+      "allergies": {
+        "q": "Can you adapt menus for allergies?",
+        "a": "Absolutely. We carefully manage all allergies and dietary restrictions without compromising quality. Please inform us when booking."
+      },
+      "international": {
+        "q": "Do you operate outside France?",
+        "a": "Yes, Maison Gauthier provides services internationally. Travel expenses are covered, with rates based on destination."
+      },
+      "timeline": {
+        "q": "What booking timeline is recommended?",
+        "a": "Ideally 2-4 weeks for day services. For week-long stays or events, 1-3 months is recommended. We can sometimes accommodate urgent requests."
+      },
+      "tastings": {
+        "q": "Do you offer tastings before events?",
+        "a": "Yes, for larger events. A tasting can be arranged a few days prior by special request."
+      },
+      "beverages": {
+        "q": "Do you provide beverages and wine pairings?",
+        "a": "We can advise on wine selections and pairings. Beverages can be provided by you or arranged through us upon request."
+      }
+    },
+    "finalCta": {
+      "title": "Let's Create Something Extraordinary",
+      "description": "Contact Maison Gauthier today to begin planning your unforgettable gastronomic experience"
+    }
+  }
+}
