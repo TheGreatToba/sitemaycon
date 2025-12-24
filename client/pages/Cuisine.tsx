@@ -21,10 +21,10 @@ export default function Cuisine() {
 
         <div className="relative z-10 text-center text-white px-4">
           <h1 className="text-5xl md:text-6xl font-serif font-bold">
-            French Cuisine
+            {t("cuisine.hero.title")}
           </h1>
           <p className="mt-4 text-lg font-body opacity-90">
-            The Art of Gastronomy
+            {t("cuisine.hero.subtitle")}
           </p>
         </div>
       </section>
@@ -33,10 +33,10 @@ export default function Cuisine() {
       <section className="py-16 md:py-24 px-4 bg-secondary/30">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-center mb-6">
-            French Culinary Excellence
+            {t("cuisine.introduction.title")}
           </h2>
           <p className="text-lg font-body text-muted-foreground text-center leading-relaxed">
-            Maison Gauthier specializes exclusively in French cuisine, bringing together the rich traditions of regional cooking with contemporary techniques. Our cuisine is based on an evolving menu, regularly updated according to seasonal creations and the inspiration of the moment.
+            {t("cuisine.introduction.description")}
           </p>
         </div>
       </section>
@@ -45,7 +45,7 @@ export default function Cuisine() {
       <section className="py-20 md:py-32 px-4">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl font-serif font-bold text-center mb-16">
-            Our Culinary Philosophy
+            {t("cuisine.philosophy.title")}
           </h2>
 
           <div className="space-y-12">
