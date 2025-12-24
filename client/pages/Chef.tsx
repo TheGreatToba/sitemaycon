@@ -97,22 +97,22 @@ export default function Chef() {
 
           {/* Philosophy */}
           <div className="mb-20 p-12 bg-secondary/30 border border-border">
-            <h3 className="text-3xl font-serif font-bold mb-6">Our Philosophy</h3>
+            <h3 className="text-3xl font-serif font-bold mb-6">{t("chef.philosophy.title")}</h3>
             <p className="text-lg font-body text-muted-foreground leading-relaxed mb-4">
-              Maison Gauthier's philosophy is based on creating a warm environment where everyone can feel at ease, while enjoying attentive and authentic service guided by deep-rooted values. We believe that true hospitality comes from understanding and anticipating the needs of our guests.
+              {t("chef.philosophy.paragraph1")}
             </p>
             <p className="text-lg font-body text-muted-foreground leading-relaxed mb-4">
-              We work exclusively with local producers whose expertise and high standards guarantee the quality and authenticity of each selected product. Our cuisine is rooted in French tradition, evolving with seasonal inspirations and the creativity of our talented chef.
+              {t("chef.philosophy.paragraph2")}
             </p>
             <p className="text-lg font-body text-muted-foreground leading-relaxed">
-              Every menu is bespoke, every service is unique. We do not simply execute recipes – we craft gastronomic experiences perfectly tailored to your expectations, preferences, and special requirements.
+              {t("chef.philosophy.paragraph3")}
             </p>
           </div>
 
           {/* Values */}
           <div className="mb-20">
             <h3 className="text-3xl font-serif font-bold mb-12 text-center">
-              Our Core Values
+              {t("chef.values.title")}
             </h3>
             <div className="grid md:grid-cols-2 gap-8">
               {values.map((value) => (
