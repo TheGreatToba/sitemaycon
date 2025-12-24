@@ -29,7 +29,8 @@ export default function Prestations() {
           description: t("prestations.chapter1.dinner.description"),
         },
       ],
-      image: "https://images.unsplash.com/photo-1504674900968-45cc10deda4c?auto=format&fit=crop&w=800&h=600&q=80",
+      image:
+        "https://images.unsplash.com/photo-1504674900968-45cc10deda4c?auto=format&fit=crop&w=800&h=600&q=80",
     },
     {
       title: t("prestations.chapter2.title"),
@@ -54,7 +55,8 @@ export default function Prestations() {
           description: t("prestations.chapter2.residentChef.description"),
         },
       ],
-      image: "https://images.unsplash.com/photo-1519671482677-de7ecf00efb7?auto=format&fit=crop&w=800&h=600&q=80",
+      image:
+        "https://images.unsplash.com/photo-1519671482677-de7ecf00efb7?auto=format&fit=crop&w=800&h=600&q=80",
     },
   ];
 
@@ -127,7 +129,9 @@ export default function Prestations() {
         </div>
 
         <div className="relative z-10 text-center text-white px-4">
-          <h1 className="text-5xl md:text-6xl font-serif font-bold">{t("prestations.hero.title")}</h1>
+          <h1 className="text-5xl md:text-6xl font-serif font-bold">
+            {t("prestations.hero.title")}
+          </h1>
           <p className="mt-4 text-lg font-body opacity-90">
             {t("prestations.hero.subtitle")}
           </p>
@@ -140,7 +144,9 @@ export default function Prestations() {
           {chapters.map((chapter, index) => (
             <div key={chapter.title}>
               {/* Chapter Header */}
-              <div className={`grid md:grid-cols-2 gap-12 items-center mb-12 ${index % 2 === 1 ? "md:[&>*]:order-2" : ""}`}>
+              <div
+                className={`grid md:grid-cols-2 gap-12 items-center mb-12 ${index % 2 === 1 ? "md:[&>*]:order-2" : ""}`}
+              >
                 <div className="relative overflow-hidden bg-secondary h-96">
                   <img
                     src={chapter.image}
@@ -180,7 +186,10 @@ export default function Prestations() {
               {/* Chapter Options */}
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {chapter.options.map((option) => (
-                  <div key={option.title} className="p-6 border border-border bg-background">
+                  <div
+                    key={option.title}
+                    className="p-6 border border-border bg-background"
+                  >
                     <h4 className="font-serif font-bold mb-3 text-lg">
                       {option.title}
                     </h4>
@@ -207,7 +216,10 @@ export default function Prestations() {
               {t("prestations.menu.title")}
             </h2>
             <p className="text-lg font-body text-muted-foreground max-w-2xl mx-auto">
-              All dishes are homemade using seasonal and local ingredients. Maison Gauthier works exclusively with local producers whose expertise and high standards guarantee the quality and authenticity of each selected product.
+              All dishes are homemade using seasonal and local ingredients.
+              Maison Gauthier works exclusively with local producers whose
+              expertise and high standards guarantee the quality and
+              authenticity of each selected product.
             </p>
           </div>
 
@@ -218,7 +230,10 @@ export default function Prestations() {
             </h3>
             <div className="space-y-6">
               {starters.map((dish) => (
-                <div key={dish.title} className="border-b border-border pb-6 last:border-0">
+                <div
+                  key={dish.title}
+                  className="border-b border-border pb-6 last:border-0"
+                >
                   <h4 className="text-xl font-serif font-bold text-primary mb-2">
                     {dish.title}
                   </h4>
@@ -237,7 +252,10 @@ export default function Prestations() {
             </h3>
             <div className="space-y-6">
               {mains.map((dish) => (
-                <div key={dish.title} className="border-b border-border pb-6 last:border-0">
+                <div
+                  key={dish.title}
+                  className="border-b border-border pb-6 last:border-0"
+                >
                   <h4 className="text-xl font-serif font-bold text-primary mb-2">
                     {dish.title}
                   </h4>
@@ -260,15 +278,21 @@ export default function Prestations() {
             </h3>
 
             <p className="text-lg font-body text-muted-foreground mb-4 leading-relaxed">
-              Because every guest deserves a harmonious culinary experience, a menu fully adapted to food intolerances or restrictions can be prepared on request, without compromising the quality or refinement of the dishes.
+              Because every guest deserves a harmonious culinary experience, a
+              menu fully adapted to food intolerances or restrictions can be
+              prepared on request, without compromising the quality or
+              refinement of the dishes.
             </p>
 
             <p className="text-lg font-body font-bold text-primary mb-4">
-              No extra charge applies: the price remains unchanged, with specific ingredients and service included in the experience.
+              No extra charge applies: the price remains unchanged, with
+              specific ingredients and service included in the experience.
             </p>
 
             <p className="text-lg font-body text-muted-foreground">
-              For those with allergies, intolerances, or dietary restrictions, please let us know before placing your order so that we can safely adapt our dishes.
+              For those with allergies, intolerances, or dietary restrictions,
+              please let us know before placing your order so that we can safely
+              adapt our dishes.
             </p>
           </div>
         </div>
@@ -336,7 +360,8 @@ export default function Prestations() {
             Ready to Experience Maison Gauthier?
           </h2>
           <p className="text-lg font-body text-muted-foreground mb-8">
-            Contact us to discuss your culinary needs and receive a personalized quotation
+            Contact us to discuss your culinary needs and receive a personalized
+            quotation
           </p>
           <Link
             to="/contact"

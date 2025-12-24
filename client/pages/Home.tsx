@@ -255,7 +255,10 @@ export default function Home() {
 
           <div className="grid md:grid-cols-3 gap-8">
             {testimonials.map((testimonial) => (
-              <div key={testimonial.name} className="p-8 bg-background border border-border">
+              <div
+                key={testimonial.name}
+                className="p-8 bg-background border border-border"
+              >
                 <div className="flex gap-1 mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
                     <span key={i} className="text-accent text-lg">

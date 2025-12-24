@@ -62,7 +62,9 @@ export default function Chef() {
         </div>
 
         <div className="relative z-10 text-center text-white px-4">
-          <h1 className="text-5xl md:text-6xl font-serif font-bold">{t("chef.hero.title")}</h1>
+          <h1 className="text-5xl md:text-6xl font-serif font-bold">
+            {t("chef.hero.title")}
+          </h1>
           <p className="mt-4 text-lg font-body opacity-90">
             {t("chef.hero.subtitle")}
           </p>
@@ -97,7 +99,9 @@ export default function Chef() {
 
           {/* Philosophy */}
           <div className="mb-20 p-12 bg-secondary/30 border border-border">
-            <h3 className="text-3xl font-serif font-bold mb-6">{t("chef.philosophy.title")}</h3>
+            <h3 className="text-3xl font-serif font-bold mb-6">
+              {t("chef.philosophy.title")}
+            </h3>
             <p className="text-lg font-body text-muted-foreground leading-relaxed mb-4">
               {t("chef.philosophy.paragraph1")}
             </p>
@@ -136,10 +140,7 @@ export default function Chef() {
 
             <div className="space-y-8">
               {milestones.map((milestone, index) => (
-                <div
-                  key={milestone.year}
-                  className="flex gap-8 items-start"
-                >
+                <div key={milestone.year} className="flex gap-8 items-start">
                   <div className="flex flex-col items-center flex-shrink-0">
                     <div className="w-16 h-16 rounded-full bg-accent text-accent-foreground flex items-center justify-center font-serif font-bold text-lg">
                       {milestone.year.substring(2)}
