@@ -107,15 +107,15 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {/* Brand */}
             <div>
-              <h3 className="font-serif text-xl font-bold mb-4">Maison Gauthier</h3>
+              <h3 className="font-serif text-xl font-bold mb-4">{t("header.brand")}</h3>
               <p className="text-sm font-body opacity-90">
-                Private French gastronomy for VIP clientele worldwide. Creating unforgettable culinary experiences.
+                {t("footer.description")}
               </p>
             </div>
 
             {/* Quick Links */}
             <div>
-              <h4 className="font-serif font-bold mb-4">Navigation</h4>
+              <h4 className="font-serif font-bold mb-4">{t("footer.navigation")}</h4>
               <ul className="space-y-2 text-sm font-body">
                 {navItems.map((item) => (
                   <li key={item.href}>
@@ -129,26 +129,26 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
             {/* Contact Info */}
             <div>
-              <h4 className="font-serif font-bold mb-4">Contact</h4>
+              <h4 className="font-serif font-bold mb-4">{t("footer.contactInfo")}</h4>
               <ul className="space-y-2 text-sm font-body opacity-90">
-                <li>+33 7 49 36 22 54</li>
-                <li>maisongauthier.ghc@gmail.com</li>
-                <li>France</li>
+                <li>{t("footer.phone")}</li>
+                <li>{t("footer.email")}</li>
+                <li>{t("footer.location")}</li>
               </ul>
             </div>
 
             {/* Social Media */}
             <div>
-              <h4 className="font-serif font-bold mb-4">Follow Us</h4>
+              <h4 className="font-serif font-bold mb-4">{t("footer.followUs")}</h4>
               <div className="flex gap-4">
                 <a href="https://instagram.com/maisongauthier__" target="_blank" rel="noopener noreferrer" className="opacity-90 hover:opacity-100 text-sm">
-                  Instagram
+                  {t("footer.instagram")}
                 </a>
                 <a href="#" className="opacity-90 hover:opacity-100 text-sm">
-                  LinkedIn
+                  {t("footer.linkedin")}
                 </a>
                 <a href="#" className="opacity-90 hover:opacity-100 text-sm">
-                  Facebook
+                  {t("footer.facebook")}
                 </a>
               </div>
             </div>
@@ -157,13 +157,13 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           {/* Copyright */}
           <div className="border-t border-primary-foreground/20 mt-8 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center text-sm font-body opacity-90">
-              <p>&copy; 2024 Maison Gauthier. All rights reserved.</p>
+              <p>{t("footer.copyright")}</p>
               <div className="flex gap-6 mt-4 md:mt-0">
                 <a href="#" className="hover:opacity-100">
-                  Legal Notice
+                  {t("footer.legalNotice")}
                 </a>
                 <a href="#" className="hover:opacity-100">
-                  Privacy Policy
+                  {t("footer.privacyPolicy")}
                 </a>
               </div>
             </div>
