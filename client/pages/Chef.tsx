@@ -131,7 +131,7 @@ export default function Chef() {
           {/* Professional Journey */}
           <div>
             <h3 className="text-3xl font-serif font-bold mb-12 text-center">
-              Our Journey
+              {t("chef.journey.title")}
             </h3>
 
             <div className="space-y-8">
