@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
 import { ArrowRight, Leaf } from "lucide-react";
 import Layout from "@/components/Layout";
+import { useTranslation } from "react-i18next";
 
 export default function Home() {
+  const { t } = useTranslation();
   const specialties = [
     {
       title: "Personal Chef at Home",
