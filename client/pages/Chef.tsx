@@ -7,43 +7,43 @@ export default function Chef() {
   const { t } = useTranslation();
   const milestones = [
     {
-      year: "Founded",
-      title: "Maison Gauthier Creation",
-      description: "Born from the ambition to bring French culinary art into homes around the world",
+      year: t("chef.journey.founded"),
+      title: t("chef.journey.foundedTitle"),
+      description: t("chef.journey.foundedDescription"),
     },
     {
-      year: "Development",
-      title: "Global Expansion",
-      description: "Operating internationally with services in France and destinations worldwide",
+      year: t("chef.journey.development"),
+      title: t("chef.journey.developmentTitle"),
+      description: t("chef.journey.developmentDescription"),
     },
     {
-      year: "Excellence",
-      title: "VIP Clientele",
-      description: "Serving distinguished clients including private residences, villas, yachts and luxury venues",
+      year: t("chef.journey.excellence"),
+      title: t("chef.journey.excellenceTitle"),
+      description: t("chef.journey.excellenceDescription"),
     },
     {
-      year: "Today",
-      title: "Premium Service",
-      description: "Continuing to deliver exceptional private gastronomic experiences with uncompromising excellence",
+      year: t("chef.journey.today"),
+      title: t("chef.journey.todayTitle"),
+      description: t("chef.journey.todayDescription"),
     },
   ];
 
   const values = [
     {
-      title: "French Culinary Art",
-      description: "Bringing the art of French cuisine into homes around the world with unwavering dedication to gastronomy.",
+      title: t("chef.values.culinaryArt.title"),
+      description: t("chef.values.culinaryArt.description"),
     },
     {
-      title: "Local Producers",
-      description: "Exclusive partnerships with local producers guaranteeing quality, authenticity, and seasonal freshness.",
+      title: t("chef.values.localProducers.title"),
+      description: t("chef.values.localProducers.description"),
     },
     {
-      title: "Warm Hospitality",
-      description: "Creating an environment where guests feel at ease with attentive and authentic service.",
+      title: t("chef.values.warmHospitality.title"),
+      description: t("chef.values.warmHospitality.description"),
     },
     {
-      title: "Bespoke Experience",
-      description: "Personalized menus and service tailored to individual preferences and special requirements.",
+      title: t("chef.values.bespokeExperience.title"),
+      description: t("chef.values.bespokeExperience.description"),
     },
   ];
 
