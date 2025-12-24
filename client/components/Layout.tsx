@@ -46,13 +46,16 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               ))}
             </nav>
 
-            {/* CTA Button - Desktop */}
-            <Link
-              to="/contact"
-              className="hidden md:inline-block px-6 py-2 bg-primary text-primary-foreground font-body text-sm hover:opacity-90 transition-opacity"
-            >
-              Réserver
-            </Link>
+            {/* Language Switcher and CTA - Desktop */}
+            <div className="hidden md:flex items-center gap-4">
+              <LanguageSwitcher />
+              <Link
+                to="/contact"
+                className="px-6 py-2 bg-primary text-primary-foreground font-body text-sm hover:opacity-90 transition-opacity"
+              >
+                {t("nav.book")}
+              </Link>
+            </div>
 
             {/* Mobile Menu Toggle */}
             <button
