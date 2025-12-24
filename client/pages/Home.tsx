@@ -237,7 +237,7 @@ export default function Home() {
               to="/portfolio"
               className="inline-flex items-center gap-2 px-8 py-3 border-2 border-foreground text-foreground font-body hover:bg-foreground hover:text-background transition-colors"
             >
-              View Full Gallery
+              {t("home.portfolio.viewAll")}
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
@@ -249,7 +249,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">
-              Client Testimonials
+              {t("home.testimonials.title")}
             </h2>
           </div>
 
