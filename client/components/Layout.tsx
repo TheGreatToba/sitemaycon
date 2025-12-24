@@ -83,12 +83,15 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                   {item.label}
                 </Link>
               ))}
+              <div className="px-4 py-2">
+                <LanguageSwitcher />
+              </div>
               <Link
                 to="/contact"
                 onClick={() => setMobileMenuOpen(false)}
                 className="block px-4 py-2 text-sm font-body bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
               >
-                Réserver
+                {t("nav.book")}
               </Link>
             </nav>
           )}
