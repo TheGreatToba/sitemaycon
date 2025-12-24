@@ -60,55 +60,55 @@ export default function Prestations() {
 
   const starters = [
     {
-      title: "Semi-Cooked Duck Foie Gras with Cognac",
-      description: "Foie gras terrine served in thin slices, fig chutney and fleur de sel, warm golden brioche.",
+      title: t("prestations.menu.duckFoieGras.title"),
+      description: t("prestations.menu.duckFoieGras.description"),
     },
     {
-      title: "Parisian Mimosa Eggs",
-      description: "Cooked farm eggs, light mayonnaise, whole grain mustard, and lemon. Fresh herb stuffing.",
+      title: t("prestations.menu.mimosaEggs.title"),
+      description: t("prestations.menu.mimosaEggs.description"),
     },
     {
-      title: "Croque-Monsieur with Black Truffle",
-      description: "Golden brioche bread with clarified butter, truffle béchamel sauce, herb ham, aged Comté cheese, and fresh truffle shavings.",
+      title: t("prestations.menu.croqueMonsieur.title"),
+      description: t("prestations.menu.croqueMonsieur.description"),
     },
     {
-      title: "Provencal Vegetable Tian",
-      description: "Thinly sliced vegetables: tomato, zucchini, eggplant, and sweet onion with virgin olive oil and fresh thyme.",
+      title: t("prestations.menu.vegetableTian.title"),
+      description: t("prestations.menu.vegetableTian.description"),
     },
     {
-      title: "Balkan Salmon, Cucumber Ballotine",
-      description: "Smoked salmon rolled into a thin log on fresh cheese and Greek yogurt base with dill, chives, and cucumber.",
+      title: t("prestations.menu.salmonBallotine.title"),
+      description: t("prestations.menu.salmonBallotine.description"),
     },
     {
-      title: "Langoustine Ravioli, Shellfish Broth Emulsion",
-      description: "Fresh handmade pasta filled with langoustine meat and finely diced vegetables with foamy shellfish broth emulsion.",
+      title: t("prestations.menu.langoustineRavioli.title"),
+      description: t("prestations.menu.langoustineRavioli.description"),
     },
   ];
 
   const mains = [
     {
-      title: "Lamb Rack with Herb Crust",
-      description: "Tender roast lamb rack wrapped in a crust of fresh herbs and fine breadcrumbs. Served with homemade celery purée.",
+      title: t("prestations.menu.lambRack.title"),
+      description: t("prestations.menu.lambRack.description"),
     },
     {
-      title: "Beef Wellington",
-      description: "Roasted beef tenderloin in puff pastry with mushroom duxelles and cured ham. Served with red wine reduction.",
+      title: t("prestations.menu.beefWellington.title"),
+      description: t("prestations.menu.beefWellington.description"),
     },
     {
-      title: "Duck Breast with Sweet and Sour Sauce",
-      description: "Roasted duck breast with homemade sweet and sour sauce featuring citrus fruits and spices.",
+      title: t("prestations.menu.duckBreast.title"),
+      description: t("prestations.menu.duckBreast.description"),
     },
     {
-      title: "Sole Meunière",
-      description: "Sole Meunière served with fresh vegetable garnish and baby potatoes with light cream sauce and candied lemon.",
+      title: t("prestations.menu.soleMenuere.title"),
+      description: t("prestations.menu.soleMenuere.description"),
     },
     {
-      title: "Bistro-Style Pepper Steak",
-      description: "Pan-seared beef tenderloin with creamy and fragrant pepper sauce. Served with seasonal vegetables or refined side dishes.",
+      title: t("prestations.menu.pepperSteak.title"),
+      description: t("prestations.menu.pepperSteak.description"),
     },
     {
-      title: "Duck Parmentier Pie",
-      description: "Slow-cooked shredded duck wrapped in puff pastry and topped with mashed potatoes.",
+      title: t("prestations.menu.duckParmentier.title"),
+      description: t("prestations.menu.duckParmentier.description"),
     },
   ];
 
