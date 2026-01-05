@@ -273,6 +273,7 @@
     },
     "menu": {
       "title": "Seasonal Menu",
+      "description": "All dishes are homemade using seasonal and local ingredients. Maison Gauthier works exclusively with local producers whose expertise and high standards guarantee the quality and authenticity of each selected product.",
       "starters": "Starters",
       "mains": "Main Courses",
       "duckFoieGras": {
