@@ -1,8 +1,10 @@
 import Layout from "@/components/Layout";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "@/lib/useTranslation";
 
 export default function Cuisine() {
+  const { t } = useTranslation();
   return (
     <Layout>
       {/* Hero Section */}
