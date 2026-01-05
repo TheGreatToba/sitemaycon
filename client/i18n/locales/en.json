@@ -366,6 +366,56 @@
       "presentation": "Presentation",
       "events": "Events",
       "tables": "Tables"
+    },
+    "items": {
+      "lobster": {
+        "title": "Lobster with Butter & Herbs",
+        "description": "Fresh grilled lobster with herb sauce"
+      },
+      "risotto": {
+        "title": "Truffle Risotto",
+        "description": "Carnaroli risotto with black truffles"
+      },
+      "sophisticatedPlating": {
+        "title": "Sophisticated Plating",
+        "description": "Culinary art and refined presentation"
+      },
+      "sensoryComposition": {
+        "title": "Sensory Composition",
+        "description": "Colors and textures for enchantment"
+      },
+      "privateGala": {
+        "title": "Private Gala",
+        "description": "Gala dinner for 50 guests with exceptional service"
+      },
+      "luxuryWedding": {
+        "title": "Luxury Wedding",
+        "description": "Gastronomic wedding menu and reception"
+      },
+      "exceptionalTablescape": {
+        "title": "Exceptional Tablescape",
+        "description": "Refined table setting and dish presentation"
+      },
+      "elegantAmbiance": {
+        "title": "Elegant Ambiance",
+        "description": "Table decoration and gastronomic ambiance"
+      },
+      "fishSoup": {
+        "title": "Fish Soup",
+        "description": "Traditional bouillabaisse with rouille"
+      },
+      "freshPasta": {
+        "title": "Fresh Pasta",
+        "description": "Pappardelle with truffle and game sauce"
+      },
+      "minimalPresentation": {
+        "title": "Minimal Presentation",
+        "description": "Beauty in simplicity, refined elegance"
+      },
+      "villaReception": {
+        "title": "Villa Reception",
+        "description": "Private event for 100 guests with impeccable service"
+      }
     }
   },
   "contact": {
