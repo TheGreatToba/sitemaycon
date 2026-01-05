@@ -1,46 +1,12 @@
 import { Link } from "react-router-dom";
 import { ArrowRight, Leaf } from "lucide-react";
 import Layout from "@/components/Layout";
+import { useTranslation } from "@/lib/useTranslation";
 
 export default function Home() {
-  const specialties = [
-    {
-      title: "Personal Chef at Home",
-      description:
-        "Dedicated culinary service for your residence with tailor-made menus and elegant service.",
-      icon: "🏠",
-    },
-    {
-      title: "Private Receptions",
-      description:
-        "Exquisite dinners for intimate gatherings or grand celebrations with refined cuisine.",
-      icon: "🍽️",
-    },
-    {
-      title: "On-Board Service",
-      description:
-        "Exceptional culinary experiences aboard yachts and luxury vessels worldwide.",
-      icon: "⛵",
-    },
-    {
-      title: "Event Management",
-      description:
-        "Complete gastronomic coordination for weddings, galas, and exclusive events.",
-      icon: "✨",
-    },
-    {
-      title: "Long-Term Stays",
-      description:
-        "Comprehensive culinary comfort for extended villa and residence stays.",
-      icon: "🗓️",
-    },
-    {
-      title: "Local Producers",
-      description:
-        "Working exclusively with local producers to guarantee quality and authenticity.",
-      icon: "🌾",
-    },
-  ];
+  const { t } = useTranslation();
+
+  const specialties = t('home.services.servicesList');
 
   const portfolioPreview = [
     {
