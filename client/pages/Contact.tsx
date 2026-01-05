@@ -162,15 +162,15 @@ export default function Contact() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-secondary/30 border border-border p-8 md:p-12">
             <h2 className="text-3xl font-serif font-bold mb-2">
-              Booking Request Form
+              {t("contact.form.title")}
             </h2>
             <p className="font-body text-muted-foreground mb-8">
-              Complete this form to receive a personalized quotation from Maison Gauthier
+              {t("contact.form.subtitle")}
             </p>
 
             {submitted && (
               <div className="mb-8 p-4 bg-accent text-accent-foreground font-body text-center">
-                Thank you! Your request has been sent successfully. We will contact you within 24 hours.
+                {t("contact.form.successMessage")}
               </div>
             )}
 
