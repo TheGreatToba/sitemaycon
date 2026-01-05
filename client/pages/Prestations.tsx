@@ -207,7 +207,7 @@ export default function Prestations() {
               {t("prestations.menu.title")}
             </h2>
             <p className="text-lg font-body text-muted-foreground max-w-2xl mx-auto">
-              All dishes are homemade using seasonal and local ingredients. Maison Gauthier works exclusively with local producers whose expertise and high standards guarantee the quality and authenticity of each selected product.
+              {t("prestations.menu.description")}
             </p>
           </div>
 
