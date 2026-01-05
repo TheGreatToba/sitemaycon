@@ -178,7 +178,7 @@ export default function Contact() {
               <div className="grid md:grid-cols-2 gap-6">
                 {/* Name */}
                 <div>
-                  <label className="block font-body font-bold mb-2">Name *</label>
+                  <label className="block font-body font-bold mb-2">{t("contact.form.name")} *</label>
                   <input
                     type="text"
                     name="name"
@@ -186,13 +186,13 @@ export default function Contact() {
                     onChange={handleInputChange}
                     required
                     className="w-full px-4 py-3 border border-border bg-background text-foreground font-body focus:outline-none focus:ring-2 focus:ring-accent"
-                    placeholder="Your full name"
+                    placeholder={t("contact.form.placeholder.name")}
                   />
                 </div>
 
                 {/* Email */}
                 <div>
-                  <label className="block font-body font-bold mb-2">Email *</label>
+                  <label className="block font-body font-bold mb-2">{t("contact.form.email")} *</label>
                   <input
                     type="email"
                     name="email"
@@ -200,27 +200,27 @@ export default function Contact() {
                     onChange={handleInputChange}
                     required
                     className="w-full px-4 py-3 border border-border bg-background text-foreground font-body focus:outline-none focus:ring-2 focus:ring-accent"
-                    placeholder="your@email.com"
+                    placeholder={t("contact.form.placeholder.email")}
                   />
                 </div>
 
                 {/* Phone */}
                 <div>
-                  <label className="block font-body font-bold mb-2">Phone</label>
+                  <label className="block font-body font-bold mb-2">{t("contact.form.phone")}</label>
                   <input
                     type="tel"
                     name="phone"
                     value={formData.phone}
                     onChange={handleInputChange}
                     className="w-full px-4 py-3 border border-border bg-background text-foreground font-body focus:outline-none focus:ring-2 focus:ring-accent"
-                    placeholder="+33 7 49 36 22 54"
+                    placeholder={t("contact.form.placeholder.phone")}
                   />
                 </div>
 
                 {/* Service Type */}
                 <div>
                   <label className="block font-body font-bold mb-2">
-                    Service Type *
+                    {t("contact.form.serviceType")} *
                   </label>
                   <select
                     name="serviceType"
@@ -229,20 +229,20 @@ export default function Contact() {
                     required
                     className="w-full px-4 py-3 border border-border bg-background text-foreground font-body focus:outline-none focus:ring-2 focus:ring-accent"
                   >
-                    <option value="">Select...</option>
-                    <option value="day-service">One-Day Service</option>
-                    <option value="week-stay">Week-Long Stay</option>
-                    <option value="event">Private Event</option>
-                    <option value="custom-menu">Custom Menu</option>
-                    <option value="yacht">On-Board Service</option>
-                    <option value="consultation">Consultation</option>
+                    <option value="">{t("contact.form.selectService")}</option>
+                    <option value="day-service">{t("contact.form.oneDay")}</option>
+                    <option value="week-stay">{t("contact.form.weekStay")}</option>
+                    <option value="event">{t("contact.form.event")}</option>
+                    <option value="custom-menu">{t("contact.form.customMenu")}</option>
+                    <option value="yacht">{t("contact.form.yachtService")}</option>
+                    <option value="consultation">{t("contact.form.consultation")}</option>
                   </select>
                 </div>
 
                 {/* Date */}
                 <div>
                   <label className="block font-body font-bold mb-2">
-                    Preferred Date *
+                    {t("contact.form.preferredDate")} *
                   </label>
                   <input
                     type="date"
@@ -257,7 +257,7 @@ export default function Contact() {
                 {/* Number of Guests */}
                 <div>
                   <label className="block font-body font-bold mb-2">
-                    Number of Guests
+                    {t("contact.form.numberOfGuests")}
                   </label>
                   <input
                     type="number"
@@ -265,7 +265,7 @@ export default function Contact() {
                     value={formData.numberOfGuests}
                     onChange={handleInputChange}
                     className="w-full px-4 py-3 border border-border bg-background text-foreground font-body focus:outline-none focus:ring-2 focus:ring-accent"
-                    placeholder="10"
+                    placeholder={t("contact.form.placeholder.guests")}
                     min="1"
                   />
                 </div>
@@ -274,27 +274,27 @@ export default function Contact() {
               {/* Dietary Restrictions */}
               <div>
                 <label className="block font-body font-bold mb-2">
-                  Dietary Requirements
+                  {t("contact.form.dietaryRequirements")}
                 </label>
                 <textarea
                   name="dietaryRestrictions"
                   value={formData.dietaryRestrictions}
                   onChange={handleInputChange}
                   className="w-full px-4 py-3 border border-border bg-background text-foreground font-body focus:outline-none focus:ring-2 focus:ring-accent resize-none"
-                  placeholder="Allergies, dietary restrictions, preferences..."
+                  placeholder={t("contact.form.placeholder.dietary")}
                   rows={3}
                 />
               </div>
 
               {/* Message */}
               <div>
-                <label className="block font-body font-bold mb-2">Message</label>
+                <label className="block font-body font-bold mb-2">{t("contact.form.message")}</label>
                 <textarea
                   name="message"
                   value={formData.message}
                   onChange={handleInputChange}
                   className="w-full px-4 py-3 border border-border bg-background text-foreground font-body focus:outline-none focus:ring-2 focus:ring-accent resize-none"
-                  placeholder="Describe your event, expectations, and special requests..."
+                  placeholder={t("contact.form.placeholder.message")}
                   rows={5}
                 />
               </div>
@@ -304,7 +304,7 @@ export default function Contact() {
                 type="submit"
                 className="w-full md:w-auto flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-body hover:opacity-90 transition-opacity"
               >
-                Send Request
+                {t("contact.form.submit")}
                 <Send className="w-4 h-4" />
               </button>
             </form>
