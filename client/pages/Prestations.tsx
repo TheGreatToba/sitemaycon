@@ -1,8 +1,10 @@
 import Layout from "@/components/Layout";
 import { ArrowRight, CheckCircle } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "@/lib/useTranslation";
 
 export default function Prestations() {
+  const { t } = useTranslation();
   const chapters = [
     {
       title: "Chapter 1: A Day in France",
