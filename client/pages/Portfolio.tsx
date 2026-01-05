@@ -1,12 +1,20 @@
 import Layout from "@/components/Layout";
 import { useState } from "react";
 import { X } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export default function Portfolio() {
+  const { t } = useTranslation();
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [activeCategory, setActiveCategory] = useState("All");
 
-  const categories = ["All", "Dishes", "Presentation", "Events", "Tables"];
+  const categories = [
+    t("portfolio.categories.all"),
+    t("portfolio.categories.dishes"),
+    t("portfolio.categories.presentation"),
+    t("portfolio.categories.events"),
+    t("portfolio.categories.tables"),
+  ];
 
   const portfolioItems = [
     {
