@@ -316,40 +316,40 @@ export default function Contact() {
       <section className="py-20 md:py-32 px-4 bg-secondary/30">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl font-serif font-bold text-center mb-12">
-            Frequently Asked Questions
+            {t("contact.faq.title")}
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8">
             {[
               {
-                q: "What is the minimum budget for a service?",
-                a: "Budget varies by service type and number of guests. Prices begin at €150 per hour for additional services, with full packages available from €800 for intimate dinners.",
+                qKey: "contact.faq.budget.q",
+                aKey: "contact.faq.budget.a",
               },
               {
-                q: "Can you adapt menus for allergies?",
-                a: "Absolutely. We carefully manage all allergies and dietary restrictions without compromising quality. Please inform us when booking.",
+                qKey: "contact.faq.allergies.q",
+                aKey: "contact.faq.allergies.a",
               },
               {
-                q: "Do you operate outside France?",
-                a: "Yes, Maison Gauthier provides services internationally. Travel expenses are covered, with rates based on destination.",
+                qKey: "contact.faq.international.q",
+                aKey: "contact.faq.international.a",
               },
               {
-                q: "What booking timeline is recommended?",
-                a: "Ideally 2-4 weeks for day services. For week-long stays or events, 1-3 months is recommended. We can sometimes accommodate urgent requests.",
+                qKey: "contact.faq.timeline.q",
+                aKey: "contact.faq.timeline.a",
               },
               {
-                q: "Do you offer tastings before events?",
-                a: "Yes, for larger events. A tasting can be arranged a few days prior by special request.",
+                qKey: "contact.faq.tastings.q",
+                aKey: "contact.faq.tastings.a",
               },
               {
-                q: "Do you provide beverages and wine pairings?",
-                a: "We can advise on wine selections and pairings. Beverages can be provided by you or arranged through us upon request.",
+                qKey: "contact.faq.beverages.q",
+                aKey: "contact.faq.beverages.a",
               },
             ].map((item, index) => (
               <div key={index} className="p-6 bg-background border border-border">
-                <h3 className="font-serif font-bold mb-3">{item.q}</h3>
+                <h3 className="font-serif font-bold mb-3">{t(item.qKey)}</h3>
                 <p className="font-body text-muted-foreground text-sm">
-                  {item.a}
+                  {t(item.aKey)}
                 </p>
               </div>
             ))}
