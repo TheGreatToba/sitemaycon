@@ -74,59 +74,9 @@ export default function Prestations() {
     },
   ];
 
-  const starters = [
-    {
-      title: "Semi-Cooked Duck Foie Gras with Cognac",
-      description: "Foie gras terrine served in thin slices, fig chutney and fleur de sel, warm golden brioche.",
-    },
-    {
-      title: "Parisian Mimosa Eggs",
-      description: "Cooked farm eggs, light mayonnaise, whole grain mustard, and lemon. Fresh herb stuffing.",
-    },
-    {
-      title: "Croque-Monsieur with Black Truffle",
-      description: "Golden brioche bread with clarified butter, truffle béchamel sauce, herb ham, aged Comté cheese, and fresh truffle shavings.",
-    },
-    {
-      title: "Provencal Vegetable Tian",
-      description: "Thinly sliced vegetables: tomato, zucchini, eggplant, and sweet onion with virgin olive oil and fresh thyme.",
-    },
-    {
-      title: "Balkan Salmon, Cucumber Ballotine",
-      description: "Smoked salmon rolled into a thin log on fresh cheese and Greek yogurt base with dill, chives, and cucumber.",
-    },
-    {
-      title: "Langoustine Ravioli, Shellfish Broth Emulsion",
-      description: "Fresh handmade pasta filled with langoustine meat and finely diced vegetables with foamy shellfish broth emulsion.",
-    },
-  ];
+  const starters = t('prestations.menu.starters');
 
-  const mains = [
-    {
-      title: "Lamb Rack with Herb Crust",
-      description: "Tender roast lamb rack wrapped in a crust of fresh herbs and fine breadcrumbs. Served with homemade celery purée.",
-    },
-    {
-      title: "Beef Wellington",
-      description: "Roasted beef tenderloin in puff pastry with mushroom duxelles and cured ham. Served with red wine reduction.",
-    },
-    {
-      title: "Duck Breast with Sweet and Sour Sauce",
-      description: "Roasted duck breast with homemade sweet and sour sauce featuring citrus fruits and spices.",
-    },
-    {
-      title: "Sole Meunière",
-      description: "Sole Meunière served with fresh vegetable garnish and baby potatoes with light cream sauce and candied lemon.",
-    },
-    {
-      title: "Bistro-Style Pepper Steak",
-      description: "Pan-seared beef tenderloin with creamy and fragrant pepper sauce. Served with seasonal vegetables or refined side dishes.",
-    },
-    {
-      title: "Duck Parmentier Pie",
-      description: "Slow-cooked shredded duck wrapped in puff pastry and topped with mashed potatoes.",
-    },
-  ];
+  const mains = t('prestations.menu.mains');
 
   return (
     <Layout>
