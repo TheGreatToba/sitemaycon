@@ -21,10 +21,10 @@ export default function Cuisine() {
 
         <div className="relative z-10 text-center text-white px-4">
           <h1 className="text-5xl md:text-6xl font-serif font-bold">
-            French Cuisine
+            {t('cuisine.title')}
           </h1>
           <p className="mt-4 text-lg font-body opacity-90">
-            The Art of Gastronomy
+            {t('home.philosophy.title')}
           </p>
         </div>
       </section>
