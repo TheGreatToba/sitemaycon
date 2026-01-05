@@ -199,7 +199,7 @@ export default function Prestations() {
           {/* Main Courses */}
           <div>
             <h3 className="text-3xl font-serif font-bold mb-8 text-center">
-              Main Courses
+              {t('prestations.seasonalMenu.mains')}
             </h3>
             <div className="space-y-6">
               {mains.map((dish) => (
