@@ -273,6 +273,7 @@
     },
     "menu": {
       "title": "Menu Saisonnier",
+      "description": "Tous les plats sont faits maison avec des ingrédients saisonniers et locaux. Maison Gauthier travaille exclusivement avec des producteurs locaux dont l'expertise et les normes élevées garantissent la qualité et l'authenticité de chaque produit sélectionné.",
       "starters": "Entrées",
       "mains": "Plats Principaux",
       "duckFoieGras": {
