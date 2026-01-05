@@ -79,39 +79,39 @@ export default function Contact() {
             <div>
               <div className="flex items-center gap-4 mb-4">
                 <Phone className="w-6 h-6 text-accent" />
-                <h3 className="text-xl font-serif font-bold">Phone</h3>
+                <h3 className="text-xl font-serif font-bold">{t("contact.phone.label")}</h3>
               </div>
               <p className="font-body text-muted-foreground">
-                +33 7 49 36 22 54
+                {t("contact.phone.number")}
               </p>
               <p className="font-body text-sm text-muted-foreground">
-                Response within 24 hours
+                {t("contact.phone.response")}
               </p>
             </div>
 
             <div>
               <div className="flex items-center gap-4 mb-4">
                 <Mail className="w-6 h-6 text-accent" />
-                <h3 className="text-xl font-serif font-bold">Email</h3>
+                <h3 className="text-xl font-serif font-bold">{t("contact.email.label")}</h3>
               </div>
               <p className="font-body text-muted-foreground">
-                maisongauthier.ghc@gmail.com
+                {t("contact.email.address")}
               </p>
               <p className="font-body text-sm text-muted-foreground">
-                We'll respond promptly
+                {t("contact.email.response")}
               </p>
             </div>
 
             <div>
               <div className="flex items-center gap-4 mb-4">
                 <MapPin className="w-6 h-6 text-accent" />
-                <h3 className="text-xl font-serif font-bold">Location</h3>
+                <h3 className="text-xl font-serif font-bold">{t("contact.location.label")}</h3>
               </div>
               <p className="font-body text-muted-foreground">
-                France
+                {t("contact.location.city")}
               </p>
               <p className="font-body text-sm text-muted-foreground">
-                Services available worldwide
+                {t("contact.location.availability")}
               </p>
             </div>
           </div>
