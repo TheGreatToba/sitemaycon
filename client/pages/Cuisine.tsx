@@ -33,10 +33,10 @@ export default function Cuisine() {
       <section className="py-16 md:py-24 px-4 bg-secondary/30">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-center mb-6">
-            French Culinary Excellence
+            {t('cuisine.title')}
           </h2>
           <p className="text-lg font-body text-muted-foreground text-center leading-relaxed">
-            Maison Gauthier specializes exclusively in French cuisine, bringing together the rich traditions of regional cooking with contemporary techniques. Our cuisine is based on an evolving menu, regularly updated according to seasonal creations and the inspiration of the moment.
+            {t('cuisine.description')}
           </p>
         </div>
       </section>
