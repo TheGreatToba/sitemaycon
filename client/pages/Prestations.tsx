@@ -222,19 +222,19 @@ export default function Prestations() {
         <div className="max-w-4xl mx-auto">
           <div className="p-12 border-l-4 border-primary bg-secondary/30">
             <h3 className="text-3xl font-serif font-bold mb-6">
-              Food Intolerances & Dietary Adaptations
+              {t('prestations.dietaryAdaptations')}
             </h3>
 
             <p className="text-lg font-body text-muted-foreground mb-4 leading-relaxed">
-              Because every guest deserves a harmonious culinary experience, a menu fully adapted to food intolerances or restrictions can be prepared on request, without compromising the quality or refinement of the dishes.
+              {t('prestations.dietaryAdaptationsText')}
             </p>
 
             <p className="text-lg font-body font-bold text-primary mb-4">
-              No extra charge applies: the price remains unchanged, with specific ingredients and service included in the experience.
+              {t('prestations.importantInfo.payment')}
             </p>
 
             <p className="text-lg font-body text-muted-foreground">
-              For those with allergies, intolerances, or dietary restrictions, please let us know before placing your order so that we can safely adapt our dishes.
+              {t('prestations.dietaryAdaptationsText')}
             </p>
           </div>
         </div>
