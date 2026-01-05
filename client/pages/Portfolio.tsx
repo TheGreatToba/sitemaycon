@@ -21,99 +21,99 @@ export default function Portfolio() {
   const portfolioItems = [
     {
       id: 1,
-      title: "Lobster with Butter & Herbs",
+      titleKey: "portfolio.items.lobster.title",
       category: "Dishes",
       image:
         "https://images.unsplash.com/photo-1625246333195-78d9c38ad576?auto=format&fit=crop&w=600&h=600&q=80",
-      description: "Fresh grilled lobster with herb sauce",
+      descriptionKey: "portfolio.items.lobster.description",
     },
     {
       id: 2,
-      title: "Truffle Risotto",
+      titleKey: "portfolio.items.risotto.title",
       category: "Dishes",
       image:
         "https://images.unsplash.com/photo-1612874742237-6526221fcf4f?auto=format&fit=crop&w=600&h=600&q=80",
-      description: "Carnaroli risotto with black truffles",
+      descriptionKey: "portfolio.items.risotto.description",
     },
     {
       id: 3,
-      title: "Sophisticated Plating",
+      titleKey: "portfolio.items.sophisticatedPlating.title",
       category: "Presentation",
       image:
         "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&h=600&q=80",
-      description: "Culinary art and refined presentation",
+      descriptionKey: "portfolio.items.sophisticatedPlating.description",
     },
     {
       id: 4,
-      title: "Sensory Composition",
+      titleKey: "portfolio.items.sensoryComposition.title",
       category: "Presentation",
       image:
         "https://images.unsplash.com/photo-1577431537627-90ff93245f98?auto=format&fit=crop&w=600&h=600&q=80",
-      description: "Colors and textures for enchantment",
+      descriptionKey: "portfolio.items.sensoryComposition.description",
     },
     {
       id: 5,
-      title: "Private Gala",
+      titleKey: "portfolio.items.privateGala.title",
       category: "Events",
       image:
         "https://images.unsplash.com/photo-1519671482677-de7ecf00efb7?auto=format&fit=crop&w=600&h=600&q=80",
-      description: "Gala dinner for 50 guests with exceptional service",
+      descriptionKey: "portfolio.items.privateGala.description",
     },
     {
       id: 6,
-      title: "Luxury Wedding",
+      titleKey: "portfolio.items.luxuryWedding.title",
       category: "Events",
       image:
         "https://images.unsplash.com/photo-1519671482677-de7ecf00efb7?auto=format&fit=crop&w=600&h=600&q=80",
-      description: "Gastronomic wedding menu and reception",
+      descriptionKey: "portfolio.items.luxuryWedding.description",
     },
     {
       id: 7,
-      title: "Exceptional Tablescape",
+      titleKey: "portfolio.items.exceptionalTablescape.title",
       category: "Tables",
       image:
         "https://images.unsplash.com/photo-1504674900968-45cc10deda4c?auto=format&fit=crop&w=600&h=600&q=80",
-      description: "Refined table setting and dish presentation",
+      descriptionKey: "portfolio.items.exceptionalTablescape.description",
     },
     {
       id: 8,
-      title: "Elegant Ambiance",
+      titleKey: "portfolio.items.elegantAmbiance.title",
       category: "Tables",
       image:
         "https://images.unsplash.com/photo-1592078615290-033ee584e267?auto=format&fit=crop&w=600&h=600&q=80",
-      description: "Table decoration and gastronomic ambiance",
+      descriptionKey: "portfolio.items.elegantAmbiance.description",
     },
     {
       id: 9,
-      title: "Fish Soup",
+      titleKey: "portfolio.items.fishSoup.title",
       category: "Dishes",
       image:
         "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&w=600&h=600&q=80",
-      description: "Traditional bouillabaisse with rouille",
+      descriptionKey: "portfolio.items.fishSoup.description",
     },
     {
       id: 10,
-      title: "Fresh Pasta",
+      titleKey: "portfolio.items.freshPasta.title",
       category: "Dishes",
       image:
         "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=600&h=600&q=80",
-      description: "Pappardelle with truffle and game sauce",
+      descriptionKey: "portfolio.items.freshPasta.description",
     },
     {
       id: 11,
-      title: "Minimal Presentation",
+      titleKey: "portfolio.items.minimalPresentation.title",
       category: "Presentation",
       image:
         "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&h=600&q=80",
-      description: "Beauty in simplicity, refined elegance",
+      descriptionKey: "portfolio.items.minimalPresentation.description",
     },
     {
       id: 12,
-      title: "Villa Reception",
+      titleKey: "portfolio.items.villaReception.title",
       category: "Events",
       image:
         "https://images.unsplash.com/photo-1519671482677-de7ecf00efb7?auto=format&fit=crop&w=600&h=600&q=80",
-      description: "Private event for 100 guests with impeccable service",
+      descriptionKey: "portfolio.items.villaReception.description",
     },
   ];
 
