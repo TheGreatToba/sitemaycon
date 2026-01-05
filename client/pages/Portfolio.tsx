@@ -174,7 +174,7 @@ export default function Portfolio() {
               >
                 <img
                   src={item.image}
-                  alt={item.title}
+                  alt={t(item.titleKey)}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-colors flex flex-col items-end justify-end p-4 opacity-0 group-hover:opacity-100">
@@ -182,7 +182,7 @@ export default function Portfolio() {
                     <p className="text-xs font-body text-accent mb-1">
                       {item.category}
                     </p>
-                    <h4 className="font-serif font-bold text-sm">{item.title}</h4>
+                    <h4 className="font-serif font-bold text-sm">{t(item.titleKey)}</h4>
                   </div>
                 </div>
               </div>
