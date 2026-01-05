@@ -143,9 +143,9 @@ export default function Prestations() {
         </div>
 
         <div className="relative z-10 text-center text-white px-4">
-          <h1 className="text-5xl md:text-6xl font-serif font-bold">Prestations</h1>
+          <h1 className="text-5xl md:text-6xl font-serif font-bold">{t('prestations.title')}</h1>
           <p className="mt-4 text-lg font-body opacity-90">
-            Private Gastronomic Services Tailored to Your Needs
+            {t('prestations.description')}
           </p>
         </div>
       </section>
