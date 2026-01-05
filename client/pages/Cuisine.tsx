@@ -45,32 +45,11 @@ export default function Cuisine() {
       <section className="py-20 md:py-32 px-4">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl font-serif font-bold text-center mb-16">
-            Our Culinary Philosophy
+            {t('home.philosophy.title')}
           </h2>
 
           <div className="space-y-12">
-            {[
-              {
-                title: "Local Producers & Seasonal Ingredients",
-                description:
-                  "Maison Gauthier works exclusively with local producers whose expertise and high standards guarantee the quality and authenticity of each selected product. We prioritize seasonal, fresh ingredients to ensure maximum flavor and nutritional value.",
-              },
-              {
-                title: "Traditional French Techniques",
-                description:
-                  "Rooted in classical French culinary traditions, our dishes showcase refined techniques: from delicate sauces to precise plating. We honor the foundations of French gastronomy while embracing modern innovation.",
-              },
-              {
-                title: "Regional Inspiration",
-                description:
-                  "French cuisine varies beautifully across regions – from Provence to Normandy, Burgundy to Brittany. We draw inspiration from these diverse traditions, creating menus that celebrate France's gastronomic heritage.",
-              },
-              {
-                title: "Artisanal Quality",
-                description:
-                  "Every element of our cuisine reflects artisanal quality: handmade pasta, fresh herbs, carefully selected proteins, and time-honored preparation methods. We refuse shortcuts in the pursuit of excellence.",
-              },
-            ].map((item) => (
+            {t('cuisine.highlights').map((item) => (
               <div key={item.title} className="flex gap-6">
                 <div className="flex-shrink-0">
                   <div className="w-12 h-12 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-serif font-bold">
