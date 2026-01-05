@@ -62,9 +62,9 @@ export default function Chef() {
         </div>
 
         <div className="relative z-10 text-center text-white px-4">
-          <h1 className="text-5xl md:text-6xl font-serif font-bold">About Maison Gauthier</h1>
+          <h1 className="text-5xl md:text-6xl font-serif font-bold">{t('chef.title')}</h1>
           <p className="mt-4 text-lg font-body opacity-90">
-            Story, Philosophy and Culinary Excellence
+            {t('home.philosophy.title')}, {t('cuisine.title')}
           </p>
         </div>
       </section>
