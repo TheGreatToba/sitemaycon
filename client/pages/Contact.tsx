@@ -64,9 +64,9 @@ export default function Contact() {
         </div>
 
         <div className="relative z-10 text-center text-white px-4">
-          <h1 className="text-5xl md:text-6xl font-serif font-bold">Contact Us</h1>
+          <h1 className="text-5xl md:text-6xl font-serif font-bold">{t("contact.hero.title")}</h1>
           <p className="mt-4 text-lg font-body opacity-90">
-            Reserve Your Gastronomic Experience
+            {t("contact.hero.subtitle")}
           </p>
         </div>
       </section>
