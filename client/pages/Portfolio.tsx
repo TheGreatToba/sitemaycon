@@ -8,13 +8,15 @@ export default function Portfolio() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [activeCategory, setActiveCategory] = useState("All");
 
-  const categories = [
-    t("portfolio.categories.all"),
-    t("portfolio.categories.dishes"),
-    t("portfolio.categories.presentation"),
-    t("portfolio.categories.events"),
-    t("portfolio.categories.tables"),
-  ];
+  const categoryMap = {
+    All: t("portfolio.categories.all"),
+    Dishes: t("portfolio.categories.dishes"),
+    Presentation: t("portfolio.categories.presentation"),
+    Events: t("portfolio.categories.events"),
+    Tables: t("portfolio.categories.tables"),
+  } as const;
+
+  const categories = Object.keys(categoryMap) as Array<keyof typeof categoryMap>;
 
   const portfolioItems = [
     {
