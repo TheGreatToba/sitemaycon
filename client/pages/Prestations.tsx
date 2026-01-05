@@ -299,16 +299,16 @@ export default function Prestations() {
       <section className="py-20 md:py-32 px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-4xl font-serif font-bold mb-6">
-            Ready to Experience Maison Gauthier?
+            {t('home.finalCta.title')}
           </h2>
           <p className="text-lg font-body text-muted-foreground mb-8">
-            Contact us to discuss your culinary needs and receive a personalized quotation
+            {t('home.finalCta.description')}
           </p>
           <Link
             to="/contact"
             className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-body hover:opacity-90 transition-opacity"
           >
-            Get in Touch
+            {t('home.finalCta.cta')}
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
