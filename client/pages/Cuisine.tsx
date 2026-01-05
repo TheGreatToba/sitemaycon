@@ -74,7 +74,7 @@ export default function Cuisine() {
       <section className="py-20 md:py-32 px-4 bg-secondary/30">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-serif font-bold text-center mb-16">
-            Culinary Highlights
+            {t('home.portfolio.title')}
           </h2>
 
           <div className="grid md:grid-cols-2 gap-12">
