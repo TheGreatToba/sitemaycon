@@ -111,22 +111,22 @@ export default function Home() {
 
           <div>
             <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">
-              Our Philosophy
+              {t('home.philosophy.title')}
             </h2>
 
             <p className="text-lg font-body mb-4 text-muted-foreground leading-relaxed">
-              Maison Gauthier's philosophy is based on creating a warm environment where everyone can feel at ease, while enjoying attentive and authentic service guided by deep-rooted values.
+              {t('home.philosophy.description1')}
             </p>
 
             <p className="text-lg font-body mb-6 text-muted-foreground leading-relaxed">
-              Operating internationally, we bring the French art of living to receptions, private dinners, and long-term stays. From gastronomy to service, every detail is carefully thought out and executed to offer a harmonious and refined experience.
+              {t('home.philosophy.description2')}
             </p>
 
             <Link
               to="/chef"
               className="inline-flex items-center gap-2 text-accent font-body hover:opacity-80 transition-opacity"
             >
-              Learn More
+              {t('home.philosophy.learnMore')}
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
