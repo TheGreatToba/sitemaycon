@@ -1,8 +1,10 @@
 import Layout from "@/components/Layout";
 import { useState } from "react";
 import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export default function Contact() {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
