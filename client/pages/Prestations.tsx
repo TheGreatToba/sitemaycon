@@ -29,7 +29,8 @@ export default function Prestations() {
           description: t("prestations.chapter1.dinner.description"),
         },
       ],
-      image: "https://images.unsplash.com/photo-1504674900968-45cc10deda4c?auto=format&fit=crop&w=800&h=600&q=80",
+      image:
+        "https://images.unsplash.com/photo-1504674900968-45cc10deda4c?auto=format&fit=crop&w=800&h=600&q=80",
     },
     {
       title: t("prestations.chapter2.title"),
@@ -54,7 +55,8 @@ export default function Prestations() {
           description: t("prestations.chapter2.residentChef.description"),
         },
       ],
-      image: "https://images.unsplash.com/photo-1519671482677-de7ecf00efb7?auto=format&fit=crop&w=800&h=600&q=80",
+      image:
+        "https://images.unsplash.com/photo-1519671482677-de7ecf00efb7?auto=format&fit=crop&w=800&h=600&q=80",
     },
   ];
 
@@ -127,7 +129,9 @@ export default function Prestations() {
         </div>
 
         <div className="relative z-10 text-center text-white px-4">
-          <h1 className="text-5xl md:text-6xl font-serif font-bold">{t("prestations.hero.title")}</h1>
+          <h1 className="text-5xl md:text-6xl font-serif font-bold">
+            {t("prestations.hero.title")}
+          </h1>
           <p className="mt-4 text-lg font-body opacity-90">
             {t("prestations.hero.subtitle")}
           </p>
@@ -140,7 +144,9 @@ export default function Prestations() {
           {chapters.map((chapter, index) => (
             <div key={chapter.title}>
               {/* Chapter Header */}
-              <div className={`grid md:grid-cols-2 gap-12 items-center mb-12 ${index % 2 === 1 ? "md:[&>*]:order-2" : ""}`}>
+              <div
+                className={`grid md:grid-cols-2 gap-12 items-center mb-12 ${index % 2 === 1 ? "md:[&>*]:order-2" : ""}`}
+              >
                 <div className="relative overflow-hidden bg-secondary h-96">
                   <img
                     src={chapter.image}
@@ -180,7 +186,10 @@ export default function Prestations() {
               {/* Chapter Options */}
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {chapter.options.map((option) => (
-                  <div key={option.title} className="p-6 border border-border bg-background">
+                  <div
+                    key={option.title}
+                    className="p-6 border border-border bg-background"
+                  >
                     <h4 className="font-serif font-bold mb-3 text-lg">
                       {option.title}
                     </h4>
@@ -218,7 +227,10 @@ export default function Prestations() {
             </h3>
             <div className="space-y-6">
               {starters.map((dish) => (
-                <div key={dish.title} className="border-b border-border pb-6 last:border-0">
+                <div
+                  key={dish.title}
+                  className="border-b border-border pb-6 last:border-0"
+                >
                   <h4 className="text-xl font-serif font-bold text-primary mb-2">
                     {dish.title}
                   </h4>
@@ -237,7 +249,10 @@ export default function Prestations() {
             </h3>
             <div className="space-y-6">
               {mains.map((dish) => (
-                <div key={dish.title} className="border-b border-border pb-6 last:border-0">
+                <div
+                  key={dish.title}
+                  className="border-b border-border pb-6 last:border-0"
+                >
                   <h4 className="text-xl font-serif font-bold text-primary mb-2">
                     {dish.title}
                   </h4>
@@ -285,23 +300,33 @@ export default function Prestations() {
             {[
               {
                 title: t("prestations.importantInfo.turnkeyService.title"),
-                description: t("prestations.importantInfo.turnkeyService.description"),
+                description: t(
+                  "prestations.importantInfo.turnkeyService.description",
+                ),
               },
               {
                 title: t("prestations.importantInfo.groceriesAndPricing.title"),
-                description: t("prestations.importantInfo.groceriesAndPricing.description"),
+                description: t(
+                  "prestations.importantInfo.groceriesAndPricing.description",
+                ),
               },
               {
                 title: t("prestations.importantInfo.equipmentAndTravel.title"),
-                description: t("prestations.importantInfo.equipmentAndTravel.description"),
+                description: t(
+                  "prestations.importantInfo.equipmentAndTravel.description",
+                ),
               },
               {
                 title: t("prestations.importantInfo.paymentMethods.title"),
-                description: t("prestations.importantInfo.paymentMethods.description"),
+                description: t(
+                  "prestations.importantInfo.paymentMethods.description",
+                ),
               },
               {
                 title: t("prestations.importantInfo.additionalServices.title"),
-                description: t("prestations.importantInfo.additionalServices.description"),
+                description: t(
+                  "prestations.importantInfo.additionalServices.description",
+                ),
               },
             ].map((item) => (
               <div key={item.title} className="flex gap-6">

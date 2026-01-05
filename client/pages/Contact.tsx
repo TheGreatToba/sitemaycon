@@ -21,7 +21,7 @@ export default function Contact() {
   const handleInputChange = (
     e: React.ChangeEvent<
       HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
-    >
+    >,
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
@@ -64,7 +64,9 @@ export default function Contact() {
         </div>
 
         <div className="relative z-10 text-center text-white px-4">
-          <h1 className="text-5xl md:text-6xl font-serif font-bold">{t("contact.hero.title")}</h1>
+          <h1 className="text-5xl md:text-6xl font-serif font-bold">
+            {t("contact.hero.title")}
+          </h1>
           <p className="mt-4 text-lg font-body opacity-90">
             {t("contact.hero.subtitle")}
           </p>
@@ -79,7 +81,9 @@ export default function Contact() {
             <div>
               <div className="flex items-center gap-4 mb-4">
                 <Phone className="w-6 h-6 text-accent" />
-                <h3 className="text-xl font-serif font-bold">{t("contact.phone.label")}</h3>
+                <h3 className="text-xl font-serif font-bold">
+                  {t("contact.phone.label")}
+                </h3>
               </div>
               <p className="font-body text-muted-foreground">
                 {t("contact.phone.number")}
@@ -92,7 +96,9 @@ export default function Contact() {
             <div>
               <div className="flex items-center gap-4 mb-4">
                 <Mail className="w-6 h-6 text-accent" />
-                <h3 className="text-xl font-serif font-bold">{t("contact.email.label")}</h3>
+                <h3 className="text-xl font-serif font-bold">
+                  {t("contact.email.label")}
+                </h3>
               </div>
               <p className="font-body text-muted-foreground">
                 {t("contact.email.address")}
@@ -105,7 +111,9 @@ export default function Contact() {
             <div>
               <div className="flex items-center gap-4 mb-4">
                 <MapPin className="w-6 h-6 text-accent" />
-                <h3 className="text-xl font-serif font-bold">{t("contact.location.label")}</h3>
+                <h3 className="text-xl font-serif font-bold">
+                  {t("contact.location.label")}
+                </h3>
               </div>
               <p className="font-body text-muted-foreground">
                 {t("contact.location.city")}
@@ -118,10 +126,15 @@ export default function Contact() {
 
           {/* Social Media */}
           <div>
-            <h3 className="text-xl font-serif font-bold mb-6">{t("contact.social.title")}</h3>
+            <h3 className="text-xl font-serif font-bold mb-6">
+              {t("contact.social.title")}
+            </h3>
             <div className="space-y-4">
               {[
-                { nameKey: "contact.social.instagram", url: "https://instagram.com/maisongauthier__" },
+                {
+                  nameKey: "contact.social.instagram",
+                  url: "https://instagram.com/maisongauthier__",
+                },
                 { nameKey: "contact.social.linkedin", url: "#" },
                 { nameKey: "contact.social.facebook", url: "#" },
               ].map((social) => (
@@ -140,20 +153,14 @@ export default function Contact() {
 
           {/* Quick Info */}
           <div className="p-8 bg-secondary/30 border border-border">
-            <h3 className="text-xl font-serif font-bold mb-4">{t("contact.bookingTimeline.title")}</h3>
+            <h3 className="text-xl font-serif font-bold mb-4">
+              {t("contact.bookingTimeline.title")}
+            </h3>
             <ul className="space-y-3 font-body text-muted-foreground">
-              <li>
-                {t("contact.bookingTimeline.singleDay")}
-              </li>
-              <li>
-                {t("contact.bookingTimeline.weekStay")}
-              </li>
-              <li>
-                {t("contact.bookingTimeline.events")}
-              </li>
-              <li>
-                {t("contact.bookingTimeline.custom")}
-              </li>
+              <li>{t("contact.bookingTimeline.singleDay")}</li>
+              <li>{t("contact.bookingTimeline.weekStay")}</li>
+              <li>{t("contact.bookingTimeline.events")}</li>
+              <li>{t("contact.bookingTimeline.custom")}</li>
             </ul>
           </div>
         </div>
@@ -178,7 +185,9 @@ export default function Contact() {
               <div className="grid md:grid-cols-2 gap-6">
                 {/* Name */}
                 <div>
-                  <label className="block font-body font-bold mb-2">{t("contact.form.name")} *</label>
+                  <label className="block font-body font-bold mb-2">
+                    {t("contact.form.name")} *
+                  </label>
                   <input
                     type="text"
                     name="name"
@@ -192,7 +201,9 @@ export default function Contact() {
 
                 {/* Email */}
                 <div>
-                  <label className="block font-body font-bold mb-2">{t("contact.form.email")} *</label>
+                  <label className="block font-body font-bold mb-2">
+                    {t("contact.form.email")} *
+                  </label>
                   <input
                     type="email"
                     name="email"
@@ -206,7 +217,9 @@ export default function Contact() {
 
                 {/* Phone */}
                 <div>
-                  <label className="block font-body font-bold mb-2">{t("contact.form.phone")}</label>
+                  <label className="block font-body font-bold mb-2">
+                    {t("contact.form.phone")}
+                  </label>
                   <input
                     type="tel"
                     name="phone"
@@ -230,12 +243,22 @@ export default function Contact() {
                     className="w-full px-4 py-3 border border-border bg-background text-foreground font-body focus:outline-none focus:ring-2 focus:ring-accent"
                   >
                     <option value="">{t("contact.form.selectService")}</option>
-                    <option value="day-service">{t("contact.form.oneDay")}</option>
-                    <option value="week-stay">{t("contact.form.weekStay")}</option>
+                    <option value="day-service">
+                      {t("contact.form.oneDay")}
+                    </option>
+                    <option value="week-stay">
+                      {t("contact.form.weekStay")}
+                    </option>
                     <option value="event">{t("contact.form.event")}</option>
-                    <option value="custom-menu">{t("contact.form.customMenu")}</option>
-                    <option value="yacht">{t("contact.form.yachtService")}</option>
-                    <option value="consultation">{t("contact.form.consultation")}</option>
+                    <option value="custom-menu">
+                      {t("contact.form.customMenu")}
+                    </option>
+                    <option value="yacht">
+                      {t("contact.form.yachtService")}
+                    </option>
+                    <option value="consultation">
+                      {t("contact.form.consultation")}
+                    </option>
                   </select>
                 </div>
 
@@ -288,7 +311,9 @@ export default function Contact() {
 
               {/* Message */}
               <div>
-                <label className="block font-body font-bold mb-2">{t("contact.form.message")}</label>
+                <label className="block font-body font-bold mb-2">
+                  {t("contact.form.message")}
+                </label>
                 <textarea
                   name="message"
                   value={formData.message}
@@ -346,7 +371,10 @@ export default function Contact() {
                 aKey: "contact.faq.beverages.a",
               },
             ].map((item, index) => (
-              <div key={index} className="p-6 bg-background border border-border">
+              <div
+                key={index}
+                className="p-6 bg-background border border-border"
+              >
                 <h3 className="font-serif font-bold mb-3">{t(item.qKey)}</h3>
                 <p className="font-body text-muted-foreground text-sm">
                   {t(item.aKey)}

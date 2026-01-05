@@ -16,7 +16,9 @@ export default function Portfolio() {
     Tables: t("portfolio.categories.tables"),
   } as const;
 
-  const categories = Object.keys(categoryMap) as Array<keyof typeof categoryMap>;
+  const categories = Object.keys(categoryMap) as Array<
+    keyof typeof categoryMap
+  >;
 
   const portfolioItems = [
     {
@@ -137,7 +139,9 @@ export default function Portfolio() {
         </div>
 
         <div className="relative z-10 text-center text-white px-4">
-          <h1 className="text-5xl md:text-6xl font-serif font-bold">{t("portfolio.hero.title")}</h1>
+          <h1 className="text-5xl md:text-6xl font-serif font-bold">
+            {t("portfolio.hero.title")}
+          </h1>
           <p className="mt-4 text-lg font-body opacity-90">
             {t("portfolio.hero.subtitle")}
           </p>
@@ -182,7 +186,9 @@ export default function Portfolio() {
                     <p className="text-xs font-body text-accent mb-1">
                       {item.category}
                     </p>
-                    <h4 className="font-serif font-bold text-sm">{t(item.titleKey)}</h4>
+                    <h4 className="font-serif font-bold text-sm">
+                      {t(item.titleKey)}
+                    </h4>
                   </div>
                 </div>
               </div>
