@@ -168,16 +168,16 @@ export default function Chef() {
       <section className="py-20 md:py-32 px-4 bg-secondary/30">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-4xl font-serif font-bold mb-6">
-            Explore Our Services
+            {t('home.finalCta.title')}
           </h2>
           <p className="text-lg font-body text-muted-foreground mb-8">
-            Private dinners, exclusive events, on-board services, and bespoke culinary experiences...
+            {t('home.finalCta.description')}
           </p>
           <Link
             to="/prestations"
             className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-body hover:opacity-90 transition-opacity"
           >
-            View All Services
+            {t('home.portfolio.viewGallery')}
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
