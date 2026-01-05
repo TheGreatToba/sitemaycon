@@ -140,19 +140,19 @@ export default function Contact() {
 
           {/* Quick Info */}
           <div className="p-8 bg-secondary/30 border border-border">
-            <h3 className="text-xl font-serif font-bold mb-4">Booking Timeline</h3>
+            <h3 className="text-xl font-serif font-bold mb-4">{t("contact.bookingTimeline.title")}</h3>
             <ul className="space-y-3 font-body text-muted-foreground">
               <li>
-                <span className="font-bold">Single day service:</span> 2 weeks
+                {t("contact.bookingTimeline.singleDay")}
               </li>
               <li>
-                <span className="font-bold">Week-long stays:</span> 1 month
+                {t("contact.bookingTimeline.weekStay")}
               </li>
               <li>
-                <span className="font-bold">Events:</span> 3 months
+                {t("contact.bookingTimeline.events")}
               </li>
               <li>
-                <span className="font-bold">Custom requests:</span> Upon consultation
+                {t("contact.bookingTimeline.custom")}
               </li>
             </ul>
           </div>
