@@ -159,7 +159,7 @@ export default function Portfolio() {
                     : "border border-border text-foreground hover:bg-secondary"
                 }`}
               >
-                {category}
+                {categoryMap[category]}
               </button>
             ))}
           </div>
