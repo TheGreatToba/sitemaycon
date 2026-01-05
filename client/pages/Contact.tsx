@@ -118,21 +118,21 @@ export default function Contact() {
 
           {/* Social Media */}
           <div>
-            <h3 className="text-xl font-serif font-bold mb-6">Follow Us</h3>
+            <h3 className="text-xl font-serif font-bold mb-6">{t("contact.social.title")}</h3>
             <div className="space-y-4">
               {[
-                { name: "Instagram", url: "https://instagram.com/maisongauthier__" },
-                { name: "LinkedIn", url: "#" },
-                { name: "Facebook", url: "#" },
+                { nameKey: "contact.social.instagram", url: "https://instagram.com/maisongauthier__" },
+                { nameKey: "contact.social.linkedin", url: "#" },
+                { nameKey: "contact.social.facebook", url: "#" },
               ].map((social) => (
                 <a
-                  key={social.name}
+                  key={social.nameKey}
                   href={social.url}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-3 px-4 py-2 border border-border text-foreground font-body hover:bg-secondary transition-colors"
                 >
-                  {social.name}
+                  {t(social.nameKey)}
                 </a>
               ))}
             </div>
