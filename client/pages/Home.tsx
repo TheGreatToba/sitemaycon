@@ -11,25 +11,25 @@ export default function Home() {
   const portfolioPreview = [
     {
       title: "Homard Grillé",
-      category: "Plats",
+      category: t('portfolio.categories.dishes'),
       image:
         "https://images.unsplash.com/photo-1625246333195-78d9c38ad576?auto=format&fit=crop&w=500&h=500&q=80",
     },
     {
       title: "Dressage Raffiné",
-      category: "Dressage",
+      category: t('portfolio.categories.presentation'),
       image:
         "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=500&h=500&q=80",
     },
     {
       title: "Gala Privé",
-      category: "Événements",
+      category: t('portfolio.categories.events'),
       image:
         "https://images.unsplash.com/photo-1519671482677-de7ecf00efb7?auto=format&fit=crop&w=500&h=500&q=80",
     },
     {
-      title: "Table d'Excellenc",
-      category: "Tables",
+      title: "Table d'Excellence",
+      category: t('portfolio.categories.tables'),
       image:
         "https://images.unsplash.com/photo-1504674900968-45cc10deda4c?auto=format&fit=crop&w=500&h=500&q=80",
     },
