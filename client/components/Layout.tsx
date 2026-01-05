@@ -1,17 +1,22 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Globe } from "lucide-react";
+import { useTranslation } from "@/lib/useTranslation";
+import { useLanguage } from "@/lib/LanguageContext";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [langMenuOpen, setLangMenuOpen] = useState(false);
+  const { t } = useTranslation();
+  const { language, setLanguage } = useLanguage();
 
   const navItems = [
-    { label: "Accueil", href: "/" },
-    { label: "Le Chef", href: "/chef" },
-    { label: "Prestations", href: "/prestations" },
-    { label: "Cuisine", href: "/cuisine" },
-    { label: "Portfolio", href: "/portfolio" },
-    { label: "Contact", href: "/contact" },
+    { label: t('nav.home'), href: "/" },
+    { label: t('nav.chef'), href: "/chef" },
+    { label: t('nav.prestations'), href: "/prestations" },
+    { label: t('nav.cuisine'), href: "/cuisine" },
+    { label: t('nav.portfolio'), href: "/portfolio" },
+    { label: t('nav.contact'), href: "/contact" },
   ];
 
   return (
