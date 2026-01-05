@@ -278,35 +278,30 @@ export default function Prestations() {
       <section className="py-20 md:py-32 px-4 bg-secondary/30">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl font-serif font-bold text-center mb-12">
-            Important Information
+            {t("prestations.importantInfo.title")}
           </h2>
 
           <div className="space-y-8">
             {[
               {
-                title: "Turnkey Service",
-                description:
-                  "Maison Gauthier is a company that offers a turnkey service: you don't have to worry about a thing.",
+                title: t("prestations.importantInfo.turnkeyService.title"),
+                description: t("prestations.importantInfo.turnkeyService.description"),
               },
               {
-                title: "Groceries & Pricing",
-                description:
-                  "Groceries are charged as an extra. A 30% deposit is required to confirm the order, with the balance due at the end of the service.",
+                title: t("prestations.importantInfo.groceriesAndPricing.title"),
+                description: t("prestations.importantInfo.groceriesAndPricing.description"),
               },
               {
-                title: "Equipment & Travel",
-                description:
-                  "The chef has all the equipment needed to provide the service. Travel expenses are covered by Maison Gauthier.",
+                title: t("prestations.importantInfo.equipmentAndTravel.title"),
+                description: t("prestations.importantInfo.equipmentAndTravel.description"),
               },
               {
-                title: "Payment Methods",
-                description:
-                  "Payments can be made in cash, by bank transfer, or in cryptocurrency. Accepted currencies: US Dollar, Euro, British Pound.",
+                title: t("prestations.importantInfo.paymentMethods.title"),
+                description: t("prestations.importantInfo.paymentMethods.description"),
               },
               {
-                title: "Additional Services",
-                description:
-                  "Any additional requests outside of the planned service (extension of duration, work outside working hours, night services, etc.) will be billed at €150 per hour.",
+                title: t("prestations.importantInfo.additionalServices.title"),
+                description: t("prestations.importantInfo.additionalServices.description"),
               },
             ].map((item) => (
               <div key={item.title} className="flex gap-6">
