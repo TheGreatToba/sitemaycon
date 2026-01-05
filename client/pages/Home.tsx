@@ -138,10 +138,10 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">
-              Our Services
+              {t('home.services.title')}
             </h2>
             <p className="text-lg font-body text-muted-foreground max-w-2xl mx-auto">
-              Maison Gauthier accompanies you with a range of services tailored to your needs. Every service is designed as a unique creation.
+              {t('home.services.description')}
             </p>
           </div>
 
