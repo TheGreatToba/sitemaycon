@@ -219,7 +219,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">
-              Client Testimonials
+              {t('home.testimonials.title')}
             </h2>
           </div>
 
