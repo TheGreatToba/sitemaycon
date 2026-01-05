@@ -76,23 +76,23 @@ export default function Home() {
           <div className="mb-6 inline-block">
             <div className="flex items-center gap-2 text-white font-body text-sm tracking-widest">
               <Leaf className="w-4 h-4" />
-              PRIVATE FRENCH GASTRONOMY
+              {t('home.hero.subtitle')}
             </div>
           </div>
 
           <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6 leading-tight">
-            Welcome to<br />Maison Gauthier
+            {t('home.hero.title')}
           </h1>
 
           <p className="text-lg md:text-xl font-body mb-8 opacity-95 max-w-2xl mx-auto">
-            Maison Gauthier was born from the ambition of a French chef to bring the art of French cuisine into homes around the world. Creating private gastronomic experiences for VIP clients.
+            {t('home.hero.description')}
           </p>
 
           <Link
             to="/contact"
             className="inline-flex items-center gap-2 px-8 py-4 bg-accent text-accent-foreground font-body text-sm hover:opacity-90 transition-opacity"
           >
-            Reserve Your Experience
+            {t('home.hero.cta')}
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
