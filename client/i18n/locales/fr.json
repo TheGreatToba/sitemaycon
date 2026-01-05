@@ -326,15 +326,33 @@
       }
     },
     "dietaryAdaptations": {
-      "title": "Adaptations Diététiques",
-      "description": "Tous les invités peuvent profiter de menus adaptés pour les allergies et les préférences alimentaires sans frais supplémentaires. Nous garantissons la sécurité et la déliciosité à chaque adaptation."
+      "title": "Intolérance Alimentaire & Adaptations Diététiques",
+      "intro": "Parce que chaque invité mérite une expérience culinaire harmonieuse, un menu entièrement adapté aux intolérances ou restrictions alimentaires peut être préparé sur demande, sans compromettre la qualité ou la raffinement des plats.",
+      "noExtraCost": "Aucun frais supplémentaire ne s'applique: le prix reste inchangé, avec ingrédients spécifiques et service inclus dans l'expérience.",
+      "note": "Pour ceux ayant des allergies, intolérances ou restrictions alimentaires, veuillez nous le faire savoir avant de passer votre commande afin que nous puissions adapter nos plats de manière sécuritaire."
     },
     "importantInfo": {
       "title": "Informations Importantes",
-      "groceries": "Les courses sont facturées séparément selon les coûts réels",
-      "deposit": "Acompte de 30% requis pour confirmer votre réservation",
-      "crypto": "Paiements en cryptomonnaies acceptés",
-      "cancellation": "Politique d'annulation disponible sur demande"
+      "turnkeyService": {
+        "title": "Service Clé en Main",
+        "description": "Maison Gauthier est une entreprise qui offre un service clé en main: vous n'avez pas à vous soucier de quoi que ce soit."
+      },
+      "groceriesAndPricing": {
+        "title": "Courses et Tarification",
+        "description": "Les courses sont facturées en supplément. Un acompte de 30% est requis pour confirmer la commande, le solde étant dû à la fin du service."
+      },
+      "equipmentAndTravel": {
+        "title": "Équipement et Déplacements",
+        "description": "Le chef dispose de tout l'équipement nécessaire pour fournir le service. Les frais de déplacement sont couverts par Maison Gauthier."
+      },
+      "paymentMethods": {
+        "title": "Modes de Paiement",
+        "description": "Les paiements peuvent être effectués en espèces, par virement bancaire ou en cryptomonnaie. Devises acceptées: Dollar US, Euro, Livre Sterling."
+      },
+      "additionalServices": {
+        "title": "Services Supplémentaires",
+        "description": "Toute demande supplémentaire en dehors du service prévu (extension de durée, travail en dehors des heures de travail, services de nuit, etc.) sera facturée 150 € de l'heure."
+      }
     }
   },
   "portfolio": {
