@@ -366,6 +366,56 @@
       "presentation": "Dressage",
       "events": "Événements",
       "tables": "Tables"
+    },
+    "items": {
+      "lobster": {
+        "title": "Homard au Beurre et Herbes",
+        "description": "Homard grillé frais avec sauce aux herbes"
+      },
+      "risotto": {
+        "title": "Risotto aux Truffes",
+        "description": "Risotto Carnaroli aux truffes noires"
+      },
+      "sophisticatedPlating": {
+        "title": "Dressage Sophistiqué",
+        "description": "Art culinaire et présentation raffinée"
+      },
+      "sensoryComposition": {
+        "title": "Composition Sensorielle",
+        "description": "Couleurs et textures pour l'enchantement"
+      },
+      "privateGala": {
+        "title": "Gala Privé",
+        "description": "Dîner de gala pour 50 invités avec service exceptionnel"
+      },
+      "luxuryWedding": {
+        "title": "Mariage de Luxe",
+        "description": "Menu de mariage gastronomique et réception"
+      },
+      "exceptionalTablescape": {
+        "title": "Mise en Table Exceptionnelle",
+        "description": "Mise en place raffinée et présentation des plats"
+      },
+      "elegantAmbiance": {
+        "title": "Ambiance Élégante",
+        "description": "Décoration de table et ambiance gastronomique"
+      },
+      "fishSoup": {
+        "title": "Soupe de Poisson",
+        "description": "Bouillabaisse traditionnelle avec rouille"
+      },
+      "freshPasta": {
+        "title": "Pâtes Fraîches",
+        "description": "Pappardelle avec sauce truffe et gibier"
+      },
+      "minimalPresentation": {
+        "title": "Présentation Minimale",
+        "description": "Beauté dans la simplicité, élégance raffinée"
+      },
+      "villaReception": {
+        "title": "Réception à la Villa",
+        "description": "Événement privé pour 100 invités avec service impeccable"
+      }
     }
   },
   "contact": {
