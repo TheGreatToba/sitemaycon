@@ -326,15 +326,33 @@
       }
     },
     "dietaryAdaptations": {
-      "title": "Dietary Adaptations",
-      "description": "All guests can enjoy adapted menus for allergies and dietary preferences at no extra cost. We ensure safety and deliciousness in every adaptation."
+      "title": "Food Intolerances & Dietary Adaptations",
+      "intro": "Because every guest deserves a harmonious culinary experience, a menu fully adapted to food intolerances or restrictions can be prepared on request, without compromising the quality or refinement of the dishes.",
+      "noExtraCost": "No extra charge applies: the price remains unchanged, with specific ingredients and service included in the experience.",
+      "note": "For those with allergies, intolerances, or dietary restrictions, please let us know before placing your order so that we can safely adapt our dishes."
     },
     "importantInfo": {
       "title": "Important Information",
-      "groceries": "Groceries are billed separately according to actual costs",
-      "deposit": "30% deposit required to confirm your booking",
-      "crypto": "Cryptocurrency payments accepted",
-      "cancellation": "Cancellation policy available upon request"
+      "turnkeyService": {
+        "title": "Turnkey Service",
+        "description": "Maison Gauthier is a company that offers a turnkey service: you don't have to worry about a thing."
+      },
+      "groceriesAndPricing": {
+        "title": "Groceries & Pricing",
+        "description": "Groceries are charged as an extra. A 30% deposit is required to confirm the order, with the balance due at the end of the service."
+      },
+      "equipmentAndTravel": {
+        "title": "Equipment & Travel",
+        "description": "The chef has all the equipment needed to provide the service. Travel expenses are covered by Maison Gauthier."
+      },
+      "paymentMethods": {
+        "title": "Payment Methods",
+        "description": "Payments can be made in cash, by bank transfer, or in cryptocurrency. Accepted currencies: US Dollar, Euro, British Pound."
+      },
+      "additionalServices": {
+        "title": "Additional Services",
+        "description": "Any additional requests outside of the planned service (extension of duration, work outside working hours, night services, etc.) will be billed at €150 per hour."
+      }
     }
   },
   "portfolio": {
