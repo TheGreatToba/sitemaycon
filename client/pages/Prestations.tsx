@@ -244,7 +244,7 @@ export default function Prestations() {
       <section className="py-20 md:py-32 px-4 bg-secondary/30">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl font-serif font-bold text-center mb-12">
-            Important Information
+            {t('prestations.importantInfo.title')}
           </h2>
 
           <div className="space-y-8">
