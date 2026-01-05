@@ -169,10 +169,10 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">
-              Culinary Portfolio
+              {t('home.portfolio.title')}
             </h2>
             <p className="text-lg font-body text-muted-foreground max-w-2xl mx-auto">
-              Discover a selection of our creations and recent achievements in gastronomic excellence.
+              {t('home.portfolio.description')}
             </p>
           </div>
 
