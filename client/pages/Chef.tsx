@@ -84,14 +84,15 @@ export default function Chef() {
 
             <div>
               <h2 className="text-4xl font-serif font-bold mb-6">
-                Our Story
+                {t('home.philosophy.title')}
               </h2>
-              <p className="text-lg font-body text-muted-foreground mb-4 leading-relaxed">
-                Maison Gauthier was born from the ambition of a French chef and restaurateur to bring the art of French cuisine into homes around the world. With a passion for gastronomy and a commitment to excellence, we create private gastronomic experiences for VIP clients worldwide.
-              </p>
-              <p className="text-lg font-body text-muted-foreground leading-relaxed">
-                Every experience is meticulously crafted with attention to every detail. We believe that exceptional cuisine should be accessible in the privacy and comfort of your own home, whether in a villa, yacht, or residence.
-              </p>
+              <div className="prose prose-sm max-w-none">
+                {t('chef.content').split('\n\n').map((paragraph, index) => (
+                  <p key={index} className="text-lg font-body text-muted-foreground mb-4 leading-relaxed">
+                    {paragraph}
+                  </p>
+                ))}
+              </div>
             </div>
           </div>
 
