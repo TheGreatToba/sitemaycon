@@ -128,6 +128,25 @@ export default function Chef() {
             </div>
           </div>
 
+          {/* Certifications */}
+          <div className="mb-20">
+            <h3 className="text-3xl font-serif font-bold mb-12 text-center">
+              Professional Certifications
+            </h3>
+            <div className="grid md:grid-cols-2 gap-8">
+              {t('chef.certifications').map((cert) => (
+                <div key={cert.title} className="p-8 bg-secondary/30 border border-border">
+                  <h4 className="text-2xl font-serif font-bold mb-3">
+                    {cert.title}
+                  </h4>
+                  <p className="font-body text-muted-foreground">
+                    {cert.description}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+
           {/* Professional Journey */}
           <div>
             <h3 className="text-3xl font-serif font-bold mb-12 text-center">
