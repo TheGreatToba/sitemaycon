@@ -103,6 +103,24 @@ The philosophy of Maison Gauthier rests on the creation of a warm environment wh
 Operating internationally, the chef brings the French art of living to receptions, private dinners and long-term stays. From gastronomy to service, every detail is carefully thought out and executed to offer a harmonious and refined experience.
 
 Committed to sustainable practices, Maison Gauthier works exclusively with local producers to guarantee the quality and authenticity of ingredients. This dedication ensures that every dish reflects the true essence of French gastronomy while respecting the environment and supporting local communities.`,
+      certifications: [
+        {
+          title: 'HACCP Certification',
+          description: 'Food safety and hygiene management certification',
+        },
+        {
+          title: 'Medical Certificate',
+          description: 'Professional health and safety certificate',
+        },
+        {
+          title: "Ship's Cook Certificate",
+          description: 'International certification for on-board culinary services',
+        },
+        {
+          title: 'STCW Certificate',
+          description: 'Standards of Training, Certification and Watchkeeping for Seafarers',
+        },
+      ],
     },
     // Prestations Page
     prestations: {
@@ -213,6 +231,28 @@ Committed to sustainable practices, Maison Gauthier works exclusively with local
             'Harmonious balance of tastes and aromas in every creation.',
         },
       ],
+      cuisineTypes: [
+        {
+          title: 'French Cuisine',
+          description:
+            'Classic French gastronomy featuring traditional techniques and refined presentations from all regions of France.',
+        },
+        {
+          title: 'Mediterranean Cuisine',
+          description:
+            'Fresh, vibrant flavors inspired by the Mediterranean coast, emphasizing olive oil, fresh vegetables, and seafood.',
+        },
+        {
+          title: 'Italian Cuisine',
+          description:
+            'Authentic Italian preparations celebrating quality ingredients and traditional cooking methods.',
+        },
+        {
+          title: 'Mexican Cuisine',
+          description:
+            'Authentic Mexican culinary traditions with bold flavors and traditional cooking techniques.',
+        },
+      ],
     },
     // Portfolio Page
     portfolio: {
@@ -233,9 +273,6 @@ Committed to sustainable practices, Maison Gauthier works exclusively with local
       contactInfo: 'Contact Information',
       phone: 'Phone',
       email: 'Email',
-      bookingTimeline: 'Booking Timeline',
-      bookingTimelineText:
-        'We recommend contacting us at least 2-3 weeks in advance for your event.',
       form: {
         name: 'Full Name',
         email: 'Email Address',
@@ -362,6 +399,24 @@ La philosophie de Maison Gauthier repose sur la création d'un environnement cha
 Opérant à l'international, le chef apporte l'art de vivre français aux réceptions, aux dîners privés et aux séjours de longue durée. De la gastronomie au service, chaque détail est soigneusement pensé et exécuté pour offrir une expérience harmonieuse et raffinée.
 
 Engagée envers des pratiques durables, Maison Gauthier travaille exclusivement avec des producteurs locaux pour garantir la qualité et l'authenticité des ingrédients. Cet engagement garantit que chaque plat reflète la véritable essence de la gastronomie française tout en respectant l'environnement et en soutenant les communautés locales.`,
+      certifications: [
+        {
+          title: 'Certification HACCP',
+          description: 'Certification de gestion de la sécurité alimentaire et de l\'hygiène',
+        },
+        {
+          title: 'Certificat Médical',
+          description: 'Certificat professionnel de santé et de sécurité',
+        },
+        {
+          title: 'Certificat de Cuisinier de Navire',
+          description: 'Certification internationale pour les services culinaires à bord',
+        },
+        {
+          title: 'Certificat STCW',
+          description: 'Normes de formation, de certification et de service pour les marins',
+        },
+      ],
     },
     // Prestations Page
     prestations: {
@@ -472,6 +527,28 @@ Engagée envers des pratiques durables, Maison Gauthier travaille exclusivement 
             'Équilibre harmonieux des saveurs et des arômes dans chaque création.',
         },
       ],
+      cuisineTypes: [
+        {
+          title: 'Cuisine Française',
+          description:
+            'Gastronomie française classique mettant en avant les techniques traditionnelles et les présentations raffinées de toutes les régions de France.',
+        },
+        {
+          title: 'Cuisine Méditerranéenne',
+          description:
+            'Saveurs fraîches et vibrantes inspirées par la côte méditerranéenne, mettant l\'accent sur l\'huile d\'olive, les légumes frais et les fruits de mer.',
+        },
+        {
+          title: 'Cuisine Italienne',
+          description:
+            'Préparations italiennes authentiques célébrant la qualité des ingrédients et les méthodes de cuisson traditionnelles.',
+        },
+        {
+          title: 'Cuisine Mexicaine',
+          description:
+            'Traditions culinaires mexicaines authentiques avec des saveurs audacieuses et des techniques de cuisson traditionnelles.',
+        },
+      ],
     },
     // Portfolio Page
     portfolio: {
@@ -492,9 +569,6 @@ Engagée envers des pratiques durables, Maison Gauthier travaille exclusivement 
       contactInfo: 'Coordonnées',
       phone: 'Téléphone',
       email: 'Email',
-      bookingTimeline: 'Délai de Réservation',
-      bookingTimelineText:
-        'Nous recommandons de nous contacter au moins 2 à 3 semaines à l\'avance pour votre événement.',
       form: {
         name: 'Nom Complet',
         email: 'Adresse Email',
