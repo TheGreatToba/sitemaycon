@@ -47,31 +47,37 @@ export const translations = {
         servicesList: [
           {
             title: 'Personal Chef at Home',
+            icon: '👨‍🍳',
             description:
               'Dedicated culinary service for your residence with tailor-made menus and elegant service.',
           },
           {
             title: 'Private Receptions',
+            icon: '🍽️',
             description:
               'Exquisite dinners for intimate gatherings or grand celebrations with refined cuisine.',
           },
           {
             title: 'On-Board Service',
+            icon: '⛵',
             description:
               'Exceptional culinary experiences aboard yachts and luxury vessels worldwide.',
           },
           {
             title: 'Event Management',
+            icon: '🎉',
             description:
               'Complete gastronomic coordination for weddings, galas, and exclusive events.',
           },
           {
             title: 'Long-Term Stays',
+            icon: '🏠',
             description:
               'Comprehensive culinary comfort for extended villa and residence stays.',
           },
           {
             title: 'Local Producers',
+            icon: '🌿',
             description:
               'Working exclusively with local producers to guarantee quality and authenticity.',
           },
@@ -370,31 +376,37 @@ Committed to sustainable practices, Maison Gauthier works exclusively with local
         servicesList: [
           {
             title: 'Chef Personnel à Domicile',
+            icon: '👨‍🍳',
             description:
               'Service culinaire dédié à votre résidence avec des menus sur mesure et un service élégant.',
           },
           {
             title: 'Réceptions Privées',
+            icon: '🍽️',
             description:
               'Dîners exquis pour des réunions intimes ou des célébrations grandioses avec une cuisine raffinée.',
           },
           {
             title: 'Service à Bord',
+            icon: '⛵',
             description:
               'Expériences culinaires exceptionnelles à bord de yachts et de navires de luxe dans le monde.',
           },
           {
             title: 'Gestion d\'Événements',
+            icon: '🎉',
             description:
               'Coordination gastronomique complète pour les mariages, galas et événements exclusifs.',
           },
           {
             title: 'Séjours de Longue Durée',
+            icon: '🏠',
             description:
               'Confort culinaire complet pour les séjours prolongés en villa et résidence.',
           },
           {
             title: 'Producteurs Locaux',
+            icon: '🌿',
             description:
               'Travail exclusif avec les producteurs locaux pour garantir la qualité et l\'authenticité.',
           },
