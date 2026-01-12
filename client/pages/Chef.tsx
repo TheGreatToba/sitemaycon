@@ -160,8 +160,8 @@ export default function Chef() {
                   className="flex gap-8 items-start"
                 >
                   <div className="flex flex-col items-center flex-shrink-0">
-                    <div className="w-16 h-16 rounded-full bg-accent text-accent-foreground flex items-center justify-center font-serif font-bold text-lg">
-                      {milestone.year.substring(2)}
+                    <div className="w-16 h-16 rounded-full bg-accent text-accent-foreground flex items-center justify-center font-serif font-bold text-sm text-center px-2 py-1">
+                      {milestone.year}
                     </div>
                     {index !== milestones.length - 1 && (
                       <div className="w-1 h-24 bg-border mt-4"></div>
