@@ -1,8 +1,10 @@
 import Layout from "@/components/Layout";
 import { useState } from "react";
 import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { useTranslation } from "@/lib/useTranslation";
 
 export default function Contact() {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -62,25 +64,25 @@ export default function Contact() {
         </div>
 
         <div className="relative z-10 text-center text-white px-4">
-          <h1 className="text-5xl md:text-6xl font-serif font-bold">Contact Us</h1>
+          <h1 className="text-5xl md:text-6xl font-serif font-bold">{t('contact.title')}</h1>
           <p className="mt-4 text-lg font-body opacity-90">
-            Reserve Your Gastronomic Experience
+            {t('home.hero.cta')}
           </p>
         </div>
       </section>
 
       {/* Contact Section */}
       <section className="py-20 md:py-32 px-4">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-12 mb-20">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 mb-20">
           {/* Contact Info */}
           <div className="space-y-8">
             <div>
               <div className="flex items-center gap-4 mb-4">
                 <Phone className="w-6 h-6 text-accent" />
-                <h3 className="text-xl font-serif font-bold">Phone</h3>
+                <h3 className="text-xl font-serif font-bold">{t('contact.phone')}</h3>
               </div>
               <p className="font-body text-muted-foreground">
-                +33 7 49 36 22 54
+                {t('footer.phone')}
               </p>
               <p className="font-body text-sm text-muted-foreground">
                 Response within 24 hours
@@ -90,10 +92,10 @@ export default function Contact() {
             <div>
               <div className="flex items-center gap-4 mb-4">
                 <Mail className="w-6 h-6 text-accent" />
-                <h3 className="text-xl font-serif font-bold">Email</h3>
+                <h3 className="text-xl font-serif font-bold">{t('contact.email')}</h3>
               </div>
               <p className="font-body text-muted-foreground">
-                maisongauthier.ghc@gmail.com
+                {t('footer.email')}
               </p>
               <p className="font-body text-sm text-muted-foreground">
                 We'll respond promptly
@@ -135,40 +137,21 @@ export default function Contact() {
               ))}
             </div>
           </div>
-
-          {/* Quick Info */}
-          <div className="p-8 bg-secondary/30 border border-border">
-            <h3 className="text-xl font-serif font-bold mb-4">Booking Timeline</h3>
-            <ul className="space-y-3 font-body text-muted-foreground">
-              <li>
-                <span className="font-bold">Single day service:</span> 2 weeks
-              </li>
-              <li>
-                <span className="font-bold">Week-long stays:</span> 1 month
-              </li>
-              <li>
-                <span className="font-bold">Events:</span> 3 months
-              </li>
-              <li>
-                <span className="font-bold">Custom requests:</span> Upon consultation
-              </li>
-            </ul>
-          </div>
         </div>
 
         {/* Form Section */}
         <div className="max-w-4xl mx-auto">
           <div className="bg-secondary/30 border border-border p-8 md:p-12">
             <h2 className="text-3xl font-serif font-bold mb-2">
-              Booking Request Form
+              {t('contact.title')}
             </h2>
             <p className="font-body text-muted-foreground mb-8">
-              Complete this form to receive a personalized quotation from Maison Gauthier
+              {t('contact.description')}
             </p>
 
             {submitted && (
               <div className="mb-8 p-4 bg-accent text-accent-foreground font-body text-center">
-                Thank you! Your request has been sent successfully. We will contact you within 24 hours.
+                {t('contact.form.success')}
               </div>
             )}
 
@@ -176,7 +159,7 @@ export default function Contact() {
               <div className="grid md:grid-cols-2 gap-6">
                 {/* Name */}
                 <div>
-                  <label className="block font-body font-bold mb-2">Name *</label>
+                  <label className="block font-body font-bold mb-2">{t('contact.form.name')} *</label>
                   <input
                     type="text"
                     name="name"
@@ -190,7 +173,7 @@ export default function Contact() {
 
                 {/* Email */}
                 <div>
-                  <label className="block font-body font-bold mb-2">Email *</label>
+                  <label className="block font-body font-bold mb-2">{t('contact.form.email')} *</label>
                   <input
                     type="email"
                     name="email"
@@ -204,7 +187,7 @@ export default function Contact() {
 
                 {/* Phone */}
                 <div>
-                  <label className="block font-body font-bold mb-2">Phone</label>
+                  <label className="block font-body font-bold mb-2">{t('contact.form.phone')}</label>
                   <input
                     type="tel"
                     name="phone"
@@ -218,7 +201,7 @@ export default function Contact() {
                 {/* Service Type */}
                 <div>
                   <label className="block font-body font-bold mb-2">
-                    Service Type *
+                    {t('contact.form.serviceType')} *
                   </label>
                   <select
                     name="serviceType"
@@ -228,19 +211,18 @@ export default function Contact() {
                     className="w-full px-4 py-3 border border-border bg-background text-foreground font-body focus:outline-none focus:ring-2 focus:ring-accent"
                   >
                     <option value="">Select...</option>
-                    <option value="day-service">One-Day Service</option>
-                    <option value="week-stay">Week-Long Stay</option>
-                    <option value="event">Private Event</option>
-                    <option value="custom-menu">Custom Menu</option>
-                    <option value="yacht">On-Board Service</option>
-                    <option value="consultation">Consultation</option>
+                    {t('contact.serviceTypes').map((service) => (
+                      <option key={service} value={service}>
+                        {service}
+                      </option>
+                    ))}
                   </select>
                 </div>
 
                 {/* Date */}
                 <div>
                   <label className="block font-body font-bold mb-2">
-                    Preferred Date *
+                    {t('contact.form.eventDate')} *
                   </label>
                   <input
                     type="date"
@@ -255,7 +237,7 @@ export default function Contact() {
                 {/* Number of Guests */}
                 <div>
                   <label className="block font-body font-bold mb-2">
-                    Number of Guests
+                    {t('contact.form.guestCount')}
                   </label>
                   <input
                     type="number"
@@ -272,7 +254,7 @@ export default function Contact() {
               {/* Dietary Restrictions */}
               <div>
                 <label className="block font-body font-bold mb-2">
-                  Dietary Requirements
+                  {t('prestations.dietaryAdaptations')}
                 </label>
                 <textarea
                   name="dietaryRestrictions"
@@ -286,7 +268,7 @@ export default function Contact() {
 
               {/* Message */}
               <div>
-                <label className="block font-body font-bold mb-2">Message</label>
+                <label className="block font-body font-bold mb-2">{t('contact.form.message')}</label>
                 <textarea
                   name="message"
                   value={formData.message}
@@ -302,7 +284,7 @@ export default function Contact() {
                 type="submit"
                 className="w-full md:w-auto flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-body hover:opacity-90 transition-opacity"
               >
-                Send Request
+                {t('contact.form.submit')}
                 <Send className="w-4 h-4" />
               </button>
             </form>
@@ -314,35 +296,17 @@ export default function Contact() {
       <section className="py-20 md:py-32 px-4 bg-secondary/30">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl font-serif font-bold text-center mb-12">
-            Frequently Asked Questions
+            {t('contact.faq.title')}
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8">
             {[
-              {
-                q: "What is the minimum budget for a service?",
-                a: "Budget varies by service type and number of guests. Prices begin at €150 per hour for additional services, with full packages available from €800 for intimate dinners.",
-              },
-              {
-                q: "Can you adapt menus for allergies?",
-                a: "Absolutely. We carefully manage all allergies and dietary restrictions without compromising quality. Please inform us when booking.",
-              },
-              {
-                q: "Do you operate outside France?",
-                a: "Yes, Maison Gauthier provides services internationally. Travel expenses are covered, with rates based on destination.",
-              },
-              {
-                q: "What booking timeline is recommended?",
-                a: "Ideally 2-4 weeks for day services. For week-long stays or events, 1-3 months is recommended. We can sometimes accommodate urgent requests.",
-              },
-              {
-                q: "Do you offer tastings before events?",
-                a: "Yes, for larger events. A tasting can be arranged a few days prior by special request.",
-              },
-              {
-                q: "Do you provide beverages and wine pairings?",
-                a: "We can advise on wine selections and pairings. Beverages can be provided by you or arranged through us upon request.",
-              },
+              { q: t('contact.faq.minBudget.q'), a: t('contact.faq.minBudget.a') },
+              { q: t('contact.faq.allergies.q'), a: t('contact.faq.allergies.a') },
+              { q: t('contact.faq.international.q'), a: t('contact.faq.international.a') },
+              { q: t('contact.faq.timeline.q'), a: t('contact.faq.timeline.a') },
+              { q: t('contact.faq.tastings.q'), a: t('contact.faq.tastings.a') },
+              { q: t('contact.faq.beverages.q'), a: t('contact.faq.beverages.a') },
             ].map((item, index) => (
               <div key={index} className="p-6 bg-background border border-border">
                 <h3 className="font-serif font-bold mb-3">{item.q}</h3>
@@ -359,10 +323,10 @@ export default function Contact() {
       <section className="py-20 md:py-32 px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-4xl font-serif font-bold mb-6">
-            Let's Create Something Extraordinary
+            {t('home.finalCta.title')}
           </h2>
           <p className="text-lg font-body text-muted-foreground mb-8">
-            Contact Maison Gauthier today to begin planning your unforgettable gastronomic experience
+            {t('home.finalCta.description')}
           </p>
         </div>
       </section>
