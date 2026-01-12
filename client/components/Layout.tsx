@@ -26,12 +26,19 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
-            <Link to="/" className="flex-shrink-0">
-              <div className="text-2xl font-serif font-bold text-foreground tracking-tight">
-                {t('header.brand')}
-              </div>
-              <div className="text-xs text-muted-foreground font-body">
-                {t('header.tagline')}
+            <Link to="/" className="flex-shrink-0 flex items-center gap-3">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F338235b4070241daa4397607e89424e7%2Fe896f35c5ab64a56b736022f60cfbd68?format=webp&width=200"
+                alt="Maison Gauthier Logo"
+                className="h-12 w-12"
+              />
+              <div>
+                <div className="text-xl font-serif font-bold text-foreground tracking-tight">
+                  {t('header.brand')}
+                </div>
+                <div className="text-xs text-muted-foreground font-body">
+                  {t('header.tagline')}
+                </div>
               </div>
             </Link>
 

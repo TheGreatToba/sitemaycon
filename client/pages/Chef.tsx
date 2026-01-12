@@ -76,7 +76,7 @@ export default function Chef() {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
             <div className="rounded overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1552058544-f6b08422138a?auto=format&fit=crop&w=600&h=700&q=80"
+                src="https://cdn.builder.io/api/v1/image/assets%2F338235b4070241daa4397607e89424e7%2F4ba354f460e24f52a685b922f268295a?format=webp&width=800"
                 alt="Chef Portrait"
                 className="w-full h-full object-cover"
               />
