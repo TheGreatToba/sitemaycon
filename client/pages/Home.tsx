@@ -151,7 +151,6 @@ export default function Home() {
                 key={specialty.title}
                 className="p-8 bg-background border border-border hover:shadow-lg transition-shadow"
               >
-                <div className="text-4xl mb-4">{specialty.icon}</div>
                 <h3 className="text-2xl font-serif font-bold mb-3">
                   {specialty.title}
                 </h3>
