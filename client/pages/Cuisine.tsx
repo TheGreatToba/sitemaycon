@@ -70,52 +70,22 @@ export default function Cuisine() {
         </div>
       </section>
 
-      {/* Cuisine Highlights */}
+      {/* Cuisine Types */}
       <section className="py-20 md:py-32 px-4 bg-secondary/30">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-serif font-bold text-center mb-16">
-            {t('home.portfolio.title')}
+            {t('home.services.title')}
           </h2>
 
           <div className="grid md:grid-cols-2 gap-12">
-            {[
-              {
-                title: "Classic French Preparations",
-                items: [
-                  "Coq au Vin - slow-braised chicken in burgundy",
-                  "Bouillabaisse - traditional Provençal fish stew",
-                  "Cassoulet - hearty bean and meat dish",
-                  "Sole Meunière - delicate sole with brown butter",
-                  "Beef Wellington - classic beef in pastry",
-                  "Duck Breast with Sauce - premium preparation",
-                ],
-              },
-              {
-                title: "Refined Ingredients & Techniques",
-                items: [
-                  "Duck Foie Gras - semi-cooked with cognac",
-                  "Fresh Langoustine - handmade ravioli",
-                  "Scallops Rossini Style - with foie gras and truffle",
-                  "Lamb Rack - herb-crusted with seasonal vegetables",
-                  "Fresh Fish - daily selections from premium suppliers",
-                  "Artisanal Sauces - made fresh to order",
-                ],
-              },
-            ].map((section) => (
-              <div key={section.title}>
-                <h3 className="text-2xl font-serif font-bold mb-8">
-                  {section.title}
+            {t('cuisine.cuisineTypes').map((cuisine) => (
+              <div key={cuisine.title}>
+                <h3 className="text-2xl font-serif font-bold mb-4">
+                  {cuisine.title}
                 </h3>
-                <ul className="space-y-4">
-                  {section.items.map((item) => (
-                    <li key={item} className="flex items-start gap-3">
-                      <span className="text-primary font-bold mt-1">•</span>
-                      <span className="font-body text-muted-foreground">
-                        {item}
-                      </span>
-                    </li>
-                  ))}
-                </ul>
+                <p className="font-body text-muted-foreground leading-relaxed">
+                  {cuisine.description}
+                </p>
               </div>
             ))}
           </div>
