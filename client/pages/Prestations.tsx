@@ -131,8 +131,8 @@ export default function Prestations() {
                   </p>
 
                   <div className="space-y-3">
-                    {chapter.services.map((service) => (
-                      <div key={service} className="flex items-start gap-3">
+                    {chapter.services.map((service, serviceIndex) => (
+                      <div key={`${index}-service-${serviceIndex}`} className="flex items-start gap-3">
                         <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                         <span className="font-body text-muted-foreground">
                           {service}
@@ -145,8 +145,8 @@ export default function Prestations() {
 
               {/* Chapter Options */}
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-                {chapter.options.map((option) => (
-                  <div key={option.title} className="p-6 border border-border bg-background">
+                {chapter.options.map((option, optionIndex) => (
+                  <div key={`${index}-option-${optionIndex}`} className="p-6 border border-border bg-background">
                     <h4 className="font-serif font-bold mb-3 text-lg">
                       {option.title}
                     </h4>
@@ -274,8 +274,8 @@ export default function Prestations() {
                 description:
                   "Any additional requests outside of the planned service (extension of duration, work outside working hours, night services, etc.) will be billed at €150 per hour.",
               },
-            ].map((item) => (
-              <div key={item.title} className="flex gap-6">
+            ].map((item, itemIndex) => (
+              <div key={`info-item-${itemIndex}`} className="flex gap-6">
                 <div className="flex-shrink-0">
                   <div className="w-12 h-12 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-serif font-bold">
                     ✓
