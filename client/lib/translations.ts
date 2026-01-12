@@ -295,6 +295,33 @@ Committed to sustainable practices, Maison Gauthier works exclusively with local
         'Event Management',
         'Long-Term Stays',
       ],
+      faq: {
+        title: 'Frequently Asked Questions',
+        minBudget: {
+          q: 'What is the minimum budget for a service?',
+          a: 'The budget varies depending on the type of service, the schedule, and the number of guests. Contact us for a personalized quote.',
+        },
+        allergies: {
+          q: 'Can you adapt menus for allergies?',
+          a: 'Absolutely. We carefully manage all allergies and dietary restrictions without compromising quality. Please inform us when booking.',
+        },
+        international: {
+          q: 'Do you operate outside France?',
+          a: 'Yes, Maison Gauthier provides services internationally. Travel expenses are covered, with rates based on destination.',
+        },
+        timeline: {
+          q: 'What booking timeline is recommended?',
+          a: 'Ideally 2-4 weeks for day services. For week-long stays or events, 1-3 months is recommended. We can sometimes accommodate urgent requests.',
+        },
+        tastings: {
+          q: 'Do you offer tastings before events?',
+          a: 'Yes, for larger events. A tasting can be arranged a few days prior by special request.',
+        },
+        beverages: {
+          q: 'Do you provide beverages and wine pairings?',
+          a: 'We can advise on wine selections and pairings. Beverages can be provided by you or arranged through us upon request.',
+        },
+      },
     },
   },
   fr: {
@@ -591,6 +618,33 @@ Engagée envers des pratiques durables, Maison Gauthier travaille exclusivement 
         'Gestion d\'Événements',
         'Séjours de Longue Durée',
       ],
+      faq: {
+        title: 'Questions Fréquemment Posées',
+        minBudget: {
+          q: 'Quel est le budget minimum pour un service ?',
+          a: 'Le budget varie en fonction de la demande, des horaires et du nombre de convive. Contactez-nous pour un devis personnalisé.',
+        },
+        allergies: {
+          q: 'Pouvez-vous adapter les menus aux allergies ?',
+          a: 'Absolument. Nous gérons soigneusement toutes les allergies et restrictions alimentaires sans compromettre la qualité. Veuillez nous en informer lors de la réservation.',
+        },
+        international: {
+          q: 'Opérez-vous en dehors de la France ?',
+          a: 'Oui, Maison Gauthier fournit des services à l\'international. Les frais de déplacement sont couverts, avec des tarifs basés sur la destination.',
+        },
+        timeline: {
+          q: 'Quel délai de réservation est recommandé ?',
+          a: 'Idéalement 2 à 4 semaines pour les services d\'une journée. Pour les séjours d\'une semaine ou les événements, 1 à 3 mois sont recommandés. Nous pouvons parfois accommoder les demandes urgentes.',
+        },
+        tastings: {
+          q: 'Proposez-vous des dégustations avant les événements ?',
+          a: 'Oui, pour les événements plus importants. Une dégustation peut être arrangée quelques jours avant sur demande spéciale.',
+        },
+        beverages: {
+          q: 'Fournissez-vous les boissons et les accords mets-vins ?',
+          a: 'Nous pouvons vous conseiller sur les sélections de vins et les accords. Les boissons peuvent être fournies par vous ou arrangées par nous sur demande.',
+        },
+      },
     },
   },
 };
