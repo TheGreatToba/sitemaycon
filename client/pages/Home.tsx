@@ -6,30 +6,30 @@ import { useTranslation } from "@/lib/useTranslation";
 export default function Home() {
   const { t } = useTranslation();
 
-  const specialties = t('home.services.servicesList');
+  const specialties = t("home.services.servicesList");
 
   const portfolioPreview = [
     {
       title: "Homard Grillé",
-      category: t('portfolio.categories.dishes'),
+      category: t("portfolio.categories.dishes"),
       image:
         "https://images.unsplash.com/photo-1625246333195-78d9c38ad576?auto=format&fit=crop&w=500&h=500&q=80",
     },
     {
       title: "Dressage Raffiné",
-      category: t('portfolio.categories.presentation'),
+      category: t("portfolio.categories.presentation"),
       image:
         "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=500&h=500&q=80",
     },
     {
       title: "Gala Privé",
-      category: t('portfolio.categories.events'),
+      category: t("portfolio.categories.events"),
       image:
         "https://images.unsplash.com/photo-1519671482677-de7ecf00efb7?auto=format&fit=crop&w=500&h=500&q=80",
     },
     {
       title: "Table d'Excellence",
-      category: t('portfolio.categories.tables'),
+      category: t("portfolio.categories.tables"),
       image:
         "https://images.unsplash.com/photo-1504674900968-45cc10deda4c?auto=format&fit=crop&w=500&h=500&q=80",
     },
@@ -76,23 +76,23 @@ export default function Home() {
           <div className="mb-6 inline-block">
             <div className="flex items-center gap-2 text-white font-body text-sm tracking-widest">
               <Leaf className="w-4 h-4" />
-              {t('home.hero.subtitle')}
+              {t("home.hero.subtitle")}
             </div>
           </div>
 
           <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6 leading-tight">
-            {t('home.hero.title')}
+            {t("home.hero.title")}
           </h1>
 
           <p className="text-lg md:text-xl font-body mb-8 opacity-95 max-w-2xl mx-auto">
-            {t('home.hero.description')}
+            {t("home.hero.description")}
           </p>
 
           <Link
             to="/contact"
             className="inline-flex items-center gap-2 px-8 py-4 bg-accent text-accent-foreground font-body text-sm hover:opacity-90 transition-opacity"
           >
-            {t('home.hero.cta')}
+            {t("home.hero.cta")}
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
@@ -111,22 +111,22 @@ export default function Home() {
 
           <div>
             <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">
-              {t('home.philosophy.title')}
+              {t("home.philosophy.title")}
             </h2>
 
             <p className="text-lg font-body mb-4 text-muted-foreground leading-relaxed">
-              {t('home.philosophy.description1')}
+              {t("home.philosophy.description1")}
             </p>
 
             <p className="text-lg font-body mb-6 text-muted-foreground leading-relaxed">
-              {t('home.philosophy.description2')}
+              {t("home.philosophy.description2")}
             </p>
 
             <Link
               to="/chef"
               className="inline-flex items-center gap-2 text-accent font-body hover:opacity-80 transition-opacity"
             >
-              {t('home.philosophy.learnMore')}
+              {t("home.philosophy.learnMore")}
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
@@ -138,10 +138,10 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">
-              {t('home.services.title')}
+              {t("home.services.title")}
             </h2>
             <p className="text-lg font-body text-muted-foreground max-w-2xl mx-auto">
-              {t('home.services.description')}
+              {t("home.services.description")}
             </p>
           </div>
 
@@ -168,10 +168,10 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">
-              {t('home.portfolio.title')}
+              {t("home.portfolio.title")}
             </h2>
             <p className="text-lg font-body text-muted-foreground max-w-2xl mx-auto">
-              {t('home.portfolio.description')}
+              {t("home.portfolio.description")}
             </p>
           </div>
 
@@ -206,7 +206,7 @@ export default function Home() {
               to="/portfolio"
               className="inline-flex items-center gap-2 px-8 py-3 border-2 border-foreground text-foreground font-body hover:bg-foreground hover:text-background transition-colors"
             >
-              {t('home.portfolio.viewGallery')}
+              {t("home.portfolio.viewGallery")}
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
@@ -218,13 +218,16 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">
-              {t('home.testimonials.title')}
+              {t("home.testimonials.title")}
             </h2>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
             {testimonials.map((testimonial) => (
-              <div key={testimonial.name} className="p-8 bg-background border border-border">
+              <div
+                key={testimonial.name}
+                className="p-8 bg-background border border-border"
+              >
                 <div className="flex gap-1 mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
                     <span key={i} className="text-accent text-lg">
@@ -255,18 +258,18 @@ export default function Home() {
       <section className="py-20 md:py-32 px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">
-            {t('home.finalCta.title')}
+            {t("home.finalCta.title")}
           </h2>
 
           <p className="text-lg font-body text-muted-foreground mb-8">
-            {t('home.finalCta.description')}
+            {t("home.finalCta.description")}
           </p>
 
           <Link
             to="/contact"
             className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-body hover:opacity-90 transition-opacity"
           >
-            {t('home.finalCta.cta')}
+            {t("home.finalCta.cta")}
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>

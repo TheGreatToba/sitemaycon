@@ -12,15 +12,16 @@ export default function Portfolio() {
     {
       id: 1,
       title: "Semi-Cooked Duck Foie Gras",
-      category: t('portfolio.categories.dishes'),
+      category: t("portfolio.categories.dishes"),
       image:
         "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&h=600&q=80",
-      description: "Delicate foie gras terrine with fig chutney and golden brioche",
+      description:
+        "Delicate foie gras terrine with fig chutney and golden brioche",
     },
     {
       id: 2,
       title: "Parisian Mimosa Eggs",
-      category: t('portfolio.categories.dishes'),
+      category: t("portfolio.categories.dishes"),
       image:
         "https://images.unsplash.com/photo-1625246333195-78d9c38ad576?auto=format&fit=crop&w=600&h=600&q=80",
       description: "Farm eggs with light mayonnaise and fresh herbs",
@@ -28,7 +29,7 @@ export default function Portfolio() {
     {
       id: 3,
       title: "Lamb Rack with Herb Crust",
-      category: t('portfolio.categories.dishes'),
+      category: t("portfolio.categories.dishes"),
       image:
         "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&h=600&q=80",
       description: "Tender roast lamb with fresh herbs and breadcrumbs",
@@ -36,7 +37,7 @@ export default function Portfolio() {
     {
       id: 4,
       title: "Beef Wellington",
-      category: t('portfolio.categories.dishes'),
+      category: t("portfolio.categories.dishes"),
       image:
         "https://images.unsplash.com/photo-1504674900968-45cc10deda4c?auto=format&fit=crop&w=600&h=600&q=80",
       description: "Beef tenderloin in puff pastry with mushroom duxelles",
@@ -44,7 +45,7 @@ export default function Portfolio() {
     {
       id: 5,
       title: "Sole Meunière",
-      category: t('portfolio.categories.dishes'),
+      category: t("portfolio.categories.dishes"),
       image:
         "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&w=600&h=600&q=80",
       description: "Fresh sole with brown butter and lemon",
@@ -52,7 +53,7 @@ export default function Portfolio() {
     {
       id: 6,
       title: "Scallops Rossini Style",
-      category: t('portfolio.categories.dishes'),
+      category: t("portfolio.categories.dishes"),
       image:
         "https://images.unsplash.com/photo-1625246333195-78d9c38ad576?auto=format&fit=crop&w=600&h=600&q=80",
       description: "Fresh scallops with foie gras and truffled celery purée",
@@ -74,9 +75,11 @@ export default function Portfolio() {
         </div>
 
         <div className="relative z-10 text-center text-white px-4">
-          <h1 className="text-5xl md:text-6xl font-serif font-bold">{t('portfolio.title')}</h1>
+          <h1 className="text-5xl md:text-6xl font-serif font-bold">
+            {t("portfolio.title")}
+          </h1>
           <p className="mt-4 text-lg font-body opacity-90">
-            {t('home.portfolio.description')}
+            {t("home.portfolio.description")}
           </p>
         </div>
       </section>
@@ -86,10 +89,10 @@ export default function Portfolio() {
         <div className="max-w-6xl mx-auto">
           <div className="mb-12">
             <h2 className="text-3xl font-serif font-bold text-center mb-4">
-              {t('prestations.seasonalMenu.title')}
+              {t("prestations.seasonalMenu.title")}
             </h2>
             <p className="text-center text-muted-foreground max-w-2xl mx-auto">
-              {t('home.services.description')}
+              {t("home.services.description")}
             </p>
           </div>
 
@@ -112,8 +115,12 @@ export default function Portfolio() {
                     </p>
                   </div>
                 </div>
-                <h4 className="font-serif font-bold text-lg mb-2">{item.title}</h4>
-                <p className="text-sm text-muted-foreground">{item.description}</p>
+                <h4 className="font-serif font-bold text-lg mb-2">
+                  {item.title}
+                </h4>
+                <p className="text-sm text-muted-foreground">
+                  {item.description}
+                </p>
               </div>
             ))}
           </div>

@@ -22,22 +22,27 @@ export default function Prestations() {
       options: [
         {
           title: "Breakfast or Brunch",
-          description: "Start your day with a French breakfast served at sunrise on your terrace. Warm pastries, fresh bread, artisanal jams, freshly squeezed juices, and hot drinks prepared to order.",
+          description:
+            "Start your day with a French breakfast served at sunrise on your terrace. Warm pastries, fresh bread, artisanal jams, freshly squeezed juices, and hot drinks prepared to order.",
         },
         {
           title: "Lunch",
-          description: "A comforting lunch prepared with seasonal ingredients. Three-course menu: starter, main course, and dessert. Generous, elegant cuisine.",
+          description:
+            "A comforting lunch prepared with seasonal ingredients. Three-course menu: starter, main course, and dessert. Generous, elegant cuisine.",
         },
         {
           title: "Afternoon Tea",
-          description: "Afternoon tea enjoyed around 4:00 p.m. Light, refined, and carefully selected offerings designed to provide a gourmet break.",
+          description:
+            "Afternoon tea enjoyed around 4:00 p.m. Light, refined, and carefully selected offerings designed to provide a gourmet break.",
         },
         {
           title: "Dinner",
-          description: "The highlight of the day: a gastronomic experience designed to enhance your evening with a refined multi-course menu combining balance, precision, and creativity.",
+          description:
+            "The highlight of the day: a gastronomic experience designed to enhance your evening with a refined multi-course menu combining balance, precision, and creativity.",
         },
       ],
-      image: "https://images.unsplash.com/photo-1504674900968-45cc10deda4c?auto=format&fit=crop&w=800&h=600&q=80",
+      image:
+        "https://images.unsplash.com/photo-1504674900968-45cc10deda4c?auto=format&fit=crop&w=800&h=600&q=80",
     },
     {
       title: "Chapter 2: A Week in France",
@@ -55,28 +60,33 @@ export default function Prestations() {
       options: [
         {
           title: "Dinner Only Package",
-          description: "Focused culinary experience for evening meals throughout your stay.",
+          description:
+            "Focused culinary experience for evening meals throughout your stay.",
         },
         {
           title: "Half-Day Package",
-          description: "Lunch and dinner services for complete daily gastronomic experience.",
+          description:
+            "Lunch and dinner services for complete daily gastronomic experience.",
         },
         {
           title: "Full Package",
-          description: "Breakfast, lunch, afternoon snack, and dinner for comprehensive culinary comfort.",
+          description:
+            "Breakfast, lunch, afternoon snack, and dinner for comprehensive culinary comfort.",
         },
         {
           title: "Resident Chef Option",
-          description: "Full-time chef residence for villa or yacht with all meal services.",
+          description:
+            "Full-time chef residence for villa or yacht with all meal services.",
         },
       ],
-      image: "https://images.unsplash.com/photo-1519671482677-de7ecf00efb7?auto=format&fit=crop&w=800&h=600&q=80",
+      image:
+        "https://images.unsplash.com/photo-1519671482677-de7ecf00efb7?auto=format&fit=crop&w=800&h=600&q=80",
     },
   ];
 
-  const starters = t('prestations.menu.starters');
+  const starters = t("prestations.menu.starters");
 
-  const mains = t('prestations.menu.mains');
+  const mains = t("prestations.menu.mains");
 
   return (
     <Layout>
@@ -93,9 +103,11 @@ export default function Prestations() {
         </div>
 
         <div className="relative z-10 text-center text-white px-4">
-          <h1 className="text-5xl md:text-6xl font-serif font-bold">{t('prestations.title')}</h1>
+          <h1 className="text-5xl md:text-6xl font-serif font-bold">
+            {t("prestations.title")}
+          </h1>
           <p className="mt-4 text-lg font-body opacity-90">
-            {t('prestations.description')}
+            {t("prestations.description")}
           </p>
         </div>
       </section>
@@ -106,7 +118,9 @@ export default function Prestations() {
           {chapters.map((chapter, index) => (
             <div key={chapter.title}>
               {/* Chapter Header */}
-              <div className={`grid md:grid-cols-2 gap-12 items-center mb-12 ${index % 2 === 1 ? "md:[&>*]:order-2" : ""}`}>
+              <div
+                className={`grid md:grid-cols-2 gap-12 items-center mb-12 ${index % 2 === 1 ? "md:[&>*]:order-2" : ""}`}
+              >
                 <div className="relative overflow-hidden bg-secondary h-96">
                   <img
                     src={chapter.image}
@@ -132,7 +146,10 @@ export default function Prestations() {
 
                   <div className="space-y-3">
                     {chapter.services.map((service, serviceIndex) => (
-                      <div key={`${index}-service-${serviceIndex}`} className="flex items-start gap-3">
+                      <div
+                        key={`${index}-service-${serviceIndex}`}
+                        className="flex items-start gap-3"
+                      >
                         <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                         <span className="font-body text-muted-foreground">
                           {service}
@@ -146,7 +163,10 @@ export default function Prestations() {
               {/* Chapter Options */}
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {chapter.options.map((option, optionIndex) => (
-                  <div key={`${index}-option-${optionIndex}`} className="p-6 border border-border bg-background">
+                  <div
+                    key={`${index}-option-${optionIndex}`}
+                    className="p-6 border border-border bg-background"
+                  >
                     <h4 className="font-serif font-bold mb-3 text-lg">
                       {option.title}
                     </h4>
@@ -170,21 +190,24 @@ export default function Prestations() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">
-              {t('prestations.seasonalMenu.title')}
+              {t("prestations.seasonalMenu.title")}
             </h2>
             <p className="text-lg font-body text-muted-foreground max-w-2xl mx-auto">
-              {t('home.services.description')}
+              {t("home.services.description")}
             </p>
           </div>
 
           {/* Starters */}
           <div className="mb-16">
             <h3 className="text-3xl font-serif font-bold mb-8 text-center">
-              {t('prestations.seasonalMenu.starters')}
+              {t("prestations.seasonalMenu.starters")}
             </h3>
             <div className="space-y-6">
               {starters.map((dish) => (
-                <div key={dish.title} className="border-b border-border pb-6 last:border-0">
+                <div
+                  key={dish.title}
+                  className="border-b border-border pb-6 last:border-0"
+                >
                   <h4 className="text-xl font-serif font-bold text-primary mb-2">
                     {dish.title}
                   </h4>
@@ -199,11 +222,14 @@ export default function Prestations() {
           {/* Main Courses */}
           <div>
             <h3 className="text-3xl font-serif font-bold mb-8 text-center">
-              {t('prestations.seasonalMenu.mains')}
+              {t("prestations.seasonalMenu.mains")}
             </h3>
             <div className="space-y-6">
               {mains.map((dish) => (
-                <div key={dish.title} className="border-b border-border pb-6 last:border-0">
+                <div
+                  key={dish.title}
+                  className="border-b border-border pb-6 last:border-0"
+                >
                   <h4 className="text-xl font-serif font-bold text-primary mb-2">
                     {dish.title}
                   </h4>
@@ -222,19 +248,19 @@ export default function Prestations() {
         <div className="max-w-4xl mx-auto">
           <div className="p-12 border-l-4 border-primary bg-secondary/30">
             <h3 className="text-3xl font-serif font-bold mb-6">
-              {t('prestations.dietaryAdaptations')}
+              {t("prestations.dietaryAdaptations")}
             </h3>
 
             <p className="text-lg font-body text-muted-foreground mb-4 leading-relaxed">
-              {t('prestations.dietaryAdaptationsText')}
+              {t("prestations.dietaryAdaptationsText")}
             </p>
 
             <p className="text-lg font-body font-bold text-primary mb-4">
-              {t('prestations.importantInfo.payment')}
+              {t("prestations.importantInfo.payment")}
             </p>
 
             <p className="text-lg font-body text-muted-foreground">
-              {t('prestations.dietaryAdaptationsText')}
+              {t("prestations.dietaryAdaptationsText")}
             </p>
           </div>
         </div>
@@ -244,7 +270,7 @@ export default function Prestations() {
       <section className="py-20 md:py-32 px-4 bg-secondary/30">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl font-serif font-bold text-center mb-12">
-            {t('prestations.importantInfo.title')}
+            {t("prestations.importantInfo.title")}
           </h2>
 
           <div className="space-y-8">
@@ -299,16 +325,16 @@ export default function Prestations() {
       <section className="py-20 md:py-32 px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-4xl font-serif font-bold mb-6">
-            {t('home.finalCta.title')}
+            {t("home.finalCta.title")}
           </h2>
           <p className="text-lg font-body text-muted-foreground mb-8">
-            {t('home.finalCta.description')}
+            {t("home.finalCta.description")}
           </p>
           <Link
             to="/contact"
             className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-body hover:opacity-90 transition-opacity"
           >
-            {t('home.finalCta.cta')}
+            {t("home.finalCta.cta")}
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>

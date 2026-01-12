@@ -9,41 +9,49 @@ export default function Chef() {
     {
       year: "Founded",
       title: "Maison Gauthier Creation",
-      description: "Born from the ambition to bring French culinary art into homes around the world",
+      description:
+        "Born from the ambition to bring French culinary art into homes around the world",
     },
     {
       year: "Development",
       title: "Global Expansion",
-      description: "Operating internationally with services in France and destinations worldwide",
+      description:
+        "Operating internationally with services in France and destinations worldwide",
     },
     {
       year: "Excellence",
       title: "VIP Clientele",
-      description: "Serving distinguished clients including private residences, villas, yachts and luxury venues",
+      description:
+        "Serving distinguished clients including private residences, villas, yachts and luxury venues",
     },
     {
       year: "Today",
       title: "Premium Service",
-      description: "Continuing to deliver exceptional private gastronomic experiences with uncompromising excellence",
+      description:
+        "Continuing to deliver exceptional private gastronomic experiences with uncompromising excellence",
     },
   ];
 
   const values = [
     {
       title: "French Culinary Art",
-      description: "Bringing the art of French cuisine into homes around the world with unwavering dedication to gastronomy.",
+      description:
+        "Bringing the art of French cuisine into homes around the world with unwavering dedication to gastronomy.",
     },
     {
       title: "Local Producers",
-      description: "Exclusive partnerships with local producers guaranteeing quality, authenticity, and seasonal freshness.",
+      description:
+        "Exclusive partnerships with local producers guaranteeing quality, authenticity, and seasonal freshness.",
     },
     {
       title: "Warm Hospitality",
-      description: "Creating an environment where guests feel at ease with attentive and authentic service.",
+      description:
+        "Creating an environment where guests feel at ease with attentive and authentic service.",
     },
     {
       title: "Bespoke Experience",
-      description: "Personalized menus and service tailored to individual preferences and special requirements.",
+      description:
+        "Personalized menus and service tailored to individual preferences and special requirements.",
     },
   ];
 
@@ -62,9 +70,11 @@ export default function Chef() {
         </div>
 
         <div className="relative z-10 text-center text-white px-4">
-          <h1 className="text-5xl md:text-6xl font-serif font-bold">{t('chef.title')}</h1>
+          <h1 className="text-5xl md:text-6xl font-serif font-bold">
+            {t("chef.title")}
+          </h1>
           <p className="mt-4 text-lg font-body opacity-90">
-            {t('home.philosophy.title')}, {t('cuisine.title')}
+            {t("home.philosophy.title")}, {t("cuisine.title")}
           </p>
         </div>
       </section>
@@ -84,27 +94,34 @@ export default function Chef() {
 
             <div>
               <h2 className="text-4xl font-serif font-bold mb-6">
-                {t('home.philosophy.title')}
+                {t("home.philosophy.title")}
               </h2>
               <div className="prose prose-sm max-w-none">
-                {t('chef.content').split('\n\n').map((paragraph, index) => (
-                  <p key={index} className="text-lg font-body text-muted-foreground mb-4 leading-relaxed">
-                    {paragraph}
-                  </p>
-                ))}
+                {t("chef.content")
+                  .split("\n\n")
+                  .map((paragraph, index) => (
+                    <p
+                      key={index}
+                      className="text-lg font-body text-muted-foreground mb-4 leading-relaxed"
+                    >
+                      {paragraph}
+                    </p>
+                  ))}
               </div>
             </div>
           </div>
 
           {/* Philosophy */}
           <div className="mb-20 p-12 bg-secondary/30 border border-border">
-            <h3 className="text-3xl font-serif font-bold mb-6">{t('home.philosophy.title')}</h3>
+            <h3 className="text-3xl font-serif font-bold mb-6">
+              {t("home.philosophy.title")}
+            </h3>
             <div className="prose prose-sm max-w-none">
               <p className="text-lg font-body text-muted-foreground leading-relaxed mb-4">
-                {t('home.philosophy.description1')}
+                {t("home.philosophy.description1")}
               </p>
               <p className="text-lg font-body text-muted-foreground leading-relaxed">
-                {t('home.philosophy.description2')}
+                {t("home.philosophy.description2")}
               </p>
             </div>
           </div>
@@ -112,7 +129,7 @@ export default function Chef() {
           {/* Values */}
           <div className="mb-20">
             <h3 className="text-3xl font-serif font-bold mb-12 text-center">
-              {t('home.services.title')}
+              {t("home.services.title")}
             </h3>
             <div className="grid md:grid-cols-2 gap-8">
               {values.map((value) => (
@@ -134,8 +151,11 @@ export default function Chef() {
               Professional Certifications
             </h3>
             <div className="grid md:grid-cols-2 gap-8">
-              {t('chef.certifications').map((cert) => (
-                <div key={cert.title} className="p-8 bg-secondary/30 border border-border">
+              {t("chef.certifications").map((cert) => (
+                <div
+                  key={cert.title}
+                  className="p-8 bg-secondary/30 border border-border"
+                >
                   <h4 className="text-2xl font-serif font-bold mb-3">
                     {cert.title}
                   </h4>
@@ -150,15 +170,12 @@ export default function Chef() {
           {/* Professional Journey */}
           <div>
             <h3 className="text-3xl font-serif font-bold mb-12 text-center">
-              {t('home.services.title')}
+              {t("home.services.title")}
             </h3>
 
             <div className="space-y-8">
               {milestones.map((milestone, index) => (
-                <div
-                  key={milestone.year}
-                  className="flex gap-8 items-start"
-                >
+                <div key={milestone.year} className="flex gap-8 items-start">
                   <div className="flex flex-col items-center flex-shrink-0">
                     <div className="w-32 h-32 rounded-full bg-accent text-accent-foreground flex items-center justify-center font-serif font-bold text-lg text-center px-4 py-2">
                       {milestone.year}
@@ -187,16 +204,16 @@ export default function Chef() {
       <section className="py-20 md:py-32 px-4 bg-secondary/30">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-4xl font-serif font-bold mb-6">
-            {t('home.finalCta.title')}
+            {t("home.finalCta.title")}
           </h2>
           <p className="text-lg font-body text-muted-foreground mb-8">
-            {t('home.finalCta.description')}
+            {t("home.finalCta.description")}
           </p>
           <Link
             to="/prestations"
             className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-body hover:opacity-90 transition-opacity"
           >
-            {t('home.portfolio.viewGallery')}
+            {t("home.portfolio.viewGallery")}
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>

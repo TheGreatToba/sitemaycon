@@ -11,12 +11,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   const { language, setLanguage } = useLanguage();
 
   const navItems = [
-    { label: t('nav.home'), href: "/" },
-    { label: t('nav.chef'), href: "/chef" },
-    { label: t('nav.prestations'), href: "/prestations" },
-    { label: t('nav.cuisine'), href: "/cuisine" },
-    { label: t('nav.portfolio'), href: "/portfolio" },
-    { label: t('nav.contact'), href: "/contact" },
+    { label: t("nav.home"), href: "/" },
+    { label: t("nav.chef"), href: "/chef" },
+    { label: t("nav.prestations"), href: "/prestations" },
+    { label: t("nav.cuisine"), href: "/cuisine" },
+    { label: t("nav.portfolio"), href: "/portfolio" },
+    { label: t("nav.contact"), href: "/contact" },
   ];
 
   return (
@@ -34,10 +34,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               />
               <div>
                 <div className="text-xl font-serif font-bold text-foreground tracking-tight">
-                  {t('header.brand')}
+                  {t("header.brand")}
                 </div>
                 <div className="text-xs text-muted-foreground font-body">
-                  {t('header.tagline')}
+                  {t("header.tagline")}
                 </div>
               </div>
             </Link>
@@ -64,28 +64,30 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                   title="Change language"
                 >
                   <Globe className="w-4 h-4" />
-                  <span className="text-sm font-body">{language.toUpperCase()}</span>
+                  <span className="text-sm font-body">
+                    {language.toUpperCase()}
+                  </span>
                 </button>
                 {langMenuOpen && (
                   <div className="absolute right-0 mt-0 bg-background border border-border shadow-lg z-50">
                     <button
                       onClick={() => {
-                        setLanguage('en');
+                        setLanguage("en");
                         setLangMenuOpen(false);
                       }}
                       className={`block w-full text-left px-4 py-2 text-sm font-body hover:bg-secondary ${
-                        language === 'en' ? 'bg-secondary' : ''
+                        language === "en" ? "bg-secondary" : ""
                       }`}
                     >
                       English
                     </button>
                     <button
                       onClick={() => {
-                        setLanguage('fr');
+                        setLanguage("fr");
                         setLangMenuOpen(false);
                       }}
                       className={`block w-full text-left px-4 py-2 text-sm font-body hover:bg-secondary ${
-                        language === 'fr' ? 'bg-secondary' : ''
+                        language === "fr" ? "bg-secondary" : ""
                       }`}
                     >
                       Français
@@ -97,7 +99,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 to="/contact"
                 className="px-6 py-2 bg-primary text-primary-foreground font-body text-sm hover:opacity-90 transition-opacity"
               >
-                {t('nav.reserve')}
+                {t("nav.reserve")}
               </Link>
             </div>
 
@@ -128,26 +130,28 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 </Link>
               ))}
               <div className="px-4 py-2 border-t border-border">
-                <p className="text-xs font-body text-muted-foreground mb-2">Language</p>
+                <p className="text-xs font-body text-muted-foreground mb-2">
+                  Language
+                </p>
                 <div className="flex gap-2">
                   <button
                     onClick={() => {
-                      setLanguage('en');
+                      setLanguage("en");
                       setMobileMenuOpen(false);
                     }}
                     className={`px-3 py-1 text-sm font-body border border-border hover:bg-secondary ${
-                      language === 'en' ? 'bg-secondary' : ''
+                      language === "en" ? "bg-secondary" : ""
                     }`}
                   >
                     English
                   </button>
                   <button
                     onClick={() => {
-                      setLanguage('fr');
+                      setLanguage("fr");
                       setMobileMenuOpen(false);
                     }}
                     className={`px-3 py-1 text-sm font-body border border-border hover:bg-secondary ${
-                      language === 'fr' ? 'bg-secondary' : ''
+                      language === "fr" ? "bg-secondary" : ""
                     }`}
                   >
                     Français
@@ -159,7 +163,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 onClick={() => setMobileMenuOpen(false)}
                 className="block px-4 py-2 text-sm font-body bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
               >
-                {t('nav.reserve')}
+                {t("nav.reserve")}
               </Link>
             </nav>
           )}
@@ -175,21 +179,28 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {/* Brand */}
             <div>
-              <h3 className="font-serif text-xl font-bold mb-4">{t('header.brand')}</h3>
+              <h3 className="font-serif text-xl font-bold mb-4">
+                {t("header.brand")}
+              </h3>
               <p className="text-sm font-body opacity-90">
-                {language === 'en'
-                  ? 'Private French gastronomy for VIP clientele worldwide. Creating unforgettable culinary experiences.'
-                  : 'Gastronomie française privée pour une clientèle VIP mondiale. Créer des expériences culinaires inoubliables.'}
+                {language === "en"
+                  ? "Private French gastronomy for VIP clientele worldwide. Creating unforgettable culinary experiences."
+                  : "Gastronomie française privée pour une clientèle VIP mondiale. Créer des expériences culinaires inoubliables."}
               </p>
             </div>
 
             {/* Quick Links */}
             <div>
-              <h4 className="font-serif font-bold mb-4">{language === 'en' ? 'Navigation' : 'Navigation'}</h4>
+              <h4 className="font-serif font-bold mb-4">
+                {language === "en" ? "Navigation" : "Navigation"}
+              </h4>
               <ul className="space-y-2 text-sm font-body">
                 {navItems.map((item) => (
                   <li key={item.href}>
-                    <Link to={item.href} className="opacity-90 hover:opacity-100">
+                    <Link
+                      to={item.href}
+                      className="opacity-90 hover:opacity-100"
+                    >
                       {item.label}
                     </Link>
                   </li>
@@ -199,19 +210,28 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
             {/* Contact Info */}
             <div>
-              <h4 className="font-serif font-bold mb-4">{language === 'en' ? 'Contact' : 'Contact'}</h4>
+              <h4 className="font-serif font-bold mb-4">
+                {language === "en" ? "Contact" : "Contact"}
+              </h4>
               <ul className="space-y-2 text-sm font-body opacity-90">
-                <li>{t('footer.phone')}</li>
-                <li>{t('footer.email')}</li>
-                <li>{language === 'en' ? 'France' : 'France'}</li>
+                <li>{t("footer.phone")}</li>
+                <li>{t("footer.email")}</li>
+                <li>{language === "en" ? "France" : "France"}</li>
               </ul>
             </div>
 
             {/* Social Media */}
             <div>
-              <h4 className="font-serif font-bold mb-4">{language === 'en' ? 'Follow Us' : 'Nous Suivre'}</h4>
+              <h4 className="font-serif font-bold mb-4">
+                {language === "en" ? "Follow Us" : "Nous Suivre"}
+              </h4>
               <div className="flex gap-4">
-                <a href="https://instagram.com/maisongauthier__" target="_blank" rel="noopener noreferrer" className="opacity-90 hover:opacity-100 text-sm">
+                <a
+                  href="https://instagram.com/maisongauthier__"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="opacity-90 hover:opacity-100 text-sm"
+                >
                   Instagram
                 </a>
                 <a href="#" className="opacity-90 hover:opacity-100 text-sm">
@@ -227,13 +247,15 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           {/* Copyright */}
           <div className="border-t border-primary-foreground/20 mt-8 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center text-sm font-body opacity-90">
-              <p>{t('footer.rights')}</p>
+              <p>{t("footer.rights")}</p>
               <div className="flex gap-6 mt-4 md:mt-0">
                 <a href="#" className="hover:opacity-100">
-                  {language === 'en' ? 'Legal Notice' : 'Mentions Légales'}
+                  {language === "en" ? "Legal Notice" : "Mentions Légales"}
                 </a>
                 <a href="#" className="hover:opacity-100">
-                  {language === 'en' ? 'Privacy Policy' : 'Politique de Confidentialité'}
+                  {language === "en"
+                    ? "Privacy Policy"
+                    : "Politique de Confidentialité"}
                 </a>
               </div>
             </div>
