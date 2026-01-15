@@ -105,33 +105,19 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 </Link>
               ))}
               <div className="px-4 py-2 border-t border-border">
-                <p className="text-xs font-body text-muted-foreground mb-2">
-                  Language
-                </p>
-                <div className="flex gap-2">
-                  <button
-                    onClick={() => {
-                      setLanguage("en");
-                      setMobileMenuOpen(false);
-                    }}
-                    className={`px-3 py-1 text-sm font-body border border-border hover:bg-secondary ${
-                      language === "en" ? "bg-secondary" : ""
-                    }`}
-                  >
-                    English
-                  </button>
-                  <button
-                    onClick={() => {
-                      setLanguage("fr");
-                      setMobileMenuOpen(false);
-                    }}
-                    className={`px-3 py-1 text-sm font-body border border-border hover:bg-secondary ${
-                      language === "fr" ? "bg-secondary" : ""
-                    }`}
-                  >
-                    Français
-                  </button>
-                </div>
+                <button
+                  onClick={() => {
+                    toggleLanguage();
+                    setMobileMenuOpen(false);
+                  }}
+                  className="flex items-center gap-2 p-2 hover:bg-secondary transition-colors"
+                  title="Change language"
+                >
+                  <Globe className="w-4 h-4" />
+                  <span className="text-sm font-body">
+                    {language.toUpperCase()}
+                  </span>
+                </button>
               </div>
               <Link
                 to="/contact"
