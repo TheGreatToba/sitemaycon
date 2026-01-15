@@ -60,44 +60,16 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
             {/* CTA Button and Language Switcher - Desktop */}
             <div className="hidden md:flex items-center gap-4">
-              <div className="relative">
-                <button
-                  onClick={() => setLangMenuOpen(!langMenuOpen)}
-                  className="p-2 hover:bg-secondary transition-colors flex items-center gap-2"
-                  title="Change language"
-                >
-                  <Globe className="w-4 h-4" />
-                  <span className="text-sm font-body">
-                    {language.toUpperCase()}
-                  </span>
-                </button>
-                {langMenuOpen && (
-                  <div className="absolute right-0 mt-0 bg-background border border-border shadow-lg z-50">
-                    <button
-                      onClick={() => {
-                        setLanguage("en");
-                        setLangMenuOpen(false);
-                      }}
-                      className={`block w-full text-left px-4 py-2 text-sm font-body hover:bg-secondary ${
-                        language === "en" ? "bg-secondary" : ""
-                      }`}
-                    >
-                      English
-                    </button>
-                    <button
-                      onClick={() => {
-                        setLanguage("fr");
-                        setLangMenuOpen(false);
-                      }}
-                      className={`block w-full text-left px-4 py-2 text-sm font-body hover:bg-secondary ${
-                        language === "fr" ? "bg-secondary" : ""
-                      }`}
-                    >
-                      Français
-                    </button>
-                  </div>
-                )}
-              </div>
+              <button
+                onClick={toggleLanguage}
+                className="p-2 hover:bg-secondary transition-colors flex items-center gap-2"
+                title="Change language"
+              >
+                <Globe className="w-4 h-4" />
+                <span className="text-sm font-body">
+                  {language.toUpperCase()}
+                </span>
+              </button>
               <Link
                 to="/contact"
                 className="px-6 py-2 bg-primary text-primary-foreground font-body text-sm hover:opacity-90 transition-opacity"
