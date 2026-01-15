@@ -6,9 +6,12 @@ import { useLanguage } from "@/lib/LanguageContext";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [langMenuOpen, setLangMenuOpen] = useState(false);
   const { t } = useTranslation();
   const { language, setLanguage } = useLanguage();
+
+  const toggleLanguage = () => {
+    setLanguage(language === "en" ? "fr" : "en");
+  };
 
   const navItems = [
     { label: t("nav.home"), href: "/" },
